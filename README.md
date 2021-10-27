@@ -3,32 +3,6 @@
 <img src="/docs/Architecture.jpg" width=600>
 
 
-<details><summary><b>Environment Details</b></summary>
- 
-## TRIRIGA Environment
-http://9.30.43.110:8001/index.html <br>
-Username: `apiuser` <br>
-Password: `1Password*` <br>
-
-## Maximo Environment
-
-http://sportive1.fyre.ibm.com:9080/maximo/webclient/login/login.jsp <br>
-Username: `wilson` <br>
-Password: `wilson` <br>
-
-http://obturate1.fyre.ibm.com:9080/maximo/webclient/login/login.jsp <br>
-Username: `wilson` <br>
-Password: `wilson` <br>
-
-http://9.30.51.107:9080/maximo-x/ <br>
-Username: `maxadmin` <br>
-Password: `maxadmin` <br>
-
-## App Connect Environment
-https://r05s72a2f-bluemix.appconnect.ibmcloud.com/home <br>
-
-</details>
-
 [TRIRIGA Field Mapping](https://ibm.box.com/s/x8qmyykjbxsujyi8g93pnjmgva072jw3)
 
 ### Downloads
