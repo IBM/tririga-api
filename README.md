@@ -26,12 +26,12 @@ S.No. | Business Object | Inbound Payload | Outbound Payload
    2 | People | http://<host>/oslc/spq/triAPICPeopleQC?oslc.select=*
    3 | Space  | http://<host>/oslc/spq/triAPICSpaceQC?oslc.select=*
    4 | Organization | http://<host>/oslc/spq/triAPICOrganizationQC?oslc.select=*
-
-   > More information on SPARQL Based GET Requests is available [here](https://github.ibm.com/sumit-puri/oslctraining/blob/master/markdowns/oslccommands.md#sparql-based-get-requests).
    
 ### Resources
 
  - [TRIRIGA DTO Approach Overview](/docs/TRIRIGA_DTO.pdf)
+ 
+ - [OSLC Cheat Sheet](/markdowns/oslccheatsheet.md)
 
 
 
