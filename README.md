@@ -1,10 +1,5 @@
 # TRIRIGA APIs
 
-<img src="/docs/Architecture.jpg" width=600>
-
-
-[TRIRIGA Field Mapping](https://ibm.box.com/s/x8qmyykjbxsujyi8g93pnjmgva072jw3)
-
 ### Downloads
  - [TRIRIGA OM Package](/docs/ompackages/)
 
@@ -53,7 +48,6 @@ https://noderedpuri.mybluemix.net/tririga-outbound
    > More information on SPARQL Based GET Requests is available [here](https://github.ibm.com/sumit-puri/oslctraining/blob/master/markdowns/oslccommands.md#sparql-based-get-requests).
    
 ### Resources
- - [Maximo-Workday Documentation](https://ibm.ent.box.com/file/772399071696?s=mc6c4scdbbfh4psydwtrm8ku288qmxuu)
 
  - [TRIRIGA DTO Approach Overview](/docs/TRIRIGA_DTO.pdf)
 
