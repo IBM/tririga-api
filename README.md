@@ -22,10 +22,10 @@ S.No. | Business Object | Inbound Payload | Outbound Payload
 
    S.No. | Business Object | GET URL
    ---|---|---
-   1 | Work Task | http://<host>/oslc/spq/triAPICWorkTaskQC?oslc.select=*
-   2 | People | http://<host>/oslc/spq/triAPICPeopleQC?oslc.select=*
-   3 | Space  | http://<host>/oslc/spq/triAPICSpaceQC?oslc.select=*
-   4 | Organization | http://<host>/oslc/spq/triAPICOrganizationQC?oslc.select=*
+   1 | Work Task | http://url/oslc/spq/triAPICWorkTaskQC?oslc.select=*
+   2 | People | http://url/oslc/spq/triAPICPeopleQC?oslc.select=*
+   3 | Space  | http://url/oslc/spq/triAPICSpaceQC?oslc.select=*
+   4 | Organization | http://url/oslc/spq/triAPICOrganizationQC?oslc.select=*
    
 ### Resources
 
