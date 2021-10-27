@@ -1,0 +1,269 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "spi:action": "Create Draft",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triSubOperationTX": "",
+            "spi:triExternalReferenceTX": "APIC-01",
+            "spi:triPeopleTypeTX": "Employee",
+            "spi:triIdTX": "101",
+            "spi:triFirstNameTX": "John-1",
+            "spi:triLastNameTX": "Smith-1",
+            "spi:triUserNameTX": "jsmith-1",
+            "spi:triPrimaryLocPathTX": "\\Locations\\Sample Property ABC\\Bldg DEF",
+            "spi:triPrimaryOrgPathTX": "\\Organizations\\Walmart",
+            "spi:triAddressTX": "1234 Main St",
+            "spi:triZipPostalTX": "89119",
+            "spi:triCityTX": "Las Vegas",
+            "spi:triStateProvTX": "Nevada",
+            "spi:triCountryTX": "USA",
+            "spi:triActiveStartDA": "2020-03-20",
+            "spi:triActiveEndDA": "2025-04-12",
+            "spi:triEmailTX": "sample@abc.com",
+            "spi:triWorkPhoneTX": "7023458912",
+            "spi:triPeopleTemplateIdsTX": "1000001;1000002"
+        }
+    ],
+    "required": [
+        "spi:action",
+        "spi:triOperationTX",
+        "spi:triSubOperationTX",
+        "spi:triExternalReferenceTX",
+        "spi:triPeopleTypeTX",
+        "spi:triIdTX",
+        "spi:triFirstNameTX",
+        "spi:triLastNameTX",
+        "spi:triUserNameTX",
+        "spi:triPrimaryLocPathTX",
+        "spi:triPrimaryOrgPathTX",
+        "spi:triAddressTX",
+        "spi:triZipPostalTX",
+        "spi:triCityTX",
+        "spi:triStateProvTX",
+        "spi:triCountryTX",
+        "spi:triActiveStartDA",
+        "spi:triActiveEndDA",
+        "spi:triEmailTX",
+        "spi:triWorkPhoneTX",
+        "spi:triPeopleTemplateIdsTX"
+    ],
+    "properties": {
+        "spi:action": {
+            "$id": "#/properties/spi%3Aaction",
+            "type": "string",
+            "title": "The spi:action schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Create Draft"
+            ]
+        },
+        "spi:triOperationTX": {
+            "$id": "#/properties/spi%3AtriOperationTX",
+            "type": "string",
+            "title": "The spi:triOperationTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Create/Update"
+            ]
+        },
+        "spi:triSubOperationTX": {
+            "$id": "#/properties/spi%3AtriSubOperationTX",
+            "type": "string",
+            "title": "The spi:triSubOperationTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "spi:triExternalReferenceTX": {
+            "$id": "#/properties/spi%3AtriExternalReferenceTX",
+            "type": "string",
+            "title": "The spi:triExternalReferenceTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "APIC-01"
+            ]
+        },
+        "spi:triPeopleTypeTX": {
+            "$id": "#/properties/spi%3AtriPeopleTypeTX",
+            "type": "string",
+            "title": "The spi:triPeopleTypeTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Employee"
+            ]
+        },
+        "spi:triIdTX": {
+            "$id": "#/properties/spi%3AtriIdTX",
+            "type": "string",
+            "title": "The spi:triIdTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "101"
+            ]
+        },
+        "spi:triFirstNameTX": {
+            "$id": "#/properties/spi%3AtriFirstNameTX",
+            "type": "string",
+            "title": "The spi:triFirstNameTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "John-1"
+            ]
+        },
+        "spi:triLastNameTX": {
+            "$id": "#/properties/spi%3AtriLastNameTX",
+            "type": "string",
+            "title": "The spi:triLastNameTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Smith-1"
+            ]
+        },
+        "spi:triUserNameTX": {
+            "$id": "#/properties/spi%3AtriUserNameTX",
+            "type": "string",
+            "title": "The spi:triUserNameTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "jsmith-1"
+            ]
+        },
+        "spi:triPrimaryLocPathTX": {
+            "$id": "#/properties/spi%3AtriPrimaryLocPathTX",
+            "type": "string",
+            "title": "The spi:triPrimaryLocPathTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "\\Locations\\Sample Property ABC\\Bldg DEF"
+            ]
+        },
+        "spi:triPrimaryOrgPathTX": {
+            "$id": "#/properties/spi%3AtriPrimaryOrgPathTX",
+            "type": "string",
+            "title": "The spi:triPrimaryOrgPathTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "\\Organizations\\Walmart"
+            ]
+        },
+        "spi:triAddressTX": {
+            "$id": "#/properties/spi%3AtriAddressTX",
+            "type": "string",
+            "title": "The spi:triAddressTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "1234 Main St"
+            ]
+        },
+        "spi:triZipPostalTX": {
+            "$id": "#/properties/spi%3AtriZipPostalTX",
+            "type": "string",
+            "title": "The spi:triZipPostalTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "89119"
+            ]
+        },
+        "spi:triCityTX": {
+            "$id": "#/properties/spi%3AtriCityTX",
+            "type": "string",
+            "title": "The spi:triCityTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Las Vegas"
+            ]
+        },
+        "spi:triStateProvTX": {
+            "$id": "#/properties/spi%3AtriStateProvTX",
+            "type": "string",
+            "title": "The spi:triStateProvTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Nevada"
+            ]
+        },
+        "spi:triCountryTX": {
+            "$id": "#/properties/spi%3AtriCountryTX",
+            "type": "string",
+            "title": "The spi:triCountryTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "USA"
+            ]
+        },
+        "spi:triActiveStartDA": {
+            "$id": "#/properties/spi%3AtriActiveStartDA",
+            "type": "string",
+            "title": "The spi:triActiveStartDA schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2020-03-20"
+            ]
+        },
+        "spi:triActiveEndDA": {
+            "$id": "#/properties/spi%3AtriActiveEndDA",
+            "type": "string",
+            "title": "The spi:triActiveEndDA schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "2025-04-12"
+            ]
+        },
+        "spi:triEmailTX": {
+            "$id": "#/properties/spi%3AtriEmailTX",
+            "type": "string",
+            "title": "The spi:triEmailTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "sample@abc.com"
+            ]
+        },
+        "spi:triWorkPhoneTX": {
+            "$id": "#/properties/spi%3AtriWorkPhoneTX",
+            "type": "string",
+            "title": "The spi:triWorkPhoneTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "7023458912"
+            ]
+        },
+        "spi:triPeopleTemplateIdsTX": {
+            "$id": "#/properties/spi%3AtriPeopleTemplateIdsTX",
+            "type": "string",
+            "title": "The spi:triPeopleTemplateIdsTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "1000001;1000002"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

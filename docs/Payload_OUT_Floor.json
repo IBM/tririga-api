@@ -1,0 +1,42 @@
+{
+   "data":[
+      {
+         "Active End Date":"04/29/2021",
+         "Description":"",
+         "Floor Level":"3",
+         "boId":10002582,
+         "Name":"Flr-X",
+         "Gross Area":"2,000",
+         "recordId":135503365,
+         "Tenure":"Managed",
+         "Primary Use":"Behavioral Care",
+         "Parent Building":"Bldg-ABC",
+         "Area Units":"square-feet",
+         "Floor Class":"Education",
+         "Capacity":"0",
+         "Gross Measured Area":"1,234",
+         "ID":"1000002",
+         "Bar Code Entry":"1000002",
+         "Accounting Cost Center":"1234"
+      }
+   ],
+   "continueToken":"",
+   "header":[
+      "ID",
+      "Name",
+      "Description",
+      "Bar Code Entry",
+      "Capacity",
+      "Accounting Cost Center",
+      "Gross Area",
+      "Gross Measured Area",
+      "Floor Level",
+      "Tenure",
+      "Active End Date",
+      "Floor Class",
+      "Primary Use",
+      "Parent Building",
+      "Area Units"
+   ],
+   "totalRows":1
+}

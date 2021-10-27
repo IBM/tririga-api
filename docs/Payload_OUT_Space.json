@@ -1,0 +1,48 @@
+{
+   "data":[
+      {
+         "Status":"Active",
+         "Description":"Demo Space Record",
+         "Primary Fax":"ABC",
+         "boId":10002873,
+         "Primary Mail Stop":"556",
+         "Hierarchy Path":"\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+         "Primary Phone":"123-567-9086",
+         "Current Use Space Path":"\\Classifications\\Space Class Current\\Alternative Workplace\\Home Office",
+         "Parent Floor":"Floor 15",
+         "Name":"Space 01",
+         "Capacity Factor":"4",
+         "recordId":135501660,
+         "Area":"2000",
+         "Area Units":"square-feet",
+         "Reservable":"FALSE",
+         "Capacity":"12",
+         "ID":"SPC-001",
+         "Bar Code Entry":"123",
+         "Current Use Space Class":"Home Office",
+         "Hazardous Materials":"TRUE"
+      }
+   ],
+   "continueToken":"",
+   "header":[
+      "ID",
+      "Name",
+      "Hierarchy Path",
+      "Description",
+      "Bar Code Entry",
+      "Primary Phone",
+      "Primary Fax",
+      "Primary Mail Stop",
+      "Hazardous Materials",
+      "Reservable",
+      "Area",
+      "Current Use Space Class",
+      "Current Use Space Path",
+      "Capacity",
+      "Capacity Factor",
+      "Parent Floor",
+      "Status",
+      "Area Units"
+   ],
+   "totalRows":1
+}

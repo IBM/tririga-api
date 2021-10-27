@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "d02f1092-74a8-4247-a784-7cff0944b504",
+		"name": "API Connect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Work Task associated to Resource Person",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "system",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"spi:action\":\"Create Draft\",\n    \"spi:triIdTX\":\"A-124\",\n    \"spi:triExternalIdTX\":\"0001\",\n    \"spi:triNameTX\":\"Sample Task\",\n    \"spi:triDescriptionTX\":\"This is a test.\",\n    \"spi:triPlannedStartDT\":\"\",\n    \"spi:triTaskTypeCL\":\"\\\\Classifications\\\\Task Type\\\\Corrective\",\n    \"spi:triWorkingLocationTX\":\"Bldg-1\",\n    \"spi:triConstraintLI\":\"Must Start On\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8008/oslc/so/triAPICWorkTaskCF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8008",
+					"path": [
+						"oslc",
+						"so",
+						"triAPICWorkTaskCF"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create People (Employee/Consultant)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "system",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"spi:action\": \"Create Draft\",\n    \"spi:triExternalIdTX\": \"APIC-01\",\n    \"spi:triPeopleTypeTX\": \"Employee\",\n    \"spi:triIdTX\": \"101\",\n    \"spi:triFirstNameTX\": \"John\",\n    \"spi:triLastNameTX\": \"Smith\",\n    \"spi:triUserNameTX\": \"jsmith\",\n    \"spi:triNickNameTX\": \"Johny\",\n    \"spi:triActiveStartDA\": \"2020-03-20\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8009/oslc/so/triAPICPeopleCF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"oslc",
+						"so",
+						"triAPICPeopleCF"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Work Task",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "system",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"spi:action\":\"Create Draft\",\n    \"spi:triIdTX\":\"APIC-02\",\n    \"spi:triExternalIdTX\":\"0001\",\n    \"spi:triNameTX\":\"Sample Task\",\n    \"spi:triDescriptionTX\":\"This is a test.\",\n    \"spi:triPlannedStartDT\":\"2020-06-21\",\n    \"spi:triTaskTypeCL\":\"\\\\Classifications\\\\Task Type\\\\Corrective\",\n    \"spi:triWorkingLocationTX\":\"Bldg-1\",\n    \"spi:triConstraintLI\":\"Must Start On\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8009/oslc/so/triAPICWorkTaskCF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8009",
+					"path": [
+						"oslc",
+						"so",
+						"triAPICWorkTaskCF"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

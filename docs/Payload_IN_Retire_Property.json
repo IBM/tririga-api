@@ -1,0 +1,6 @@
+{
+"spi:action": "Create Draft",
+"spi:triOperationTX": "Retire",
+"spi:triExternalReferenceTX": "MaxRet-123",
+"spi:triNameTX": "Property 08"
+}

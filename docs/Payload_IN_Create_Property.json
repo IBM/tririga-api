@@ -1,0 +1,17 @@
+{
+"spi:action": "Create Draft",
+"spi:triOperationTX": "Create/Update",
+"spi:triExternalReferenceTX": "Max-123",
+"spi:triIdTX": "1002",
+"spi:triNameTX": "Property 07",
+"spi:triDescriptionTX": "This a sample property record",
+"spi:triCityTX": "Neuss",
+"spi:triTenureCL":"Leased",
+"spi:triPropertyClassCL":"Distribution",
+"spi:triZoningCL":"Commercial",
+"spi:triPrimaryUseCL":"Back Office",
+"spi:triJurisdictionCL":"Federal",
+"spi:triZipPostalTX": "540000",
+"spi:triStateProvTX": "Nevada",
+"spi:triAddressTX": "Address line 3"
+}

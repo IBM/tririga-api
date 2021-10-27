@@ -1,0 +1,131 @@
+{
+   "$schema":"http://json-schema.org/draft-07/schema",
+   "$id":"http://example.com/example.json",
+   "type":"object",
+   "title":"The root schema",
+   "description":"The root schema comprises the entire JSON document.",
+   "default":{
+      
+   },
+   "examples":[
+      {
+         "spi:action":"Create Draft",
+         "spi:triIdTX":"APIC-02",
+         "spi:triExternalIdTX":"0001",
+         "spi:triNameTX":"Sample Task",
+         "spi:triDescriptionTX":"This is a test.",
+         "spi:triPlannedStartDT":"2020-06-21",
+         "spi:triTaskTypeCL":"\\Classifications\\Task Type\\Corrective",
+         "spi:triWorkingLocationTX":"Bldg-1",
+         "spi:triConstraintLI":"Must Start On"
+      }
+   ],
+   "required":[
+      "spi:action",
+      "spi:triIdTX",
+      "spi:triExternalIdTX",
+      "spi:triNameTX",
+      "spi:triDescriptionTX",
+      "spi:triPlannedStartDT",
+      "spi:triTaskTypeCL",
+      "spi:triWorkingLocationTX",
+      "spi:triConstraintLI"
+   ],
+   "properties":{
+      "spi:action":{
+         "$id":"#/properties/spi%3Aaction",
+         "type":"string",
+         "title":"The spi:action schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "const":"Create Draft"
+      },
+      "spi:triIdTX":{
+         "$id":"#/properties/spi%3AtriIdTX",
+         "type":"string",
+         "title":"The spi:triIdTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "APIC-02"
+         ]
+      },
+      "spi:triExternalIdTX":{
+         "$id":"#/properties/spi%3AtriExternalIdTX",
+         "type":"string",
+         "title":"The spi:triExternalIdTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "0001"
+         ]
+      },
+      "spi:triNameTX":{
+         "$id":"#/properties/spi%3AtriNameTX",
+         "type":"string",
+         "title":"The spi:triNameTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Sample Task"
+         ]
+      },
+      "spi:triDescriptionTX":{
+         "$id":"#/properties/spi%3AtriDescriptionTX",
+         "type":"string",
+         "title":"The spi:triDescriptionTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "This is a test."
+         ]
+      },
+      "spi:triPlannedStartDT":{
+         "$id":"#/properties/spi%3AtriPlannedStartDT",
+         "type":"string",
+         "title":"The spi:triPlannedStartDT schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "2020-06-21"
+         ]
+      },
+      "spi:triTaskTypeCL":{
+         "$id":"#/properties/spi%3AtriTaskTypeCL",
+         "type":"string",
+         "title":"The spi:triTaskTypeCL schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "\\Classifications\\Task Type\\Corrective",
+            "\\Classifications\\Task Type\\Move",
+            "\\Classifications\\Task Type\\Planned"
+         ]
+      },
+      "spi:triWorkingLocationTX":{
+         "$id":"#/properties/spi%3AtriWorkingLocationTX",
+         "type":"string",
+         "title":"The spi:triWorkingLocationTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Bldg-1"
+         ]
+      },
+      "spi:triConstraintLI":{
+         "$id":"#/properties/spi%3AtriConstraintLI",
+         "type":"string",
+         "title":"The spi:triConstraintLI schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "As Soon As Poosible",
+            "Must Start On",
+            "Must Finish On",
+            "Start No Earlier Than",
+            "Start No Later Than"
+         ]
+      }
+   },
+   "additionalProperties":true
+}

@@ -1,0 +1,352 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "data": [
+                {
+                    "Form Name": "triEmployee",
+                    "Active End Date": "03/22/2021",
+                    "Organization Name": "IBM",
+                    "Address": "19 Main St",
+                    "boId": 106402,
+                    "First Name": "John",
+                    "Location Name": "",
+                    "Work Phone": "12345",
+                    "City": "Geography",
+                    "State/Province": "Nevada",
+                    "eMail": "abc@sample.com",
+                    "recordId": 135499665,
+                    "Zip/Postal Code": "78231",
+                    "Active Start Date": "03/22/2021",
+                    "Country": "USA",
+                    "Last Name": "Smith"
+                }
+            ],
+            "continueToken": "",
+            "header": [
+                "Active End Date",
+                "Active Start Date",
+                "Address",
+                "City",
+                "Country",
+                "eMail",
+                "First Name",
+                "Form Name",
+                "Last Name",
+                "State/Province",
+                "Work Phone",
+                "Zip/Postal Code",
+                "Organization Name",
+                "Location Name"
+            ],
+            "totalRows": 1
+        }
+    ],
+    "required": [
+        "data",
+        "continueToken",
+        "header",
+        "totalRows"
+    ],
+    "properties": {
+        "data": {
+            "$id": "#/properties/data",
+            "type": "array",
+            "title": "The data schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    {
+                        "Form Name": "triEmployee",
+                        "Active End Date": "03/22/2021",
+                        "Organization Name": "IBM",
+                        "Address": "19 Main St",
+                        "boId": 106402,
+                        "First Name": "John",
+                        "Location Name": "",
+                        "Work Phone": "12345",
+                        "City": "Geography",
+                        "State/Province": "Nevada",
+                        "eMail": "abc@sample.com",
+                        "recordId": 135499665,
+                        "Zip/Postal Code": "78231",
+                        "Active Start Date": "03/22/2021",
+                        "Country": "USA",
+                        "Last Name": "Smith"
+                    }
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/data/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/data/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": {},
+                        "examples": [
+                            {
+                                "Form Name": "triEmployee",
+                                "Active End Date": "03/22/2021",
+                                "Organization Name": "IBM",
+                                "Address": "19 Main St",
+                                "boId": 106402,
+                                "First Name": "John",
+                                "Location Name": "",
+                                "Work Phone": "12345",
+                                "City": "Geography",
+                                "State/Province": "Nevada",
+                                "eMail": "abc@sample.com",
+                                "recordId": 135499665,
+                                "Zip/Postal Code": "78231",
+                                "Active Start Date": "03/22/2021",
+                                "Country": "USA",
+                                "Last Name": "Smith"
+                            }
+                        ],
+                        "required": [
+                            "Form Name",
+                            "Active End Date",
+                            "Organization Name",
+                            "Address",
+                            "boId",
+                            "First Name",
+                            "Location Name",
+                            "Work Phone",
+                            "City",
+                            "State/Province",
+                            "eMail",
+                            "recordId",
+                            "Zip/Postal Code",
+                            "Active Start Date",
+                            "Country",
+                            "Last Name"
+                        ],
+                        "properties": {
+                            "Form Name": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Form%20Name",
+                                "type": "string",
+                                "title": "The Form Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "triEmployee"
+                                ]
+                            },
+                            "Active End Date": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Active%20End%20Date",
+                                "type": "string",
+                                "title": "The Active End Date schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "03/22/2021"
+                                ]
+                            },
+                            "Organization Name": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Organization%20Name",
+                                "type": "string",
+                                "title": "The Organization Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "IBM"
+                                ]
+                            },
+                            "Address": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Address",
+                                "type": "string",
+                                "title": "The Address schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "19 Main St"
+                                ]
+                            },
+                            "boId": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/boId",
+                                "type": "integer",
+                                "title": "The boId schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    106402
+                                ]
+                            },
+                            "First Name": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/First%20Name",
+                                "type": "string",
+                                "title": "The First Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "John"
+                                ]
+                            },
+                            "Location Name": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Location%20Name",
+                                "type": "string",
+                                "title": "The Location Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    ""
+                                ]
+                            },
+                            "Work Phone": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Work%20Phone",
+                                "type": "string",
+                                "title": "The Work Phone schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "12345"
+                                ]
+                            },
+                            "City": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/City",
+                                "type": "string",
+                                "title": "The City schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Geography"
+                                ]
+                            },
+                            "State/Province": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/State/Province",
+                                "type": "string",
+                                "title": "The State/Province schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Nevada"
+                                ]
+                            },
+                            "eMail": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/eMail",
+                                "type": "string",
+                                "title": "The eMail schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "abc@sample.com"
+                                ]
+                            },
+                            "recordId": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/recordId",
+                                "type": "integer",
+                                "title": "The recordId schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": 0,
+                                "examples": [
+                                    135499665
+                                ]
+                            },
+                            "Zip/Postal Code": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Zip/Postal%20Code",
+                                "type": "string",
+                                "title": "The Zip/Postal Code schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "78231"
+                                ]
+                            },
+                            "Active Start Date": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Active%20Start%20Date",
+                                "type": "string",
+                                "title": "The Active Start Date schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "03/22/2021"
+                                ]
+                            },
+                            "Country": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Country",
+                                "type": "string",
+                                "title": "The Country schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "USA"
+                                ]
+                            },
+                            "Last Name": {
+                                "$id": "#/properties/data/items/anyOf/0/properties/Last%20Name",
+                                "type": "string",
+                                "title": "The Last Name schema",
+                                "description": "An explanation about the purpose of this instance.",
+                                "default": "",
+                                "examples": [
+                                    "Smith"
+                                ]
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "continueToken": {
+            "$id": "#/properties/continueToken",
+            "type": "string",
+            "title": "The continueToken schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "header": {
+            "$id": "#/properties/header",
+            "type": "array",
+            "title": "The header schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "examples": [
+                [
+                    "Active End Date",
+                    "Active Start Date"
+                ]
+            ],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/header/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/header/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Active End Date",
+                            "Active Start Date"
+                        ]
+                    }
+                ]
+            }
+        },
+        "totalRows": {
+            "$id": "#/properties/totalRows",
+            "type": "integer",
+            "title": "The totalRows schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        }
+    },
+    "additionalProperties": true
+}

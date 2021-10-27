@@ -1,0 +1,254 @@
+{
+   "$schema":"http://json-schema.org/draft-07/schema",
+   "$id":"http://example.com/example.json",
+   "type":"object",
+   "title":"The root schema",
+   "description":"The root schema comprises the entire JSON document.",
+   "default":{
+      
+   },
+   "examples":[
+      {
+         "spi:action":"Create Draft",
+         "spi:triIdTX":"102",
+         "spi:triExternalIdTX":"APIC-03",
+         "spi:triNameTX":"Sample Task",
+         "spi:triDescriptionTX":"This is a test.",
+         "spi:triPlannedStartDT":"2020-04-25",
+         "spi:triTaskTypeCL":"\\Classifications\\Task Type\\Corrective",
+         "spi:triWorkingLocationTX":"Bldg-1",
+         "spi:triConstraintLI":"Must Start On",
+         "spi:triResourcePersonLR":[
+            {
+               "spi:action":"Create Draft",
+               "spi:triResourcePersonTX":"John Smith",
+               "spi:triResourceRequirementLI":"Optional",
+               "spi:triResourceTypeLI":"Person",
+               "spi:triPercentNU":"100"
+            },
+            {
+               "spi:action":"Create Draft",
+               "spi:triResourcePersonTX":"Rahul Dev",
+               "spi:triResourceRequirementLI":"Optional",
+               "spi:triResourceTypeLI":"Person",
+               "spi:triPercentNU":"100"
+            }
+         ]
+      }
+   ],
+   "required":[
+      "spi:action",
+      "spi:triIdTX",
+      "spi:triExternalIdTX",
+      "spi:triNameTX",
+      "spi:triDescriptionTX",
+      "spi:triPlannedStartDT",
+      "spi:triTaskTypeCL",
+      "spi:triWorkingLocationTX",
+      "spi:triConstraintLI",
+      "spi:triResourcePersonLR"
+   ],
+   "properties":{
+      "spi:action":{
+         "$id":"#/properties/spi%3Aaction",
+         "type":"string",
+         "title":"The spi:action schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Create Draft"
+         ]
+      },
+      "spi:triIdTX":{
+         "$id":"#/properties/spi%3AtriIdTX",
+         "type":"string",
+         "title":"The spi:triIdTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "102"
+         ]
+      },
+      "spi:triExternalIdTX":{
+         "$id":"#/properties/spi%3AtriExternalIdTX",
+         "type":"string",
+         "title":"The spi:triExternalIdTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "APIC-03"
+         ]
+      },
+      "spi:triNameTX":{
+         "$id":"#/properties/spi%3AtriNameTX",
+         "type":"string",
+         "title":"The spi:triNameTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Sample Task"
+         ]
+      },
+      "spi:triDescriptionTX":{
+         "$id":"#/properties/spi%3AtriDescriptionTX",
+         "type":"string",
+         "title":"The spi:triDescriptionTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "This is a test."
+         ]
+      },
+      "spi:triPlannedStartDT":{
+         "$id":"#/properties/spi%3AtriPlannedStartDT",
+         "type":"string",
+         "title":"The spi:triPlannedStartDT schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "2020-04-25"
+         ]
+      },
+      "spi:triTaskTypeCL":{
+         "$id":"#/properties/spi%3AtriTaskTypeCL",
+         "type":"string",
+         "title":"The spi:triTaskTypeCL schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "\\Classifications\\Task Type\\Corrective"
+         ]
+      },
+      "spi:triWorkingLocationTX":{
+         "$id":"#/properties/spi%3AtriWorkingLocationTX",
+         "type":"string",
+         "title":"The spi:triWorkingLocationTX schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Bldg-1"
+         ]
+      },
+      "spi:triConstraintLI":{
+         "$id":"#/properties/spi%3AtriConstraintLI",
+         "type":"string",
+         "title":"The spi:triConstraintLI schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":"",
+         "examples":[
+            "Must Start On"
+         ]
+      },
+      "spi:triResourcePersonLR":{
+         "$id":"#/properties/spi%3AtriResourcePersonLR",
+         "type":"array",
+         "title":"The spi:triResourcePersonLR schema",
+         "description":"An explanation about the purpose of this instance.",
+         "default":[
+            
+         ],
+         "examples":[
+            [
+               {
+                  "spi:action":"Create Draft",
+                  "spi:triResourcePersonTX":"John Smith",
+                  "spi:triResourceRequirementLI":"Optional",
+                  "spi:triResourceTypeLI":"Person",
+                  "spi:triPercentNU":"100"
+               },
+               {
+                  "spi:action":"Create Draft",
+                  "spi:triResourcePersonTX":"Rahul Dev",
+                  "spi:triResourceRequirementLI":"Optional",
+                  "spi:triResourceTypeLI":"Person",
+                  "spi:triPercentNU":"100"
+               }
+            ]
+         ],
+         "additionalItems":true,
+         "items":{
+            "$id":"#/properties/spi%3AtriResourcePersonLR/items",
+            "anyOf":[
+               {
+                  "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0",
+                  "type":"object",
+                  "title":"The first anyOf schema",
+                  "description":"An explanation about the purpose of this instance.",
+                  "default":{
+                     
+                  },
+                  "examples":[
+                     {
+                        "spi:action":"Create Draft",
+                        "spi:triResourcePersonTX":"John Smith",
+                        "spi:triResourceRequirementLI":"Optional",
+                        "spi:triResourceTypeLI":"Person",
+                        "spi:triPercentNU":"100"
+                     }
+                  ],
+                  "required":[
+                     "spi:action",
+                     "spi:triResourcePersonTX",
+                     "spi:triResourceRequirementLI",
+                     "spi:triResourceTypeLI",
+                     "spi:triPercentNU"
+                  ],
+                  "properties":{
+                     "spi:action":{
+                        "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0/properties/spi%3Aaction",
+                        "type":"string",
+                        "title":"The spi:action schema",
+                        "description":"An explanation about the purpose of this instance.",
+                        "default":"",
+                        "const":"Create Draft"
+                     },
+                     "spi:triResourcePersonTX":{
+                        "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0/properties/spi%3AtriResourcePersonTX",
+                        "type":"string",
+                        "title":"The spi:triResourcePersonTX schema",
+                        "description":"An explanation about the purpose of this instance.",
+                        "default":"",
+                        "examples":[
+                           "John Smith"
+                        ]
+                     },
+                     "spi:triResourceRequirementLI":{
+                        "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0/properties/spi%3AtriResourceRequirementLI",
+                        "type":"string",
+                        "title":"The spi:triResourceRequirementLI schema",
+                        "description":"An explanation about the purpose of this instance.",
+                        "default":"",
+                        "examples":[
+                           "Optional",
+                           "Required"
+                        ]
+                     },
+                     "spi:triResourceTypeLI":{
+                        "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0/properties/spi%3AtriResourceTypeLI",
+                        "type":"string",
+                        "title":"The spi:triResourceTypeLI schema",
+                        "description":"An explanation about the purpose of this instance.",
+                        "default":"",
+                        "examples":[
+                           "Person"
+                        ]
+                     },
+                     "spi:triPercentNU":{
+                        "$id":"#/properties/spi%3AtriResourcePersonLR/items/anyOf/0/properties/spi%3AtriPercentNU",
+                        "type":"string",
+                        "title":"The spi:triPercentNU schema",
+                        "description":"An explanation about the purpose of this instance.",
+                        "default":"",
+                        "examples":[
+                           "100"
+                        ]
+                     }
+                  },
+                  "additionalProperties":true
+               }
+            ]
+         }
+      }
+   },
+   "additionalProperties":true
+}

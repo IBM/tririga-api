@@ -1,0 +1,23 @@
+{
+    "spi:action": "Create Draft",
+    "spi:triOperationTX": "Create/Update",
+    "spi:triSubOperationTX": "",
+    "spi:triExternalReferenceTX": "APIC-01",
+    "spi:triPeopleTypeTX": "Employee",
+    "spi:triIdTX": "101",
+    "spi:triFirstNameTX": "Sample-1",
+    "spi:triLastNameTX": "LN-1",
+    "spi:triUserNameTX": "ln1",
+    "spi:triPrimaryLocPathTX": "\\Locations\\Maximo Property\\Maximo Building\\Maximo Floor",
+    "spi:triPrimaryOrgPathTX": "\\Organizations\\Maximo Organization",
+    "spi:triAddressTX": "1234 Main St",
+    "spi:triZipPostalTX": "89119",
+    "spi:triCityTX": "Las Vegas",
+    "spi:triStateProvTX": "Nevada",
+    "spi:triCountryTX": "USA",
+    "spi:triActiveStartDA": "1986-04-20T00:00:00-08:00",
+    "spi:triActiveEndDA": "1996-04-20T00:00:00-08:00",
+    "spi:triEmailTX": "sample@abc.com",
+    "spi:triWorkPhoneTX": "7023458912",
+    "spi:triPeopleTemplateTX": "Lease Manager"
+}

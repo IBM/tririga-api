@@ -1,0 +1,7 @@
+{
+"spi:action": "Create Draft",
+"spi:triOperationTX": "Retire",
+"spi:triExternalReferenceTX": "MaxRet-123",
+"spi:triNameTX": "Bldg 07",
+"spi:triParentLocationTX": "\\Locations\\Property 08"
+}

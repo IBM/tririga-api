@@ -1,0 +1,26 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Create",
+"spi:triExternalReferenceTX": "SR-1",
+"spi:triRequestForLI": "Someone Else",
+"spi:triRequestedForTX": "Carlos Marin",
+"spi:triRequestedByTX": "Sumit Puri",
+"spi:triRequestClassCL": "Lights Out",
+"spi:triBuildingTX": "Bldg-ABC",
+"spi:triFloorTX": "Flr-X",
+"spi:triSpaceTX": "Spc-Y",
+"spi:triDescriptionTX" : "Lights are out",
+"spi:triCustomerOrgTX": "\\Organizations\\Walmart",
+"spi:triAssociatedRecordLR": [
+        {
+            "spi:action": "Create Draft",
+            "spi:triNameTX": "Dryer Pump2",
+            "spi:triDescriptionTX": "Asset"
+        },
+        {
+            "spi:action": "Create Draft",
+            "spi:triNameTX": "Maximo Bldg",
+            "spi:triDescriptionTX": "Location"
+        }
+]
+}

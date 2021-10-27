@@ -1,0 +1,19 @@
+{
+"spi:action": "Create Draft",
+"spi:triOperationTX": "Create/Update",
+"spi:triExternalReferenceTX": "Max-123",
+"spi:triIdTX": "B-1002",
+"spi:triNameTX": "Bldg 07",
+"spi:triParentLocationTX": "\\Locations\\Property 08",
+"spi:triDescriptionTX": "This a sample property record",
+"spi:triActiveStartDA": "2020-03-21",
+"spi:triCityTX": "Neuss",
+"spi:triTenureCL":"Leased",
+"spi:triBuildingClassCL":"Distribution",
+"spi:triZoningCL":"Commercial",
+"spi:triPrimaryUseCL":"Back Office",
+"spi:triJurisdictionCL":"Federal",
+"spi:triZipPostalTX": "540000",
+"spi:triStateProvTX": "Nevada",
+"spi:triAddressTX": "Address line 3"
+}

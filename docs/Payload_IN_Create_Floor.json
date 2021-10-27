@@ -1,0 +1,19 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Create/Update",
+"spi:triExternalReferenceTX": "flr-123",
+"spi:triIdTX": "Fl-091",
+"spi:triNameTX":"Floor 16",
+"spi:triDescriptionTX":"Demo Floor 11 Record",
+"spi:triBarCodeEntryTX": "123",
+"spi:triCapacityNU": "12",
+"spi:triCostCenterTX": "ABC",
+"spi:triGrossAreaNumNU":556,
+"spi:triGrossMAreaNU":56,
+"spi:triLevelNU":12,
+"spi:triTenureCL":"Leased",
+"spi:triActiveEndDA": "2021-04-23",
+"spi:triFloorClassCL":"Distribution",
+"spi:triPrimaryUseCL":"Back Office",
+"spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07"
+}

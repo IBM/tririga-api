@@ -1,0 +1,16 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Create/Update",
+"spi:triExternalReferenceTX": "Asst-124",
+"spi:triIdTX": "001",
+"spi:triNameTX":"Dryer Pump",
+"spi:triSerialNumTX": "10008923",
+"spi:triBarCodeEntryTX": "as-4567",
+"spi:triConditionLI": "Good",
+"spi:SysReserveFlag": "FALSE",
+"spi:triMaintenancePriorityCL": "High",
+"spi:triPrimaryOrgPathTX": "\\Organizations\\Walmart",
+"spi:triPrimaryLocPathTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+"spi:triSpecNameTX": "Maximo-Spec",
+"spi:triActiveStartDA": "2019-08-31"
+}

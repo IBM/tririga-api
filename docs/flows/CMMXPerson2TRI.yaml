@@ -1,0 +1,700 @@
+$integration: http://ibm.com/appconnect/integration/v2/integrationFile
+integration:
+  type: api
+  trigger-interfaces:
+    trigger-interface-1:
+      triggers:
+        syncpersonTriPerson:
+          assembly:
+            $ref: '#/integration/assemblies/assembly-1'
+          input-context:
+            data: mxPerson
+          output-context:
+            data: triPerson
+      options:
+        resources:
+          - business-object: triPerson
+            model:
+              $ref: '#/models/triPerson'
+            triggers:
+              syncperson: syncpersonTriPerson
+          - business-object: mxPerson
+            model:
+              $ref: '#/models/mxPerson'
+            triggers: {}
+      type: api-trigger
+  action-interfaces:
+    action-interface-1:
+      type: api-action
+      business-object: testclient_model
+      connector-type: UDA.8rgwextnb.openapi.testClient
+      account-name: Account 1
+      actions:
+        testclient: {}
+    action-interface-2:
+      type: api-action
+      business-object: testclient_model
+      connector-type: UDA.8rgwextnb.openapi.testClient
+      account-name: Account 1
+      actions:
+        testclient: {}
+    action-interface-3:
+      type: api-action
+      business-object: request
+      connector-type: http
+      account-name: Tririga
+      actions:
+        INVOKE: {}
+  assemblies:
+    assembly-1:
+      assembly:
+        execute:
+          - set-variable:
+              name: Set variable
+              map:
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                customSchemas:
+                  properties.`variable`:
+                    type: object
+                    properties:
+                      action:
+                        type: string
+                      triOperationTX:
+                        type: string
+                      triSubOperationTX:
+                        type: string
+                      triExternalReferenceTX:
+                        type: string
+                      triPeopleTypeTX:
+                        type: string
+                      triIdTX:
+                        type: string
+                      triFirstNameTX:
+                        type: string
+                      triLastNameTX:
+                        type: string
+                      triUserNameTX:
+                        type: string
+                      triPrimaryLocPathTX:
+                        type: string
+                      triPrimaryOrgPathTX:
+                        type: string
+                      triAddressTX:
+                        type: string
+                      triZipPostalTX:
+                        type: string
+                      triCityTX:
+                        type: string
+                      triStateProvTX:
+                        type: string
+                      triCountryTX:
+                        type: string
+                      triActiveStartDA:
+                        type: string
+                      triActiveEndDA:
+                        type: string
+                      triEmailTX:
+                        type: string
+                      triWorkPhoneTX:
+                        type: string
+                      triPeopleTemplateTX:
+                        type: string
+                mappings:
+                  - variable:
+                      mappings:
+                        - action:
+                            template: Create Draft
+                        - triActiveEndDA:
+                            template: '{{$Request.terminationdate}}'
+                        - triActiveStartDA:
+                            template: '{{$Request.hiredate}}'
+                        - triAddressTX:
+                            template: '{{$Request.addressline1}}'
+                        - triCityTX:
+                            template: '{{$Request.city}}'
+                        - triCountryTX:
+                            template: '{{$Request.country}}'
+                        - triEmailTX:
+                            template: '{{$Request.primaryemail}}'
+                        - triExternalReferenceTX:
+                            template: '{{$Request.personid}}'
+                        - triFirstNameTX:
+                            template: '{{$Request.firstname}}'
+                        - triIdTX:
+                            template: '{{$Request.personid}}'
+                        - triLastNameTX:
+                            template: '{{$Request.lastname}}'
+                        - triOperationTX:
+                            template: Create/Update
+                        - triPeopleTemplateTX:
+                            template: Lease Manager
+                        - triPeopleTypeTX:
+                            template: Employee
+                        - triPrimaryLocPathTX:
+                            template: \\Locations\\Maximo Property\\Maximo Bldg
+                        - triPrimaryOrgPathTX:
+                            template: \\Organizations\\Maximo Org
+                        - triStateProvTX:
+                            template: '{{$Request.stateprovince}}'
+                        - triUserNameTX:
+                            template: '{{$Request.personid}}'
+                        - triWorkPhoneTX:
+                            template: '{{$Request.primaryphone}}'
+                        - triZipPostalTX:
+                            template: '{{$Request.postalcode}}'
+          - set-variable:
+              name: Set variable 2
+              map:
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                  - variable: Setvariable
+                    $ref: '#/node-output/Set variable/response/payload'
+                customSchemas:
+                  properties.`variable`:
+                    type: object
+                    properties:
+                      triPerson:
+                        type: object
+                        properties: {}
+                mappings:
+                  - variable:
+                      mappings:
+                        - triPerson:
+                            expression: >-
+                              (    $ns := "spi:";    $applyNS :=
+                              $each($Setvariable.variable, function($v, $k)
+                              {        {$ns & $k : $v}    });  $merge($applyNS))
+          - custom-action:
+              name: testClient POST testclient
+              target:
+                $ref: '#/integration/action-interfaces/action-interface-1'
+              action: testclient
+              map:
+                customSchemas:
+                  properties.`body`:
+                    type: object
+                    properties:
+                      fromMaximo:
+                        type: object
+                        properties: {}
+                      toTririga:
+                        type: object
+                        properties: {}
+                mappings:
+                  - body:
+                      mappings:
+                        - fromMaximo:
+                            expression: '$Request '
+                        - toTririga:
+                            expression: '$Setvariable2.variable.triPerson '
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                  - variable: Setvariable
+                    $ref: '#/node-output/Set variable/response/payload'
+                  - variable: Setvariable2
+                    $ref: '#/node-output/Set variable 2/response/payload'
+          - custom-action:
+              name: HTTP Invoke method
+              target:
+                $ref: '#/integration/action-interfaces/action-interface-3'
+              action: INVOKE
+              map:
+                customSchemas:
+                  properties.`requestHeaders`:
+                    type: object
+                    properties:
+                      Content-Type:
+                        type: string
+                      Properties:
+                        type: string
+                mappings:
+                  - continue2xx:
+                      expression: 'false'
+                  - method:
+                      template: POST
+                  - requestBody:
+                      template: '{{$Setvariable2.variable.triPerson}}'
+                  - requestHeaders:
+                      mappings:
+                        - Content-Type:
+                            template: application/json
+                        - Properties:
+                            template: spi:triUserMessageTX
+                  - url:
+                      template: http://9.30.43.110:8001/oslc/so/triAPICPeopleCF
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                  - variable: Setvariable
+                    $ref: '#/node-output/Set variable/response/payload'
+                  - variable: Setvariable2
+                    $ref: '#/node-output/Set variable 2/response/payload'
+                  - variable: testClientPOSTtestclient
+                    $ref: '#/node-output/testClient POST testclient/response/payload'
+                  - variable: testClientPOSTtestclientMetadata
+                    $ref: '#/node-output/testClient POST testclient/response'
+          - set-variable:
+              name: Set variable 3
+              map:
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                  - variable: Setvariable
+                    $ref: '#/node-output/Set variable/response/payload'
+                  - variable: Setvariable2
+                    $ref: '#/node-output/Set variable 2/response/payload'
+                  - variable: testClientPOSTtestclient
+                    $ref: '#/node-output/testClient POST testclient/response/payload'
+                  - variable: testClientPOSTtestclientMetadata
+                    $ref: '#/node-output/testClient POST testclient/response'
+                  - variable: HTTPInvokemethod
+                    $ref: '#/node-output/HTTP Invoke method/response/payload'
+                  - variable: HTTPInvokemethodMetadata
+                    $ref: '#/node-output/HTTP Invoke method/response'
+                customSchemas:
+                  properties.`variable`:
+                    type: object
+                    properties:
+                      personSent:
+                        type: object
+                        properties:
+                          triPayload:
+                            type: object
+                            properties: {}
+                          triResponse:
+                            type: object
+                            properties: {}
+                mappings:
+                  - variable:
+                      mappings:
+                        - personSent:
+                            mappings:
+                              - triPayload:
+                                  expression: '$Setvariable2.variable.triPerson '
+                              - triResponse:
+                                  expression: '$HTTPInvokemethodMetadata '
+          - custom-action:
+              name: testClient POST testclient 2
+              target:
+                $ref: '#/integration/action-interfaces/action-interface-2'
+              action: testclient
+              map:
+                customSchemas:
+                  properties.`body`:
+                    type: object
+                    properties:
+                      toTririga:
+                        type: object
+                        properties: {}
+                mappings:
+                  - body:
+                      mappings:
+                        - toTririga:
+                            expression: '$Setvariable2.variable.triPerson '
+                $map: http://ibm.com/appconnect/map/v1
+                input:
+                  - variable: Request
+                    $ref: '#/trigger/payload'
+                  - variable: testClientPOSTtestclient
+                    $ref: '#/node-output/testClient POST testclient/response/payload'
+                  - variable: testClientPOSTtestclientMetadata
+                    $ref: '#/node-output/testClient POST testclient/response'
+                  - variable: Setvariable
+                    $ref: '#/node-output/Set variable/response/payload'
+                  - variable: Setvariable2
+                    $ref: '#/node-output/Set variable 2/response/payload'
+          - response:
+              name: response-1
+              reply-maps:
+                - title: triPerson successfully add custom operation
+                  status-code: '200'
+                  map:
+                    $map: http://ibm.com/appconnect/map/v1
+                    input:
+                      - variable: Request
+                        $ref: '#/trigger/payload'
+                      - variable: Setvariable
+                        $ref: '#/node-output/Set variable/response/payload'
+                      - variable: Setvariable2
+                        $ref: '#/node-output/Set variable 2/response/payload'
+                      - variable: testClientPOSTtestclient
+                        $ref: >-
+                          #/node-output/testClient POST
+                          testclient/response/payload
+                      - variable: testClientPOSTtestclientMetadata
+                        $ref: '#/node-output/testClient POST testclient/response'
+                      - variable: HTTPInvokemethod
+                        $ref: '#/node-output/HTTP Invoke method/response/payload'
+                      - variable: HTTPInvokemethodMetadata
+                        $ref: '#/node-output/HTTP Invoke method/response'
+                      - variable: Setvariable3
+                        $ref: '#/node-output/Set variable 3/response/payload'
+                      - variable: testClientPOSTtestclient2
+                        $ref: >-
+                          #/node-output/testClient POST testclient
+                          2/response/payload
+                      - variable: testClientPOSTtestclient2Metadata
+                        $ref: '#/node-output/testClient POST testclient 2/response'
+                    mappings:
+                      - personSent:
+                          expression: '$Setvariable3.variable.personSent '
+                  input:
+                    - variable: Request
+                      $ref: '#/trigger/payload'
+                    - variable: Setvariable
+                      $ref: '#/node-output/Set variable/response/payload'
+                    - variable: Setvariable2
+                      $ref: '#/node-output/Set variable 2/response/payload'
+                    - variable: testClientPOSTtestclient
+                      $ref: >-
+                        #/node-output/testClient POST
+                        testclient/response/payload
+                    - variable: testClientPOSTtestclientMetadata
+                      $ref: '#/node-output/testClient POST testclient/response'
+                    - variable: HTTPInvokemethod
+                      $ref: '#/node-output/HTTP Invoke method/response/payload'
+                    - variable: HTTPInvokemethodMetadata
+                      $ref: '#/node-output/HTTP Invoke method/response'
+                    - variable: Setvariable3
+                      $ref: '#/node-output/Set variable 3/response/payload'
+                    - variable: testClientPOSTtestclient2
+                      $ref: >-
+                        #/node-output/testClient POST testclient
+                        2/response/payload
+                    - variable: testClientPOSTtestclient2Metadata
+                      $ref: '#/node-output/testClient POST testclient 2/response'
+  name: CMMXPerson2TRI
+models:
+  triPerson:
+    name: triPerson
+    properties:
+      dummyID:
+        required: false
+        id: true
+        type: string
+      personSent:
+        required: false
+        id: false
+        type: {}
+    plural: triPerson
+    description: ' '
+    operations:
+      syncperson: '#/integration/assemblies/assembly-1'
+    methods:
+      syncperson:
+        name: syncperson
+        display:
+          name: syncPerson
+        accessType: WRITE
+        accepts:
+          - arg: data
+            type: mxPerson
+            http:
+              source: body
+        returns:
+          arg: data
+          type: triPerson
+          root: true
+        http:
+          verb: POST
+          path: /syncperson
+        description: Send PERSON record from Maximo to Tririga.
+  mxPerson:
+    name: mxPerson
+    properties:
+      ContentType:
+        required: false
+        id: false
+        type: string
+      acceptingwfmail:
+        required: false
+        id: false
+        type: boolean
+      addressline1:
+        required: false
+        id: false
+        type: string
+      addressline2:
+        required: false
+        id: false
+        type: string
+      addressline3:
+        required: false
+        id: false
+        type: string
+      billtoaddress:
+        required: false
+        id: false
+        type: string
+      birthdate:
+        required: false
+        id: false
+        type: date
+      caltype:
+        required: false
+        id: false
+        type: string
+      city:
+        required: false
+        id: false
+        type: string
+      classstructureid:
+        required: false
+        id: false
+        type: string
+      country:
+        required: false
+        id: false
+        type: string
+      county:
+        required: false
+        id: false
+        type: string
+      customUniqueId:
+        required: false
+        id: true
+        type: string
+      delegate:
+        required: false
+        id: false
+        type: string
+      delegatefromdate:
+        required: false
+        id: false
+        type: date
+      delegatetodate:
+        required: false
+        id: false
+        type: date
+      department:
+        required: false
+        id: false
+        type: string
+      deviceclass:
+        required: false
+        id: false
+        type: number
+      dfltapp:
+        required: false
+        id: false
+        type: string
+      displayname:
+        required: false
+        id: false
+        type: string
+      droppoint:
+        required: false
+        id: false
+        type: string
+      employeetype:
+        required: false
+        id: false
+        type: string
+      externalrefid:
+        required: false
+        id: false
+        type: string
+      fileContent:
+        required: false
+        id: false
+        type: string
+      fileType:
+        required: false
+        id: false
+        type: string
+      firstname:
+        required: false
+        id: false
+        type: string
+      hiredate:
+        required: false
+        id: false
+        type: date
+      im_id:
+        required: false
+        id: false
+        type: string
+      jobcode:
+        required: false
+        id: false
+        type: string
+      language:
+        required: false
+        id: false
+        type: string
+      lastevaldate:
+        required: false
+        id: false
+        type: date
+      lastname:
+        required: false
+        id: false
+        type: string
+      locale:
+        required: false
+        id: false
+        type: string
+      location:
+        required: false
+        id: false
+        type: string
+      locationorg:
+        required: false
+        id: false
+        type: string
+      locationsite:
+        required: false
+        id: false
+        type: string
+      loctoservreq:
+        required: false
+        id: false
+        type: boolean
+      nextPageToken:
+        required: false
+        id: false
+        type: string
+      nextevaldate:
+        required: false
+        id: false
+        type: date
+      np_statusmemo:
+        required: false
+        id: false
+        type: string
+      ownergroup:
+        required: false
+        id: false
+        type: string
+      ownersysid:
+        required: false
+        id: false
+        type: string
+      pageSize:
+        required: false
+        id: false
+        type: number
+      pcardexpdate:
+        required: false
+        id: false
+        type: string
+      pcardnum:
+        required: false
+        id: false
+        type: string
+      pcardtype:
+        required: false
+        id: false
+        type: string
+      pcardverification:
+        required: false
+        id: false
+        type: string
+      personid:
+        required: false
+        id: false
+        type: string
+      personuid:
+        required: false
+        id: false
+        type: number
+      postalcode:
+        required: false
+        id: false
+        type: string
+      primaryemail:
+        required: false
+        id: false
+        type: string
+      primaryphone:
+        required: false
+        id: false
+        type: string
+      primarysms:
+        required: false
+        id: false
+        type: string
+      regiondistrict:
+        required: false
+        id: false
+        type: string
+      saddresscode:
+        required: false
+        id: false
+        type: string
+      sendersysid:
+        required: false
+        id: false
+        type: string
+      shiptoaddress:
+        required: false
+        id: false
+        type: string
+      sourcesysid:
+        required: false
+        id: false
+        type: string
+      stateprovince:
+        required: false
+        id: false
+        type: string
+      status:
+        required: false
+        id: false
+        type: string
+      statusdate:
+        required: false
+        id: false
+        type: date
+      statusiface:
+        required: false
+        id: false
+        type: boolean
+      supervisor:
+        required: false
+        id: false
+        type: string
+      terminationdate:
+        required: false
+        id: false
+        type: date
+      timezone:
+        required: false
+        id: false
+        type: string
+      title:
+        required: false
+        id: false
+        type: string
+      transemailelection:
+        required: false
+        id: false
+        type: string
+      usernotftype:
+        required: false
+        id: false
+        type: string
+      vip:
+        required: false
+        id: false
+        type: number
+      wfmailelection:
+        required: false
+        id: false
+        type: string
+      wopriority:
+        required: false
+        id: false
+        type: number
+    plural: mxPerson
+    description: ' '
+    operations: {}

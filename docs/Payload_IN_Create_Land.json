@@ -1,0 +1,11 @@
+{
+"spi:action":"Create Draft",
+"spi:cstOperationTX":"Create/Update"
+"spi:triNameTX":"Land_Record",
+"spi:triDescriptionTX":"description for Alias",
+"spi:triAddressTX":" Block_A",
+"spi:triCityTX":"Zuffenhausen",
+"spi:triZipPostalTX":"10008",
+"spi:triTenureCL":"Owned",
+"spi"triParentLocationTX": "//Locations//Sample Property"
+}

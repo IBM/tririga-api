@@ -1,0 +1,26 @@
+{
+    "spi:action": "Create Draft",
+    "spi:triIdTX": "102",
+    "spi:triExternalIdTX": "APIC-03",
+    "spi:triNameTX": "Sample Task",
+    "spi:triDescriptionTX": "This is a test.",
+    "spi:triPlannedStartDT": "2020-04-25",
+    "spi:triTaskTypeCL": "\\Classifications\\Task Type\\Corrective",
+    "spi:triWorkingLocationTX": "Bldg-1",
+    "spi:triConstraintLI": "Must Start On",
+    "spi:triResourcePersonLR": [{
+            "spi:action": "Create Draft",
+            "spi:triResourcePersonTX": "John Smith",
+            "spi:triResourceRequirementLI": "Optional",
+            "spi:triResourceTypeLI": "Person",
+            "spi:triPercentNU": "100"
+        },
+        {
+            "spi:action": "Create Draft",
+            "spi:triResourcePersonTX": "Rahul Dev",
+            "spi:triResourceRequirementLI": "Optional",
+            "spi:triResourceTypeLI": "Person",
+            "spi:triPercentNU": "100"
+        }
+    ]
+}

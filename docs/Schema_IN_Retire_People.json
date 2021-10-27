@@ -1,0 +1,113 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "spi:action": "Create Draft",
+            "spi:triOperationTX": "Retire",
+            "spi:triSubOperationTX": "",
+            "spi:triExternalReferenceTX": "APIC-02",
+            "spi:triPeopleTypeTX": "Employee",
+            "spi:triIdTX": "101",
+            "spi:triFirstNameTX": "John-1",
+            "spi:triLastNameTX": "Smith-1"
+        }
+    ],
+    "required": [
+        "spi:action",
+        "spi:triOperationTX",
+        "spi:triSubOperationTX",
+        "spi:triExternalReferenceTX",
+        "spi:triPeopleTypeTX",
+        "spi:triIdTX",
+        "spi:triFirstNameTX",
+        "spi:triLastNameTX"
+    ],
+    "properties": {
+        "spi:action": {
+            "$id": "#/properties/spi%3Aaction",
+            "type": "string",
+            "title": "The spi:action schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Create Draft"
+            ]
+        },
+        "spi:triOperationTX": {
+            "$id": "#/properties/spi%3AtriOperationTX",
+            "type": "string",
+            "title": "The spi:triOperationTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Retire"
+            ]
+        },
+        "spi:triSubOperationTX": {
+            "$id": "#/properties/spi%3AtriSubOperationTX",
+            "type": "string",
+            "title": "The spi:triSubOperationTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                ""
+            ]
+        },
+        "spi:triExternalReferenceTX": {
+            "$id": "#/properties/spi%3AtriExternalReferenceTX",
+            "type": "string",
+            "title": "The spi:triExternalReferenceTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "APIC-02"
+            ]
+        },
+        "spi:triPeopleTypeTX": {
+            "$id": "#/properties/spi%3AtriPeopleTypeTX",
+            "type": "string",
+            "title": "The spi:triPeopleTypeTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Employee"
+            ]
+        },
+        "spi:triIdTX": {
+            "$id": "#/properties/spi%3AtriIdTX",
+            "type": "string",
+            "title": "The spi:triIdTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "101"
+            ]
+        },
+        "spi:triFirstNameTX": {
+            "$id": "#/properties/spi%3AtriFirstNameTX",
+            "type": "string",
+            "title": "The spi:triFirstNameTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "John-1"
+            ]
+        },
+        "spi:triLastNameTX": {
+            "$id": "#/properties/spi%3AtriLastNameTX",
+            "type": "string",
+            "title": "The spi:triLastNameTX schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Smith-1"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

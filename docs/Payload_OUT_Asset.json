@@ -1,0 +1,37 @@
+{
+   "data":[
+      {
+         "Condition":"Good",
+         "Status":"Revision In Progress",
+         "Description":"Silent Pump",
+         "Organization":"\\Organizations\\Walmart",
+         "boId":10008338,
+         "Maintenance Priority":"High",
+         "Name":"Dryer Pump2",
+         "Serial Number":"10008923",
+         "recordId":135501969,
+         "Specification  Name":"Maximo-Spec",
+         "Primary Location":"\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+         "Reservable":"FALSE",
+         "ID":"001",
+         "In Service Date":"08/31/2019",
+         "Bar Code Entry":"as-4567"
+      }
+   ],
+   "continueToken":"",
+   "header":[
+      "ID",
+      "Name",
+      "Description",
+      "Bar Code Entry",
+      "Reservable",
+      "Serial Number",
+      "Condition",
+      "Maintenance Priority",
+      "Primary Location",
+      "Organization",
+      "Specification  Name",
+      "Status"
+   ],
+   "totalRows":1
+}

@@ -1,0 +1,11 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Retire",
+"spi:triExternalReferenceTX": "flr-123",
+"spi:triIdTX": "Fl-091",
+"spi:triNameTX":"Floor 15",
+"spi:triGrossAreaNumNU":556,
+"spi:triGrossMAreaNU":56,
+"spi:triLevelNU":12,
+"spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07"
+}

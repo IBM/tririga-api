@@ -1,0 +1,38 @@
+{
+   "data":[
+      {
+         "Description":"This a sample property record",
+         "Address":"Address line 3",
+         "Property Class":"",
+         "boId":10002586,
+         "Zoning":"",
+         "City":"Neuss",
+         "State/Province":"Nevada",
+         "Name":"Property 06",
+         "recordId":135501292,
+         "Jurisdiction":"",
+         "Tenure":"Leased",
+         "Primary Use":"",
+         "Zip/Postal Code":"540000",
+         "ID":"1001",
+         "Accounting Cost Center":""
+      }
+   ],
+   "continueToken":"",
+   "header":[
+      "ID",
+      "Name",
+      "Description",
+      "City",
+      "Tenure",
+      "Property Class",
+      "Zoning",
+      "Primary Use",
+      "Jurisdiction",
+      "Zip/Postal Code",
+      "State/Province",
+      "Address",
+      "Accounting Cost Center"
+   ],
+   "totalRows":1
+}
