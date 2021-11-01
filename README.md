@@ -1,8 +1,6 @@
 # TRIRIGA APIs
 
-### Downloads
- - [TRIRIGA OM Package](/docs/ompackages/)
- - [Postman Collection of JSON Payloads](/docs/APIConnect_v2.postman_collection.json)
+Download the [TRIRIGA OM Package](/docs/ompackages/) that consists of below TRIRIGA APIs.
 
 ### Sample JSON Payloads
 
@@ -17,6 +15,7 @@ S.No. | Business Object | Inbound Payload | Outbound Payload
 7 | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_Create_WorkTask.json) | [Issue](/docs/Payload_OUT_WorkTask.json) | inbound_flow
 8 | [Service Request](/markdowns/ServiceRequest.md) | - [Create](/docs/Payload_IN_Create_ServiceRequest.json) <br> - [Retire](/docs/Payload_IN_Retire_ServiceRequest.json) | [Issue](/docs/Payload_OUT_ServiceRequest.json) 
 
+These JSON Sample Payloads are available in a [Postman Collection](/docs/APIConnect_v2.postman_collection.json) as well.
 
 ## TRIRIGA GET APIs
 
