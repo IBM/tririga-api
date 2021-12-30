@@ -27,8 +27,6 @@ These JSON Sample Payloads are available in a [Postman Collection](/docs/APIConn
    4 | Organization | http://url/oslc/spq/triAPICOrganizationQC?oslc.select=*
    
 ### Resources
-
- - [TRIRIGA DTO Approach Overview](/docs/TRIRIGA_DTO.pdf)
  
  - [OSLC Cheat Sheet](/markdowns/oslccheatsheet.md)
 
