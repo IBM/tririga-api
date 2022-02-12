@@ -1,0 +1,18 @@
+{
+   "data":[
+      {
+         "recordId":135534873,
+         "boId":10002030,
+         "Hierarchy Path":"\\Classifications\\Request Class\\Sample-Request-Class",
+         "ID":"1000193",
+         "Name":"Sample-Request-Class"
+      }
+   ],
+   "continueToken":"",
+   "header":[
+      "ID",
+      "Name",
+      "Hierarchy Path"
+   ],
+   "totalRows":1
+}
