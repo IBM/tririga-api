@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "recordId": 135541414,
+      "Spec ID": "EQ-1000004",
+      "Brand": "",
+      "boId": 10008240,
+      "Model Number": "",
+      "Spec Class": "Door Hardware",
+      "Name": "Motore"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "Name",
+    "Spec ID",
+    "Spec Class",
+    "Brand",
+    "Model Number"
+  ],
+  "totalRows": 1
+}
