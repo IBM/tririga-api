@@ -4,15 +4,17 @@
       "recordId": 135541400,
       "Status": "Active",
       "boId": 103804,
+      "Hierarchy Path": "\\Organizations\\Videocon",
       "ID": "1000555",
       "Name": "Videocon"
     }
   ],
   "continueToken": "",
   "header": [
+    "ID",
     "Name",
-    "Status",
-    "ID"
+    "Hierarchy Path",
+    "Status"
   ],
   "totalRows": 1
 }
