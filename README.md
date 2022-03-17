@@ -14,9 +14,10 @@ S.No. | Business Object | Inbound Payload | Outbound Payload
 6 | [Asset](/markdowns/Asset.md) | - [Create/Update](/docs/Payload_IN_Create_Asset.json) <br> - [Retire](/docs/Payload_IN_Retire_Asset.json) | [Activate](/docs/Payload_OUT_Asset.json) <br> [Retire](/docs/Payload_OUT_Asset.json)
 7 | [Service Request](/markdowns/ServiceRequest.md) | - [Create](/docs/Payload_IN_Create_ServiceRequest.json) <br> - [Retire](/docs/Payload_IN_Retire_ServiceRequest.json) | [Issue](/docs/Payload_OUT_ServiceRequest.json) <br> [Retire](/docs/Payload_OUT_ServiceRequest.json)
 8 | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_Create_WorkTask.json) | [Issue](/docs/Payload_OUT_WorkTask.json) | inbound_flow
-9 | [Request Class](/markdowns/RequestClass.md) | - | [Create](/docs/Payload_OUT_RequestClass.json) 
+9 | [Request Class](/markdowns/RequestClass.md) | - | [Create](/docs/Payload_OUT_Save_RequestClass.json) 
 10 | [Asset Spec Class](/markdowns/AssetSpecClass.md) | - | [Activate](/docs/Payload_OUT_AssetSpecClass.json)
-11 | [Organization](/markdowns/Organization.md) | - | [Activate](/docs/Payload_OUT_Organization.json)
+11 | [Space Class Current](/markdowns/SpaceClass.md) | - | [Activate](/docs/Payload_OUT_Save_SpaceClass.json)
+12 | [Organization](/markdowns/Organization.md) | - | [Activate](/docs/Payload_OUT_Organization.json)
 
 
 
