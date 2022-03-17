@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "recordId": 10243386,
+      "boId": 10001987,
+      "Hierarchy Path": "\\Classifications\\Space Class Current\\Expansion",
+      "ID": "105",
+      "BOMA Type": "Not Applicable",
+      "Name": "Expansion"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "Name",
+    "BOMA Type",
+    "Hierarchy Path"
+  ],
+  "totalRows": 1
+}
