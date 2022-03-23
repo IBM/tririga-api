@@ -11,6 +11,8 @@
 - **Pre-requisite**
   
   - Create People Template record with user profile intended to be applied
+  - Create an Organization record for the intended person
+  - Create a Location record for the intended person
 
 - **Primary Key Consideration**
 
