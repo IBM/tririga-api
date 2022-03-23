@@ -39,6 +39,6 @@
   
 - Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
-  People Activate | triPeople - APIC - HTTP Post | triPeople | triPeople - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
-  People Retire | triPeople - APIC - HTTP Post | triPeople | triPeople - triRetire - APIC Send Outbound using Integration Object 
+  Activate | triPeople - APIC - HTTP Post | triPeople | triPeople - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
+  Retire | triPeople - APIC - HTTP Post | triPeople | triPeople - triRetire - APIC Send Outbound using Integration Object 
   
