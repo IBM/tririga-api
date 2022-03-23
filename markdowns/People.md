@@ -10,7 +10,7 @@
 
 - **Pre-requisite**
   
-  - Create People Template record with intended user profile intended to be applied
+  - Create People Template record with user profile intended to be applied
 
 - **Primary Key Consideration**
 
