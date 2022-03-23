@@ -5,32 +5,27 @@
 
 - **Endpoint**
   ```
-  http://9.30.43.110:8001/oslc/so/triAPICPeopleCF
+  http://<tririga-url>/oslc/so/triAPICPeopleCF
   ```
-  
-- **Basic Authentication** <br>
-  User: `apiuser` <br>
-  Password: `1Password*`
 
-- Supported Operations | Payload 
+- **Pre-requisite**
+  
+  - Create People Template record with intended user profile intended to be applied
+
+- **Primary Key Consideration**
+
+  Operation | Primary Key Validation
   ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_People.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_People.json)
+  Retire | Payload's triExternalReferenceTX = triRecordIdSY of People record to be retired
+  Update | Payload's triUserNameTX = triUserNameTX of People record to be updated
   
-- **TRIRIGA Pre-Work**
-  - Create Locations in TRIRIGA
-    - \Locations\Maximo Property
-    - \Locations\Maximo Property\Maximo Bldg
-  - Create Organization in TRIRIGA
-    - \Organizations\Maximo Org
-  
-- **Validations**
+- **Rejection Criteria**
 
-  Type | Operation | Field | Description
-  ---|---|---|---
-  App Connect | Create/Update | `spi:triPrimaryOrgPathTX` | Primary Organization Path should exist in TRIRIGA
-  TRIRIGA | Create/Update | `spi:triPrimaryLocPathTX` | Primary Location Path should exist in TRIRIGA
-  TRIRIGA | Retire | - | People record does not exist if combination of `spi:triIdTX`, `spi:triFirstNameTX`, `spi:triLastNameTX` does not match
+  Error | Cause
+  ---|---
+  ERROR: Multiple People exist with same username | Multiple People with same usernames are not allowed in TRIRIGA
+  ERROR: People record does not exist | People intended to be retired does not exist with the triRecordIdSY passed in triExternalReferenceTX
+
 
 
 ## Outbound
