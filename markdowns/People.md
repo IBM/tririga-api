@@ -35,7 +35,7 @@
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  People Activate | [Payload](/docs/Payload_OUT_People.json) | triPeople - APIC - HTTP Post | triPeople | triPeople - triActivate - Send Outbound using Integration Object 
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  People Activate | triPeople - APIC - HTTP Post | triPeople | triPeople - triActivate - Send Outbound using Integration Object 
   
