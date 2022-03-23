@@ -32,7 +32,7 @@
 
 ## Outbound
 
-- **Endpoint**
+- **Test Endpoint**
   ```
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
