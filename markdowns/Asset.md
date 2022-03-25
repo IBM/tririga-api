@@ -23,7 +23,7 @@
 
   Error | Cause
   ---|---
-  - | -
+  N/A | N/A
 
 
 
