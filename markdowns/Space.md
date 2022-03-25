@@ -37,4 +37,5 @@
 - Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
   Space Activate | triSpace - APIC - HTTP Post | triSpace | triSpace - triActivate - Send Outbound using Integration Object 
+  Space Retire | triSpace - APIC - HTTP Post | triSpace | triSpace - triRetire - APIC Send Outbound using Integration Object 
   
