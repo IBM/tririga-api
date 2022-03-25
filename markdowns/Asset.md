@@ -10,7 +10,7 @@
 
 - **Pre-requisite**
   
-  - N/A
+  - Create Building Equipment Specification record to which the intended Asset record would be associated to.
 
 - **Primary Key Consideration**
 
