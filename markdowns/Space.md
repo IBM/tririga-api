@@ -5,18 +5,26 @@
 
 - **Endpoint**
   ```
-  http://9.30.43.110:8001/oslc/so/triAPICSpaceCF
+  http://<tririga-url>/oslc/so/triAPICSpaceCF
   ```
 
-- Supported Operations | Payload 
-  ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_Space.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_Space.json)
+- **Pre-requisite**
   
-- **Validations**
+  - Create Floor record under which Space record is intended to be added
 
-  Type | Operation | Field | Description
-  ---|---|---|---
+- **Primary Key Consideration**
+
+  Operation | Primary Key Validation
+  ---|---
+  Retire | Payload's triExternalReferenceTX = triRecordIdSY of Space record to be retired
+  Update | Payload's triExternalReferenceTX = triRecordIdSY of Space record to be updated
+  
+- **Rejection Criteria**
+
+  Error | Cause
+  ---|---
+  ERROR: Parent Floor Does Not Exist | Floor under which the space needs to be created does not exist
+
 
 
 ## Outbound
@@ -26,7 +34,7 @@
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  Space Activate | [Payload](/docs/Payload_OUT_Space.json) | triSpace - APIC - HTTP Post | triSpace | triSpace - triActivate - Send Outbound using Integration Object 
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  Space Activate | triSpace - APIC - HTTP Post | triSpace | triSpace - triActivate - Send Outbound using Integration Object 
   
