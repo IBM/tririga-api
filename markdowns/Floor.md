@@ -1,6 +1,5 @@
 # Floor API
 
-
 ## Inbound
 
 - **Endpoint**
@@ -8,15 +7,22 @@
   http://9.30.43.110:8001/oslc/so/triAPICFloorCF
   ```
 
-- Supported Operations | Payload 
-  ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_Floor.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_Floor.json)
+- **Pre-requisite**
   
-- **Validations**
+  - Create Parent Building for the intended Floor record
 
-  Type | Operation | Field | Description
-  ---|---|---|---
+- **Primary Key Consideration**
+
+  Operation | Primary Key Validation
+  ---|---
+  Retire | Payload's triNameTX = triNameTX of Floor record to be retired
+  Update | Payload's triNameTX = triNameTX of Floor record to be updated
+  
+- **Rejection Criteria**
+
+  Error | Cause
+  ---|---
+  ERROR: Parent Building Does Not Exist | The Building under which Floor record is intended to be child of does not exist
 
 
 ## Outbound
@@ -26,7 +32,10 @@
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  Floor Activate | [Payload](/docs/Payload_OUT_Floor.json) | triFloor - APIC - HTTP Post | triFloor | triFloor - triActivate - Send Outbound using Integration Object 
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  Floor Activate | triFloor - APIC - HTTP Post | triFloor | triFloor - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
+  Floor Retire | triFloor - APIC - HTTP Post | triFloor | triFloor - triRetire - APIC Send Outbound using Integration Object 
+  
+  	
   
