@@ -8,16 +8,22 @@
   http://9.30.43.110:8001/oslc/so/triAPICBuildingCF
   ```
 
-- Supported Operations | Payload 
-  ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_Building.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_Building.json)
+- **Pre-requisite**
   
-- **Validations**
+  - (Optional) Create Parent Property for the intended Building record.
 
-  Type | Operation | Field | Description
-  ---|---|---|---
+- **Primary Key Consideration**
 
+  Operation | Primary Key Validation
+  ---|---
+  Retire | Payload's triNameTX = triNameTX of Building record to be retired
+  Update | Payload's triNameTX = triNameTX of Building record to be updated
+  
+- **Rejection Criteria**
+
+  Error | Cause
+  ---|---
+  N/A | N/A
 
 ## Outbound
 
@@ -26,7 +32,7 @@
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  Building Activate | [Payload](/docs/Payload_OUT_Building.json) | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triActivate - Send Outbound using Integration Object 
-  
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  Building Activate | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
+  Building Retire | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triRetire - APIC Send Outbound using Integration Object 
