@@ -38,7 +38,7 @@
 
 #### Pre-requisite
   
-  - Update filters in query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for selected Request Classes. Current filter is set to Request Class not null.
+  - Update filters in query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for selected Request Classes. <br> Current filter is set to Request Class not null.
   
 #### Outbound Workflows
 
