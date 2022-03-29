@@ -5,7 +5,7 @@
 
 - **Endpoint**
   ```
-  http://9.30.43.110:8001/oslc/so/triAPICPropertyCF
+  http://tririga-url/oslc/so/triAPICPropertyCF
   ```
 
 - **Pre-requisite**
