@@ -2,22 +2,22 @@
 
 ## Inbound
 
-- **Endpoint**
+#### Endpoint
   ```
   http://tririga-url/oslc/so/triAPICServiceRequestCF
   ```
 
-- **Pre-requisite**
+#### Pre-requisite
   
   - N/A
 
-- **Primary Key Consideration**
+#### Primary Key Consideration
 
   Operation | Primary Key Validation
   ---|---
   Retire | Payload's triExternalReferenceTX = triIdTX of Service Request record to be retired
   
-- **Rejection Criteria**
+#### Rejection Criteria
 
   Error | Cause
   ---|---
@@ -40,7 +40,8 @@
   
   - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for.
   
-  
+#### Outbound Workflows
+
 Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
   Service Request Submit | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
