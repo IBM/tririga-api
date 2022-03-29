@@ -5,7 +5,7 @@
 
 - **Endpoint**
   ```
-  http://<tririga-url>/oslc/so/triAPICSpaceCF
+  http://tririga-url/oslc/so/triAPICSpaceCF
   ```
 
 - **Pre-requisite**
