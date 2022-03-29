@@ -35,5 +35,5 @@
   
 - Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
-  Property Activate | triProperty - APIC - HTTP Post | triProperty | triProperty - triActivate - Send Outbound using Integration Object 
-  
+  Property Activate | triProperty - APIC - HTTP Post | triProperty | triProperty - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
+  Property Retire | triProperty - APIC - HTTP Post | triProperty | triProperty - triRetire - APIC Send Outbound using Integration Object 
