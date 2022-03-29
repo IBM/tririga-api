@@ -1,23 +1,31 @@
 # Work Task API
 
 
-## Inbound
-
-- **Endpoint**
+#### Endpoint
   ```
-  http://9.30.43.110:8001/oslc/so/triAPICWorkTaskCF
+  http://tririga-url/oslc/so/triAPICWorkTaskCF
   ```
 
-- Supported Operations | Payload 
-  ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_WorkTask.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_WorkTask.json)
+#### Pre-requisite
   
-- **Validations**
+  - N/A
 
-  Type | Operation | Field | Description
-  ---|---|---|---
+#### Primary Key Consideration
 
+  Operation | Primary Key Validation
+  ---|---
+  Update | Payload's triNameTXTX = triNameTXTX of Work Task record to be updated
+  
+#### Rejection Criteria
+
+  Error | Cause
+  ---|---
+  ERROR: Working Location does not exist | No Location record exists with the triPathTX value mentioned in triWorkingLocationTX field of the payload
+  ERROR: Resource Person does not Exist | No People record exists with the triNameTX value mentioned in triResourceIdentifierTX field of the payload
+  ERROR: Resource Asset Does not Exist | No Asset record exists with the triNameTX value mentioned in triResourceIdentifierTX field of the payload
+  ERROR: Resource Location Does not Exist | No Location record exists with the triPathTX value mentioned in triResourceIdentifierTX field of the payload
+  ERROR: Resource Organization Does not Exist | No Organization record exists with the triPathTX value mentioned in triResourceIdentifierTX field of the payload
+  ERROR: Resource Role Does not Exist | No Role record exists with the triNameTX value mentioned in triResourceIdentifierTX field of the payload
 
 ## Outbound
 
@@ -26,7 +34,7 @@
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  Work Task Activate | [Payload](/docs/Payload_OUT_WorkTask.json) | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triActivate - Send Outbound using Integration Object 
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  Work Task Activate | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   
