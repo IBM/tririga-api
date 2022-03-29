@@ -1,17 +1,17 @@
 {
   "data": [
     {
-      "Status": "Issued",
+      "Status": "Retired",
       "Building": "Maximo Building",
       "Space": "",
       "Requested For": "",
       "Floor": "",
       "Asset Name": "Dryer installdate",
       "Description": "Devices not opearble in spc 009 1st room",
+      "Request Class recordID": "128303483",
       "boId": 10006538,
       "Request For": "Someone Else",
       "Requested For ID": "TRI11TEST",
-      "Request Class recordID": "128303483",
       "Request Class": "Other Electrical",
       "recordId": 135550993,
       "Organization Requested": "\\Organizations\\Maximo Org",
