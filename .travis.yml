@@ -1,5 +1,5 @@
 os: linux
 dist: bionic
 language: bash
-script: bash $TRAVIS_COMMIT_MESSAGE.sh
+script: bash travis-testing/$TRAVIS_COMMIT_MESSAGE.sh
 if: commit_message IN ("test-people","test-asset","test-property")
