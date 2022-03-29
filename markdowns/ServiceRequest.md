@@ -35,6 +35,9 @@
   ```
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
+- **Pre-requisite**
+  
+  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for.
   
 - Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
   ---|---|---|---|---
