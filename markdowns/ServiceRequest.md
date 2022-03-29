@@ -38,7 +38,7 @@
 
 #### Pre-requisite
   
-  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for.
+  - Update filters in query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for selected Request Classes. Current filter is set to Request Class not null.
   
 #### Outbound Workflows
 
