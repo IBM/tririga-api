@@ -37,9 +37,12 @@
   ```
 - **Pre-requisite**
   
-  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for.
+  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for
   
-- Trigger | Payload/Schema |IO Record | Workflow Module | Workflow Name 
-  ---|---|---|---|---
-  Service Request Activate | [Payload](/docs/Payload_OUT_ServiceRequest.json) | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triActivate - Send Outbound using Integration Object 
+  <br>
+  
+- Trigger | IO Record | Workflow Module | Workflow Name 
+  ---|---|---|---
+  Service Request Submit | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
+  Service Request Retire | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triRetire - APIC Send Outbound using Integration Object 
   
