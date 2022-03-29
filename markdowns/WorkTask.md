@@ -37,4 +37,4 @@
 - Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
   Work Task Activate | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
-  
+  Work Task Complete | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triCompleteFinalHidden - APIC Send Outbound using Integration Object
