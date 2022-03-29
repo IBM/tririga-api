@@ -1,30 +1,38 @@
 {
-   "data":[
-      {
-         "recordId":135503985,
-         "Status":"Draft",
-         "Building":"Bldg 07",
-         "Space":"Space 01",
-         "Floor":"Floor 15",
-         "Description":"Need Bulb",
-         "Organization Requested":"\\Organizations\\Maximo Org",
-         "Service Requested":"Lights Out",
-         "boId":10006538,
-         "Request For":"Someone Else",
-         "ID":"1000014"
-      }
-   ],
-   "continueToken":"",
-   "header":[
-      "ID",
-      "Status",
-      "Description",
-      "Organization Requested",
-      "Request For",
-      "Building",
-      "Floor",
-      "Space",
-      "Service Requested"
-   ],
-   "totalRows":1
+  "data": [
+    {
+      "Status": "Issued",
+      "Building": "Maximo Building",
+      "Space": "",
+      "Requested For": "",
+      "Floor": "",
+      "Asset Name": "Dryer installdate",
+      "Description": "Devices not opearble in spc 009 1st room",
+      "boId": 10006538,
+      "Request For": "Someone Else",
+      "Requested For ID": "TRI11TEST",
+      "Request Class recordID": "128303483",
+      "Request Class": "Other Electrical",
+      "recordId": 135550993,
+      "Organization Requested": "\\Organizations\\Maximo Org",
+      "ID": "1000087"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "Status",
+    "Description",
+    "Organization Requested",
+    "Request For",
+    "Requested For",
+    "Requested For ID",
+    "Building",
+    "Floor",
+    "Space",
+    "Asset Name",
+    "Request Class",
+    "Request Class recordID"
+  ],
+  "totalRows": 1
 }
