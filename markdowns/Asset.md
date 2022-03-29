@@ -5,7 +5,7 @@
 
 - **Endpoint**
   ```
-  http://<tririga-url>/oslc/so/triAPICAssetCF
+  http://tririga-url/oslc/so/triAPICAssetCF
   ```
 
 - **Pre-requisite**
