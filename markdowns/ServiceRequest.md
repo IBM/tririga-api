@@ -1,6 +1,5 @@
 # Service Request API
 
-
 ## Inbound
 
 - **Endpoint**
@@ -8,15 +7,26 @@
   http://9.30.43.110:8001/oslc/so/triAPICServiceRequestCF
   ```
 
-- Supported Operations | Payload 
-  ---|---
-  Create/Update | [Sample Payload](/docs/Payload_IN_Create_ServiceRequest.json) 
-  Retire | [Sample Payload](/docs/Payload_IN_Retire_ServiceRequest.json)
+- **Pre-requisite**
   
-- **Validations**
+  - N/A
 
-  Type | Operation | Field | Description
-  ---|---|---|---
+- **Primary Key Consideration**
+
+  Operation | Primary Key Validation
+  ---|---
+  Retire | Payload's triExternalReferenceTX = triIdTX of Service Request record to be retired
+  
+- **Rejection Criteria**
+
+  Error | Cause
+  ---|---
+  ERROR: Requested For Does not Exist | No People record exists with the triIdTX value mentioned in triRequestedForTX field of the payload
+  ERROR: Requested By Does not Exist | No People record exists with the triIdTX value mentioned in triRequestedByTX field of the payload
+  ERROR: Building Does not Exist | No Building record exists with the triNameTX value mentioned in triBuildingTX field of the payload
+  ERROR: Request Class Does not Exist | No Request Class record exists with the triNameTX value mentioned in triRequestClassCL field of the payload
+  ERROR: Organization Does not Exist | No Organization record exists with the triPathTX value mentioned in triCustomerOrgTX field of the payload
+  ERROR: Service Request Does not Exist | No Service Request record exists with the triIdTX value mentioned in triExternalReferenceTX field of the payload
 
 
 ## Outbound
