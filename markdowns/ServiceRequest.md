@@ -31,17 +31,17 @@
 
 ## Outbound
 
-- **Endpoint**
+#### Endpoint
   ```
   https://noderedpuri.mybluemix.net/tririga-outbound
   ```
-- **Pre-requisite**
+
+#### Pre-requisite
   
-  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for
+  - Add filter for selected Request Class in the query `triAPICServiceRequest - OSLC - Outbound` to trigger the Outbound for.
   
-  <br>
   
-- Trigger | IO Record | Workflow Module | Workflow Name 
+Trigger | IO Record | Workflow Module | Workflow Name 
   ---|---|---|---
   Service Request Submit | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Service Request Retire | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triRetire - APIC Send Outbound using Integration Object 
