@@ -1,0 +1,9 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Retire",
+"spi:triExternalReferenceTX": "ACT-123",
+"spi:triIdTX": "Acc-003",
+"spi:triNameTX":"HR-5b",
+"spi:triFormTX":"Department",
+"spi:triParentOrganizationTX":"\\Organizations\\HR-5"
+}
