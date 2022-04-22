@@ -15,7 +15,7 @@ Location | [Property](/markdowns/Property.md) | - [Create/Update](/docs/Payload_
 Location | [Building](/markdowns/Building.md) | - [Create/Update](/docs/Payload_IN_Create_Building.json) <br> - [Retire](/docs/Payload_IN_Retire_Building.json) | [Activate](/docs/Payload_OUT_Building.json) <br> [Retire](/docs/Payload_OUT_Building.json) 
 Location | [Floor](/markdowns/Floor.md) | - [Create/Update](/docs/Payload_IN_Create_Floor.json) <br> - [Retire](/docs/Payload_IN_Retire_Floor.json) | [Activate](/docs/Payload_OUT_Floor.json) <br> [Retire](/docs/Payload_OUT_Floor.json)
 Location | [Space](/markdowns/Space.md) | - [Create/Update](/docs/Payload_IN_Create_Space.json) <br> - [Retire](/docs/Payload_IN_Retire_Space.json) | [Activate](/docs/Payload_OUT_Space.json) <br> [Retire](/docs/Payload_OUT_Space.json)
-Organization | [Organization](/markdowns/Organization.md) | - [Create/Update](/docs/Payload_IN_Create_Organization.json) <br> - [Retire](/docs/Payload_IN_Retire_Organization.json) | [Activate](/docs/Payload_OUT_Organization.json)
+Organization | [Organization](/markdowns/Organization.md) | - [Create/Update](/docs/Payload_IN_Create_Organization.json) <br> - [Retire](/docs/Payload_IN_Retire_Organization.json) | [Activate](/docs/Payload_OUT_Organization.json) <br> [Retire](/docs/Payload_OUT_Organization.json)
 Request | [Service Request](/markdowns/ServiceRequest.md) | - [Create](/docs/Payload_IN_Create_ServiceRequest.json) <br> - [Retire](/docs/Payload_IN_Retire_ServiceRequest.json) | [Submit](/docs/Payload_OUT_ServiceRequest.json) <br> [Retire](/docs/Payload_OUT_ServiceRequest.json)
 Task | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_Create_WorkTask.json) | [Activate](/docs/Payload_OUT_WorkTask.json) | inbound_flow
 
