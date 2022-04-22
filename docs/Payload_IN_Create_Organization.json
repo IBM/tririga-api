@@ -2,6 +2,8 @@
 "spi:action":"Create Draft",
 "spi:triOperationTX":"Create/Update",
 "spi:triExternalReferenceTX": "ACT-123",
-"spi:triIdTX": "Acc-001",
-"spi:triNameTX":"Accounting"
+"spi:triIdTX": "Acc-003",
+"spi:triNameTX":"HR-5b",
+"spi:triFormTX":"Department",
+"spi:triParentOrganizationTX":"\\Organizations\\HR-5"
 }
