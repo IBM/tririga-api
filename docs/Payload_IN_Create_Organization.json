@@ -1,0 +1,7 @@
+{
+"spi:action":"Create Draft",
+"spi:triOperationTX":"Create/Update",
+"spi:triExternalReferenceTX": "ACT-123",
+"spi:triIdTX": "Acc-001",
+"spi:triNameTX":"Accounting"
+}
