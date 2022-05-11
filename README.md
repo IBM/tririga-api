@@ -33,6 +33,7 @@ These JSON Sample Payloads are available in a [Postman Collection](/docs/APIConn
    2 | People | http://url/oslc/spq/triAPICPeopleQC?oslc.select=*
    3 | Space  | http://url/oslc/spq/triAPICSpaceQC?oslc.select=*
    4 | Organization | http://url/oslc/spq/triAPICOrganizationQC?oslc.select=*
+   5 | Floor | http://url/oslc/spq/triAPICFloorQC?oslc.select=*
    
 ### Resources
  
