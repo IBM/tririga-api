@@ -1,21 +1,46 @@
 {
   "data": [
     {
-      "Status": "Retired",
+      "Status": "Issued",
       "Building": "Maximo Building",
-      "Space": "",
-      "Requested For": "",
-      "Floor": "",
-      "Asset Name": "Dryer installdate",
-      "Description": "Devices not opearble in spc 009 1st room",
-      "Request Class recordID": "128303483",
+      "Space": "ADDR1001",
+      "Requested For": "Carlos Marin",
+      "Floor": "Maximo Floor",
+      "Asset Name": "Dryer Pump",
+      "Organization Name": "Maximo Org",
+      "Description": "Elevator is stuck",
+      "Request Class Hierarchy Path": "\\Classifications\\Request Class\\Building Services\\Building Interior\\Elevator",
       "boId": 10006538,
       "Request For": "Someone Else",
-      "Requested For ID": "TRI11TEST",
-      "Request Class": "Other Electrical",
-      "recordId": 135550993,
+      "Requested For ID": "CMARIN",
+      "Request Class Record ID": "2267312",
+      "Organization Hierarchy Path": "\\Organizations\\Maximo Org",
+      "Organization Record ID": "135499462",
+      "recordId": 135570493,
+      "Request Class Name": "Elevator",
       "Organization Requested": "\\Organizations\\Maximo Org",
-      "ID": "1000087"
+      "ID": "1000100"
+    },
+    {
+      "Status": "Issued",
+      "Building": "Maximo Building",
+      "Space": "ADDR1001",
+      "Requested For": "Carlos Marin",
+      "Floor": "Maximo Floor",
+      "Asset Name": "Electric Cart",
+      "Organization Name": "Maximo Org",
+      "Description": "Elevator is stuck",
+      "Request Class Hierarchy Path": "\\Classifications\\Request Class\\Building Services\\Building Interior\\Elevator",
+      "boId": 10006538,
+      "Request For": "Someone Else",
+      "Requested For ID": "CMARIN",
+      "Request Class Record ID": "2267312",
+      "Organization Hierarchy Path": "\\Organizations\\Maximo Org",
+      "Organization Record ID": "135499462",
+      "recordId": 135570493,
+      "Request Class Name": "Elevator",
+      "Organization Requested": "\\Organizations\\Maximo Org",
+      "ID": "1000100"
     }
   ],
   "continueToken": "",
@@ -31,8 +56,12 @@
     "Floor",
     "Space",
     "Asset Name",
-    "Request Class",
-    "Request Class recordID"
+    "Request Class Record ID",
+    "Request Class Name",
+    "Request Class Hierarchy Path",
+    "Organization Record ID",
+    "Organization Name",
+    "Organization Hierarchy Path"
   ],
-  "totalRows": 1
+  "totalRows": 2
 }
