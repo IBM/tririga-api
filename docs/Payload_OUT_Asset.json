@@ -1,37 +1,48 @@
 {
-   "data":[
-      {
-         "Condition":"Good",
-         "Status":"Revision In Progress",
-         "Description":"Silent Pump",
-         "Organization":"\\Organizations\\Walmart",
-         "boId":10008338,
-         "Maintenance Priority":"High",
-         "Name":"Dryer Pump2",
-         "Serial Number":"10008923",
-         "recordId":135501969,
-         "Specification  Name":"Maximo-Spec",
-         "Primary Location":"\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
-         "Reservable":"FALSE",
-         "ID":"001",
-         "In Service Date":"08/31/2019",
-         "Bar Code Entry":"as-4567"
-      }
-   ],
-   "continueToken":"",
-   "header":[
-      "ID",
-      "Name",
-      "Description",
-      "Bar Code Entry",
-      "Reservable",
-      "Serial Number",
-      "Condition",
-      "Maintenance Priority",
-      "Primary Location",
-      "Organization",
-      "Specification  Name",
-      "Status"
-   ],
-   "totalRows":1
+  "data": [
+    {
+      "Condition": "Excellent",
+      "Status": "Active",
+      "Organization Name": "HR-1",
+      "Description": "Sample door",
+      "boId": 10008338,
+      "In Service Date": "17-May-2022",
+      "Location Hierarchy Path": "\\Locations\\Maximo Property\\Maximo Building\\Maximo Floor\\DES-01",
+      "Location Name": "DES-01",
+      "Maintenance Priority": "Low",
+      "Organization Hierarchy Path": "\\Organizations\\HR-1",
+      "Organization Record ID": "135558534",
+      "Name": "Door Hinge",
+      "Serial Number": "43567",
+      "recordId": 135570469,
+      "Spec Name": "Motore",
+      "Reservable": "FALSE",
+      "ID": "BE-07",
+      "Bar Code Entry": "9876723566",
+      "Location Record ID": "135518290",
+      "Spec Record ID": "135541414"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "In Service Date",
+    "Name",
+    "Description",
+    "Bar Code Entry",
+    "Reservable",
+    "Serial Number",
+    "Condition",
+    "Maintenance Priority",
+    "Status",
+    "Organization Record ID",
+    "Organization Name",
+    "Organization Hierarchy Path",
+    "Location Record ID",
+    "Location Name",
+    "Location Hierarchy Path",
+    "Spec Record ID",
+    "Spec Name"
+  ],
+  "totalRows": 1
 }
