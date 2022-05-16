@@ -1,7 +1,5 @@
 {
 "spi:action":"Create Draft",
 "spi:triOperationTX":"Retire",
-"spi:triExternalReferenceTX": "SPC-123",
-"spi:triNameTX":"Space 01",
-"spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15"
+"spi:triExternalReferenceTX": "135571378"
 }
