@@ -1,10 +1,7 @@
 {
     "spi:action": "Create Draft",
     "spi:triOperationTX": "Retire",
-    "spi:triSubOperationTX": "",
-    "spi:triExternalReferenceTX": "APIC-02",
-    "spi:triPeopleTypeTX": "Employee",
-    "spi:triIdTX": "101",
-    "spi:triFirstNameTX": "John-1",
-    "spi:triLastNameTX": "Smith-1"
+    "spi:triExternalReferenceTX": "135570802",
+    "spi:triFirstNameTX": "Carlos",
+    "spi:triLastNameTX": "Marin"
 }
