@@ -3,7 +3,7 @@
 "spi:triOperationTX":"Create/Update",
 "spi:triExternalReferenceTX": "SPC-123",
 "spi:triIdTX": "SPC-001",
-"spi:triNameTX":"Space 01",
+"spi:triNameTX":"Space-SP 02",
 "spi:triDescriptionTX":"Demo Space Record",
 "spi:triBarCodeEntryTX": "123",
 "spi:triMainPhoneTX": "123-567-9086",
@@ -13,10 +13,12 @@
 "spi:SysReserveFlag": "TRUE",
 "spi:triEmergencyExitBL": "TRUE",
 "spi:triAreaNU": "2000",
-"spi:triSpaceClassificationTX": "\\Classifications\\Space Class Current\\Alternative Workplace\\Home Office",
+"spi:triSpaceClassificationTX": "",
+"spi:triSpaceClassificationRecordIDTX": "10244213",
 "spi:triCapacityNU":12,
 "spi:triCapacityFactorNU":"4",
 "spi:triEmergencyCapacityNU": "14",
 "spi:triOverflowCapcityNU":"35",
-"spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15"
+"spi:triParentLocationTX": "",
+"spi:triParentLocationRecordIDTX": "135501569"
 }
