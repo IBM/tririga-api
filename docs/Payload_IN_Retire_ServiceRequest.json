@@ -1,6 +1,6 @@
 {
 "spi:action":"Create Draft",
 "spi:triOperationTX":"Retire",
-"spi:triExternalReferenceTX": "SR-1",
-"spi:triIdTX": "1000012"
+"spi:triExternalReferenceTX": "1000110"
 }
+
