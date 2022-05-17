@@ -16,8 +16,8 @@
 
   Operation | Primary Key Validation
   ---|---
-  Retire | Payload's triExternalReferenceTX = triRecordIdSY of Organization record to be retired
-  Update | Payload's triExternalReferenceTX = triRecordIdSY of Organization record to be updated
+  Retire | Payload's triNameTX = triNameTX of Organization record to be retired
+  Update | Payload's triNameTX = triNameTX of Organization record to be updated
   
 - **Rejection Criteria**
 
