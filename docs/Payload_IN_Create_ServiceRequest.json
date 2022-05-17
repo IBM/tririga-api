@@ -3,18 +3,20 @@
 "spi:triOperationTX":"Create",
 "spi:triExternalReferenceTX": "SR-1",
 "spi:triRequestForLI": "Someone Else",
-"spi:triRequestedForTX": "1000121",
-"spi:triRequestedByTX": "1000452",
+"spi:triRequestedForTX": "1000214",
+"spi:triRequestedByTX": "1000214",
 "spi:triRequestClassCL": "Lights Out",
-"spi:triBuildingTX": "Bldg-ABC",
+"spi:triRequestClassRecordIDTX": "2270583",
+"spi:triBuildingTX": "Maximo Building",
 "spi:triFloorTX": "Flr-X",
 "spi:triSpaceTX": "Spc-Y",
 "spi:triDescriptionTX" : "Lights are out",
 "spi:triCustomerOrgTX": "\\Organizations\\Walmart",
+"spi:triCustomerOrgRecordIDTX": "135499332",
 "spi:triAssociatedRecordLR": [
         {
             "spi:action": "Create Draft",
-            "spi:triNameTX": "Dryer Pump2",
+            "spi:triNameTX": "Dryer Pump",
             "spi:triDescriptionTX": "Asset"
         },
         {
