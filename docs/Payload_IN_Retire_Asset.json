@@ -1,8 +1,5 @@
 {
 "spi:action":"Create Draft",
 "spi:triOperationTX":"Retire",
-"spi:triExternalReferenceTX": "Asst-124",
-"spi:triIdTX": "001",
-"spi:triNameTX":"Dryer Pump",
-"spi:triSpecNameTX": "Maximo-Spec"
+"spi:triExternalReferenceTX": "135572823"
 }
