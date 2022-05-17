@@ -3,7 +3,29 @@
 
 ## Inbound
 
-N/A
+- **Endpoint**
+  ```
+  http://tririga-url/oslc/so/triAPICOrganizationCF
+  ```
+
+- **Pre-requisite**
+  
+  N/A
+
+- **Primary Key Consideration**
+
+  Operation | Primary Key Validation
+  ---|---
+  Retire | Payload's triExternalReferenceTX = triRecordIdSY of Organization record to be retired
+  Update | Payload's triExternalReferenceTX = triRecordIdSY of Organization record to be updated
+  
+- **Rejection Criteria**
+
+  Error | Cause
+  ---|---
+  N/A | N/A
+
+
 
 ## Outbound
 
