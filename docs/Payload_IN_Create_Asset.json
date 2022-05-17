@@ -10,7 +10,10 @@
 "spi:SysReserveFlag": "FALSE",
 "spi:triMaintenancePriorityCL": "High",
 "spi:triPrimaryOrgPathTX": "\\Organizations\\Walmart",
+"spi:triPrimaryOrgRecordIDTX": "135541400",
 "spi:triPrimaryLocPathTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+"spi:triPrimaryLocRecordIDTX": "135504340",
 "spi:triSpecNameTX": "Maximo-Spec",
+"spi:triSpecNameRecordIDTX": "135501983",
 "spi:triActiveStartDA": "2019-08-31"
 }
