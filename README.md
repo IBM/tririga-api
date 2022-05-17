@@ -23,7 +23,7 @@ Task | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_
 
 
 
-These JSON Sample Payloads are available in a [Postman Collection](/docs/APIConnect_v2.postman_collection.json) as well.
+These JSON Sample Payloads are available in a [Postman Collection](/docs/collection/) as well.
 
 ## TRIRIGA GET APIs
 
