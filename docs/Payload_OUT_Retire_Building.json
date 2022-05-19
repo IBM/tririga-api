@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "Parent Property": "Research Triangle Park",
+      "Status": "Retired",
+      "Description": "This building has a Quantum Computer",
+      "Address": "519 Main St",
+      "boId": 10002100,
+      "In Service Date": "05/01/2022",
+      "Building Class": "Distribution",
+      "Hierarchy Path": "\\Locations\\Research triangle Park\\Quantum Building",
+      "Zoning": "Conservation",
+      "City": "Las Vegas",
+      "State/Province": "Nevada",
+      "Name": "Quantum Building",
+      "recordId": 135573780,
+      "Jurisdiction": "County",
+      "Tenure": "Owned",
+      "Primary Use": "Administration",
+      "Zip/Postal Code": "78665",
+      "ID": "Bdg-07"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "Name",
+    "Description",
+    "Parent Property",
+    "In Service Date",
+    "Tenure",
+    "Building Class",
+    "Zoning",
+    "Address",
+    "City",
+    "State/Province",
+    "Zip/Postal Code",
+    "Primary Use",
+    "Hierarchy Path",
+    "Jurisdiction",
+    "Status"
+  ],
+  "totalRows": 1
+}
