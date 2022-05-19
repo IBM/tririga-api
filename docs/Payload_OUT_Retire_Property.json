@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "Status": "Retired",
+      "Description": "This is an IBM Office",
+      "Address": "519 Main St",
+      "Property Class": "Education",
+      "boId": 10002586,
+      "Hierarchy Path": "\\Locations\\Research Triangle Park",
+      "Zoning": "Conservation",
+      "City": "Las Vegas",
+      "State/Province": "Nevada",
+      "Name": "Research triangle Park",
+      "recordId": 135573765,
+      "Jurisdiction": "Federal",
+      "Tenure": "Leased",
+      "Primary Use": "Administration",
+      "Zip/Postal Code": "78665",
+      "ID": "Prop-01",
+      "Accounting Cost Center": "45673"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "Name",
+    "Description",
+    "City",
+    "Tenure",
+    "Property Class",
+    "Zoning",
+    "Primary Use",
+    "Jurisdiction",
+    "Zip/Postal Code",
+    "State/Province",
+    "Hierarchy Path",
+    "Address",
+    "Accounting Cost Center",
+    "Status"
+  ],
+  "totalRows": 1
+}
