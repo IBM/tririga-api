@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "Status": "Retired",
+      "Active End Date": "05/19/2022",
+      "Description": "This is a model floor",
+      "Floor Level": "2",
+      "boId": 10002582,
+      "Hierarchy Path": "\\Locations\\Research Triangle Park\\Quantum Building\\Model Floor",
+      "Name": "Model Floor",
+      "Gross Area": "2,000",
+      "recordId": 135573804,
+      "Tenure": "Owned",
+      "Primary Use": "Behavioral Care",
+      "Parent Building": "Quantum Building",
+      "Area Units": "square-feet",
+      "Floor Class": "Education",
+      "Capacity": "40",
+      "Gross Measured Area": "900",
+      "ID": "Flr-X",
+      "Bar Code Entry": "688uju",
+      "Accounting Cost Center": "45678"
+    }
+  ],
+  "continueToken": "",
+  "header": [
+    "ID",
+    "Name",
+    "Description",
+    "Bar Code Entry",
+    "Capacity",
+    "Accounting Cost Center",
+    "Gross Area",
+    "Gross Measured Area",
+    "Floor Level",
+    "Tenure",
+    "Hierarchy Path",
+    "Active End Date",
+    "Floor Class",
+    "Primary Use",
+    "Parent Building",
+    "Status",
+    "Area Units"
+  ],
+  "totalRows": 1
+}
