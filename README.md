@@ -1,6 +1,10 @@
 # TRIRIGA APIs
 
-Download the [TRIRIGA OM Package](/docs/ompackages/) that consists of below TRIRIGA APIs.
+### Resources
+
+- [TRIRIGA APIs OM Package](/docs/ompackages/)
+- [POSTMAN Collection](/docs/collection/)
+- [TRIRIGA OSLC Cheat Sheet](/markdowns/oslccheatsheet.md)
 
 ### Sample JSON Payloads
 
@@ -18,26 +22,5 @@ Location | [Space](/markdowns/Space.md) | - [Create/Update](/docs/Payload_IN_Cre
 Organization | [Organization](/markdowns/Organization.md) | - [Create/Update](/docs/Payload_IN_Create_Organization.json) <br> - [Retire](/docs/Payload_IN_Retire_Organization.json) | [Activate](/docs/Payload_OUT_Organization.json) <br> [Retire](/docs/Payload_OUT_Organization.json) | /oslc/spq/triAPICOrganizationQC?oslc.select=*
 Request | [Service Request](/markdowns/ServiceRequest.md) | - [Create](/docs/Payload_IN_Create_ServiceRequest.json) <br> - [Retire](/docs/Payload_IN_Retire_ServiceRequest.json) | [Submit](/docs/Payload_OUT_Submit_ServiceRequest.json) <br> [Retire](/docs/Payload_OUT_Retire_ServiceRequest.json) | /oslc/spq/triAPICServiceRequestQC?oslc.select=*
 Task | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_Create_WorkTask.json) | [Activate](/docs/Payload_OUT_WorkTask.json) | /oslc/spq/triAPICWorkTaskQC?oslc.select=*
-
-
-
-
-
-These JSON Sample Payloads are available in a [Postman Collection](/docs/collection/) as well.
-
-## TRIRIGA GET APIs
-
-   S.No. | Business Object | GET URL
-   ---|---|---
-   1 | Work Task | http://url/oslc/spq/triAPICWorkTaskQC?oslc.select=*
-   2 | People | http://url/oslc/spq/triAPICPeopleQC?oslc.select=*
-   3 | Space  | http://url/oslc/spq/triAPICSpaceQC?oslc.select=*
-   4 | Organization | http://url/oslc/spq/triAPICOrganizationQC?oslc.select=*
-   5 | Floor | http://url/oslc/spq/triAPICFloorQC?oslc.select=*
-   
-### Resources
- 
- - [OSLC Cheat Sheet](/markdowns/oslccheatsheet.md)
-
 
 
