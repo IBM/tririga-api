@@ -8,7 +8,7 @@
 
 ### Sample JSON Payloads
 
-Module | Business Object | Inbound Payload | Outbound Payload | GET url
+Module | Business Object | Inbound Payload | Outbound Payload | GET Endpoint
 ---|---|---|---|---
 Asset | [Building Equipment](/markdowns/Asset.md) | - [Create/Update](/docs/Payload_IN_Create_Asset.json) <br> - [Retire](/docs/Payload_IN_Retire_Asset.json) | [Activate](/docs/Payload_OUT_Asset.json) <br> [Retire](/docs/Payload_OUT_Asset.json) | /oslc/spq/triAPICAssetQC?oslc.select=*
 Classification | [Request Class](/markdowns/RequestClass.md) | - | [Save](/docs/Payload_OUT_Save_RequestClass.json) | 
