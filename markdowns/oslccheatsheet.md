@@ -189,10 +189,10 @@ http://localhost:8001/oslc/so/triWorkTaskRS/132633803
 
 - Duration fields can be mapped as shown below.
 
-  <img src="/docs/images/durationfield.jpg" width=1000><br/>
+  <img src="/docs/images/durationfield.jpeg" width=1000><br/>
 
 - These errors don't show up for Boolean fields because it takes *FALSE* as default. 
 
-  <img src="/docs/images/oslcerror.jpg" width=1000><br/>
+  <img src="/docs/images/oslcerror.jpeg" width=1000><br/>
 
 
