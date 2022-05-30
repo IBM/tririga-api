@@ -42,7 +42,7 @@ http://localhost:8001/oslc/spq/triAllWorkTasksQC?oslc.select=dcterms:title,spi_w
 - Adding filters (oslc.where): <br/>
 http://localhost:8001/oslc/spq/triAllWorkTasksQC?oslc.select=dcterms:title,spi_wm:status,dcterms:description&oslc.where=dcterms:description!="null"
 
-- Adding multiple oslc.where clauses: <br/>
+- Adding multiple oslc.where clauses, separated by `and`: <br/>
 http://localhost:8001/oslc/spq/triAllWorkTasksQC?oslc.select=dcterms:title,spi_wm:status,dcterms:description&oslc.where=dcterms:description!="null"%20and%20spi_wm:status="Active"
 
 - Adding wildcards: <br/>
@@ -56,6 +56,21 @@ http://localhost:8001/oslc/spq/triAllWorkTasksQC?oslc.select=dcterms:title,spi_w
 - Adding Date Filters: <br/>
 http://localhost:8001/oslc/spq/triAllWorkTasksQC?oslc.select=dcterms:title&oslc.where=spi:triModifiedSY%3E"2020-02-11" <br/>
 (ASCII value for > is %3E, < is %3C)
+
+- Adding Date and Time Filters: <br>
+http://localhost:8001/oslc/spq/cstReservationDefinitionQC?oslc.select=spi:subject,spi:triModifiedSY&oslc.where=spi:triModifiedSY%3E"2022-03-17T15%3A30%3A00.000%2B00%3A00" <br/>
+(ASCII value for : is %3A, + is %2B)
+
+## URL Encoding
+
+  Character | Code
+  ---|---
+  `>` | %3E
+  `<` | %3C
+  `+` | %2B
+  `-` | %2D
+  `%` | %25
+  `:` | %3A
 
 
 
@@ -174,15 +189,10 @@ http://localhost:8001/oslc/so/triWorkTaskRS/132633803
 
 - Duration fields can be mapped as shown below.
 
-  <img src="durationfield.jpg" width=1000><br/>
+  <img src="/docs/images/durationfield.jpg" width=1000><br/>
 
 - These errors don't show up for Boolean fields because it takes *FALSE* as default. 
 
-  <img src="oslcerror.jpg" width=1000><br/>
-
-
-
-
-
+  <img src="/docs/images/oslcerror.jpg" width=1000><br/>
 
 
