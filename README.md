@@ -26,5 +26,5 @@ Task | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_
 ### GET URL
 
 ```
-{tririga-url}/oslc/spq/triAPICAssetQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100
+{tririga-url}/oslc/spq/{Query Capability}?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100
 ```
