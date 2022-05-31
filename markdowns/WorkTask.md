@@ -14,7 +14,7 @@
 
   Operation | Primary Key Validation
   ---|---
-  Update | Payload's triNameTX = triNameTX of Work Task record to be updated
+  Update | Payload's triExternalReferenceTX = triRecordIdSY of Work Task record to be updated
   
 #### Rejection Criteria
 
