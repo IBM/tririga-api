@@ -23,4 +23,8 @@ Organization | [Organization](/markdowns/Organization.md) | - [Create/Update](/d
 Request | [Service Request](/markdowns/ServiceRequest.md) | - [Create](/docs/Payload_IN_Create_ServiceRequest.json) <br> - [Retire](/docs/Payload_IN_Retire_ServiceRequest.json) | [Submit](/docs/Payload_OUT_Submit_ServiceRequest.json) <br> [Retire](/docs/Payload_OUT_Retire_ServiceRequest.json) | triAPICServiceRequestQC
 Task | [Work Task](/markdowns/WorkTask.md) | - [Create/Update](/docs/Payload_IN_Create_WorkTask.json) | [Activate](/docs/Payload_OUT_WorkTask.json) | triAPICWorkTaskQC
 
+### GET URL
 
+```
+{tririga-url}/oslc/spq/triAPICAssetQC?oslc.select=*
+```
