@@ -1,9 +1,9 @@
 {
     "spi:action": "Create Draft",
     "spi:triOperationTX":"Create/Update",
-    "spi:triExternalReferenceTX": "WT-12",
-    "spi:triIdTX": "102",
-    "spi:triNameTX": "Int-12",
+    "spi:triExternalReferenceTX": "WT-13",
+    "spi:triIdTX": "103",
+    "spi:triNameTX": "Int-13",
     "spi:triDescriptionTX": "This is a test.",
     "spi:triTaskTypeCL": "\\Classifications\\Task Type\\Corrective",
     "spi:triPriorityClassCL": "Emergency",
@@ -58,7 +58,7 @@
         {
             "spi:action": "Create Draft",
             "spi:triResourceTypeLI": "Person",
-            "spi:triResourceIdentifierTX": "Alex Melamed",
+            "spi:triResourceIdentifierTX": "Sumit Puri",
             "spi:triResourceRequirementLI": "Optional",
             "spi:triPercentNU": "100"
         },
@@ -106,6 +106,13 @@
             "spi:triNameTX": "\\Locations\\Maximo Property",
             "spi:triDescriptionTX": "Location"
 
+        },
+        {
+            "spi:action": "Create Draft",
+            "spi:triNameTX": "Tools",
+            "spi:triDescriptionTX": "Service Provider Cost",
+            "spi:triExpenditureTypeCL": "Labor",
+            "spi:triRateNU": "34"
         }
     ]
 }
