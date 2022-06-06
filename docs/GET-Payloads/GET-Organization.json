@@ -1,0 +1,33 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "rdfs:member": [
+        {
+            "dcterms:identifier": "208133",
+            "spi:triNameTX": "Organizations",
+            "spi:triIdTX": "ORG",
+            "spi:action": "http://localhost/oslc/system/action/triOrganizationRS/208133",
+            "spi:triPathTX": "\\Organizations",
+            "rdf:about": "http://localhost/oslc/so/triOrganizationRS/208133"
+        },
+        {
+            "dcterms:identifier": "135558659",
+            "spi:triNameTX": "HR-5b",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triOrganizationRS/135558659",
+            "spi:triPathTX": "\\Organizations\\HR-5\\HR-5b",
+            "rdf:about": "http://localhost/oslc/so/triOrganizationRS/135558659"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

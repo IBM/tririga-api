@@ -1,0 +1,61 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "rdfs:member": [
+        {
+            "spi:triTenureCL": "Leased",
+            "spi:triCityTX": "Neuss",
+            "spi:triIdTX": "1002",
+            "spi:triZoningCL": "Commercial",
+            "spi:action": "http://localhost/oslc/system/action/triAPICPropertyRS/135573356",
+            "spi:triSubOperationTX": null,
+            "spi:triTRIRIGAIDTX": "Property 07",
+            "spi:triPropertyClassCL": "Distribution",
+            "rdf:about": "http://localhost/oslc/so/triAPICPropertyRS/135573356",
+            "spi:triAddressTX": "Address line 3",
+            "spi:triStateProvTX": "Nevada",
+            "dcterms:identifier": "135573356",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triUserMessageTX": "Processed",
+            "spi:triNameTX": "Property 07",
+            "spi:triJurisdictionCL": "Federal",
+            "spi:triDescriptionTX": "This a sample property record",
+            "spi:triZipPostalTX": "540000",
+            "spi:triPrimaryUseCL": "Back Office",
+            "spi:triExternalReferenceTX": "Max-123"
+        },
+        {
+            "spi:triTenureCL": "Leased",
+            "spi:triCityTX": "Neuss",
+            "spi:triIdTX": "1001",
+            "spi:triZoningCL": null,
+            "spi:action": "http://localhost/oslc/system/action/triAPICPropertyRS/135501283",
+            "spi:triSubOperationTX": null,
+            "spi:triTRIRIGAIDTX": null,
+            "spi:triPropertyClassCL": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICPropertyRS/135501283",
+            "spi:triAddressTX": "Address line 3",
+            "spi:triStateProvTX": "Nevada",
+            "dcterms:identifier": "135501283",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triUserMessageTX": null,
+            "spi:triNameTX": "Property 06",
+            "spi:triJurisdictionCL": null,
+            "spi:triDescriptionTX": "This a sample property record",
+            "spi:triZipPostalTX": "540000",
+            "spi:triPrimaryUseCL": null,
+            "spi:triExternalReferenceTX": null
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

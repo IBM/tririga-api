@@ -1,0 +1,91 @@
+{
+    "prefixes": {
+        "spi_wm": "http://jazz.net/ns/ism/smarter_physical_infrastructure/work#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "oslc_asset": "http://open-services.net/ns/asset#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICWorkTaskQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100&pageno=2"
+        },
+        "oslc:totalCount": 407,
+        "rdf:about": "http://localhost/oslc/spq/triAPICWorkTaskQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100"
+    },
+    "rdfs:member": [
+        {
+            "spi:triCurrencyUO": "US Dollars",
+            "spi_wm:schedfinish": "2021-04-12T20:01:07.289+00:00",
+            "spi:triAssociatedAssets": [
+                {
+                    "rdf:resource": "http://localhost/oslc/so/triAssetRS/135501870"
+                },
+                {
+                    "rdf:resource": "http://localhost/oslc/so/triAssetRS/135501969"
+                }
+            ],
+            "spi:action": "http://localhost/oslc/system/action/triWorkTaskRS/135502065",
+            "spi:triTaskTypeCL": null,
+            "spi_wm:schedstart": "2021-04-12T20:01:07.289+00:00",
+            "dcterms:title": "Sample",
+            "spi_wm:status": "Draft",
+            "spi_wm:wopriority": null,
+            "spi:triWorkingLocationTX": null,
+            "rdf:about": "http://localhost/oslc/so/triWorkTaskRS/135502065",
+            "spi:triCreatedSY": "2021-04-12T20:01:07.288+00:00",
+            "spi:triAssociatedAssetsSearch": [
+                {
+                    "rdf:resource": "http://localhost/oslc/so/triAssetRS/135501870"
+                },
+                {
+                    "rdf:resource": "http://localhost/oslc/so/triAssetRS/135501969"
+                }
+            ],
+            "dcterms:identifier": "135502065",
+            "spi:triAssociatedAdditionalLocations": [
+                {
+                    "rdf:resource": "http://localhost/oslc/so/triLocationRS/135499356"
+                }
+            ],
+            "spi:triUserMessageTX": null,
+            "spi:triCreatedFromMobileBL": false,
+            "spi:triAssociatedStatus": {
+                "rdf:resource": "http://localhost/oslc/so/triStatusRS/1600256"
+            },
+            "dcterms:description": null,
+            "oslc:shortTitle": "1037448",
+            "spi:triModifiedSY": "2021-04-12T20:06:28.850+00:00"
+        },
+        {
+            "spi:triCurrencyUO": "US Dollars",
+            "spi_wm:schedfinish": "2022-03-28T13:44:08.423+00:00",
+            "spi:action": "http://localhost/oslc/system/action/triWorkTaskRS/135551209",
+            "spi:triTaskTypeCL": null,
+            "spi_wm:schedstart": "2022-03-28T13:44:08.423+00:00",
+            "dcterms:title": "Send WO from TRI 5",
+            "spi_wm:status": "Active",
+            "spi_wm:wopriority": null,
+            "spi:triWorkingLocationTX": null,
+            "rdf:about": "http://localhost/oslc/so/triWorkTaskRS/135551209",
+            "spi:triCreatedSY": "2022-03-28T13:44:08.422+00:00",
+            "dcterms:identifier": "135551209",
+            "spi:triUserMessageTX": null,
+            "spi:triCreatedFromMobileBL": false,
+            "spi:triAssociatedStatus": {
+                "rdf:resource": "http://localhost/oslc/so/triStatusRS/1672633"
+            },
+            "dcterms:description": null,
+            "oslc:shortTitle": "1037547",
+            "spi:triModifiedSY": "2022-03-28T13:44:45.710+00:00"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

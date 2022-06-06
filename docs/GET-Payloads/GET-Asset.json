@@ -1,0 +1,74 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICAssetQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100&pageno=2"
+        },
+        "oslc:totalCount": 151,
+        "rdf:about": "http://localhost/oslc/spq/triAPICAssetQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100"
+    },
+    "rdfs:member": [
+        {
+            "spi:triPrimaryOrgPathTX": "\\Organizations\\Walmart",
+            "spi:SysReserveFlag": false,
+            "spi:triIdTX": "WRECKERSTRI2MX-2",
+            "spi:triPrimaryLocRecordIDTX": "135504340",
+            "spi:action": "http://localhost/oslc/system/action/triAPICAssetRS/135580866",
+            "spi:triSubOperationTX": null,
+            "spi:triTRIRIGAIDTX": "135580867",
+            "spi:triMaintenancePriorityCL": "High",
+            "spi:triSpecNameTX": "Maximo-Spec",
+            "spi:triSerialNumTX": "10008923",
+            "rdf:about": "http://localhost/oslc/so/triAPICAssetRS/135580866",
+            "spi:triActiveStartDA": "2019-08-31",
+            "spi:triSpecNameRecordIDTX": "135501983",
+            "spi:triPrimaryOrgRecordIDTX": "135541400",
+            "dcterms:identifier": "135580866",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triUserMessageTX": "Processed",
+            "spi:triNameTX": "Dryer Pump",
+            "spi:triDescriptionTX": null,
+            "spi:triPrimaryLocPathTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+            "spi:triBarCodeEntryTX": "as-4567",
+            "spi:triConditionLI": "Good",
+            "spi:triExternalReferenceTX": "Asst-125"
+        },
+        {
+            "spi:triPrimaryOrgPathTX": null,
+            "spi:SysReserveFlag": false,
+            "spi:triIdTX": "MXWRECKERS12",
+            "spi:triPrimaryLocRecordIDTX": null,
+            "spi:action": "http://localhost/oslc/system/action/triAPICAssetRS/135580672",
+            "spi:triSubOperationTX": null,
+            "spi:triTRIRIGAIDTX": "135580673",
+            "spi:triMaintenancePriorityCL": "High",
+            "spi:triSpecNameTX": "Maximo-Spec",
+            "spi:triSerialNumTX": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICAssetRS/135580672",
+            "spi:triActiveStartDA": "2021-11-10",
+            "spi:triSpecNameRecordIDTX": null,
+            "spi:triPrimaryOrgRecordIDTX": null,
+            "dcterms:identifier": "135580672",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triUserMessageTX": "Processed",
+            "spi:triNameTX": "Test asset from Wreckers",
+            "spi:triDescriptionTX": null,
+            "spi:triPrimaryLocPathTX": null,
+            "spi:triBarCodeEntryTX": null,
+            "spi:triConditionLI": "Poor",
+            "spi:triExternalReferenceTX": "MXWRECKERS12"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

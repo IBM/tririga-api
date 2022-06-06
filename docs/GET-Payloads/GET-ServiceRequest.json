@@ -1,0 +1,72 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100&pageno=2"
+        },
+        "oslc:totalCount": 164,
+        "rdf:about": "http://localhost/oslc/spq/triAPICServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100"
+    },
+    "rdfs:member": [
+        {
+            "spi:triCustomerOrgTX": "\\Organizations\\Walmart",
+            "spi:triCustomerOrgRecordIDTX": "135499332",
+            "spi:triIdTX": "1000180",
+            "spi:action": "http://localhost/oslc/system/action/triAPICServiceRequestRS/135583354",
+            "spi:triSubOperationTX": null,
+            "spi:triSpaceTX": null,
+            "spi:triRequestClassCL": "Other Electrical",
+            "spi:triTRIRIGAIDTX": "135583355",
+            "spi:triRequestForLI": "Someone Else",
+            "spi:triBuildingTX": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICServiceRequestRS/135583354",
+            "spi:triRequestedForTX": "MXTRI102",
+            "spi:triRequestClassRecordIDTX": "128303483",
+            "dcterms:identifier": "135583354",
+            "spi:triUserMessageTX": "Processed",
+            "spi:triOperationTX": "Create",
+            "spi:triNameTX": "API User",
+            "spi:triRequestedByTX": "TRI2MXTEST",
+            "spi:triDescriptionTX": "Lights out [mxclassification: ]",
+            "spi:triSpaceRecordIDTX": "135501660",
+            "spi:triFloorTX": null,
+            "spi:triExternalReferenceTX": "1176"
+        },
+        {
+            "spi:triCustomerOrgTX": "\\Organizations\\Maximo Org",
+            "spi:triCustomerOrgRecordIDTX": null,
+            "spi:triIdTX": "1000001",
+            "spi:action": "http://localhost/oslc/system/action/triAPICServiceRequestRS/135536266",
+            "spi:triSubOperationTX": null,
+            "spi:triSpaceTX": null,
+            "spi:triRequestClassCL": "Lights Out",
+            "spi:triTRIRIGAIDTX": "1000063-0",
+            "spi:triRequestForLI": "Someone Else",
+            "spi:triBuildingTX": "Maximo Building",
+            "rdf:about": "http://localhost/oslc/so/triAPICServiceRequestRS/135536266",
+            "spi:triRequestedForTX": "MXTRI007",
+            "spi:triRequestClassRecordIDTX": null,
+            "dcterms:identifier": "135536266",
+            "spi:triUserMessageTX": "Processed",
+            "spi:triOperationTX": "Create",
+            "spi:triNameTX": "API User",
+            "spi:triRequestedByTX": "MXTRI007",
+            "spi:triDescriptionTX": "Lights off summary [mxclassification: ]",
+            "spi:triSpaceRecordIDTX": null,
+            "spi:triFloorTX": null,
+            "spi:triExternalReferenceTX": "1193"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

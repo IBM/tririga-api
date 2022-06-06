@@ -1,0 +1,52 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICSpaceQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100&pageno=2"
+        },
+        "oslc:totalCount": 125,
+        "rdf:about": "http://localhost/oslc/spq/triAPICSpaceQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100"
+    },
+    "rdfs:member": [
+        {
+            "spi:triParentFloorTX": "Maximo Floor",
+            "dcterms:identifier": "135506971",
+            "spi:triCurrentSpaceClass-triNameTX": "Space Class Current",
+            "spi:triParentBuildingTX": "Maximo Building",
+            "spi:triUserMessageFlagTX": null,
+            "spi:triNameTX": "API User",
+            "spi:triIdTX": "1000001",
+            "spi:action": "http://localhost/oslc/system/action/triSpaceRS/135506971",
+            "spi:triStatusCL": "Retired",
+            "spi:triPathTX": "\\Locations\\Maximo Property\\Maximo Building\\Maximo Floor\\API User",
+            "spi:triAreaNU": 0,
+            "rdf:about": "http://localhost/oslc/so/triSpaceRS/135506971"
+        },
+        {
+            "spi:triParentFloorTX": null,
+            "dcterms:identifier": "135562906",
+            "spi:triCurrentSpaceClass-triNameTX": "Space Class Current",
+            "spi:triParentBuildingTX": null,
+            "spi:triUserMessageFlagTX": null,
+            "spi:triNameTX": "API User",
+            "spi:triIdTX": "TRUTEST44",
+            "spi:action": "http://localhost/oslc/system/action/triSpaceRS/135562906",
+            "spi:triStatusCL": "Retired",
+            "spi:triPathTX": "\\API User",
+            "spi:triAreaNU": 0,
+            "rdf:about": "http://localhost/oslc/so/triSpaceRS/135562906"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

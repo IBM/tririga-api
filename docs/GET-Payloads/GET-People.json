@@ -1,0 +1,53 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICPeopleQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100&pageno=2"
+        },
+        "oslc:totalCount": 154,
+        "rdf:about": "http://localhost/oslc/spq/triAPICPeopleQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100"
+    },
+    "rdfs:member": [
+        {
+            "foaf:name": "API User",
+            "spi:triSpacePrimaryLocation-triPathTX": null,
+            "dcterms:identifier": "135499107",
+            "spi:triBypassApprovalBL": false,
+            "spi:triIdTX": "1000001",
+            "spi:action": "http://localhost/oslc/system/action/triPeopleRS/135499107",
+            "foaf:familyName": "User",
+            "spi:triPrimaryOrganization-triPathTX": null,
+            "spi:triUserLanguageLI": "US English",
+            "foaf:givenName": "API",
+            "rdf:about": "http://localhost/oslc/so/triPeopleRS/135499107",
+            "spi:triWorkPhoneTX": null
+        },
+        {
+            "foaf:name": "Vandana Gupta",
+            "spi:triSpacePrimaryLocation-triPathTX": null,
+            "dcterms:identifier": "135544762",
+            "spi:triBypassApprovalBL": false,
+            "spi:triIdTX": "TRI2MXVG",
+            "spi:action": "http://localhost/oslc/system/action/triPeopleRS/135544762",
+            "foaf:familyName": "Gupta",
+            "spi:triPrimaryOrganization-triPathTX": "\\Organizations\\Maximo Org\\MaximoTri",
+            "spi:triUserLanguageLI": "US English",
+            "foaf:givenName": "Vandana",
+            "rdf:about": "http://localhost/oslc/so/triPeopleRS/135544762",
+            "spi:triWorkPhoneTX": "6754323489"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}

@@ -1,0 +1,65 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "rdfs:member": [
+        {
+            "spi:triTenureCL": "Leased",
+            "spi:triCapacityNU": 20,
+            "spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07",
+            "spi:triIdTX": "SPFl-091",
+            "spi:action": "http://localhost/oslc/system/action/triAPICFloorRS/135551566",
+            "spi:triGrossAreaNumNU": 556,
+            "spi:triGrossMAreaNU": 56,
+            "spi:triSubOperationTX": null,
+            "spi:triFloorClassCL": "Distribution",
+            "spi:triTRIRIGAIDTX": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICFloorRS/135551566",
+            "spi:triLevelNU": 1,
+            "dcterms:identifier": "135551566",
+            "spi:triActiveEndDA": "2021-04-23",
+            "spi:triUserMessageTX": null,
+            "spi:triNameTX": "SPFloor 19",
+            "spi:triOperationTX": "retire",
+            "spi:triCostCenterTX": "ABC",
+            "spi:triDescriptionTX": "Demo Floor 11 Record",
+            "spi:triPrimaryUseCL": "Back Office",
+            "spi:triBarCodeEntryTX": "123",
+            "spi:triExternalReferenceTX": "flr-123"
+        },
+        {
+            "spi:triTenureCL": null,
+            "spi:triCapacityNU": 12,
+            "spi:triParentLocationTX": "\\Locations\\Property 08\\Bldg 07",
+            "spi:triIdTX": "Fl-091",
+            "spi:action": "http://localhost/oslc/system/action/triAPICFloorRS/135501568",
+            "spi:triGrossAreaNumNU": 556,
+            "spi:triGrossMAreaNU": 56,
+            "spi:triSubOperationTX": null,
+            "spi:triFloorClassCL": null,
+            "spi:triTRIRIGAIDTX": "135501569",
+            "rdf:about": "http://localhost/oslc/so/triAPICFloorRS/135501568",
+            "spi:triLevelNU": 12,
+            "dcterms:identifier": "135501568",
+            "spi:triActiveEndDA": null,
+            "spi:triUserMessageTX": "Processed",
+            "spi:triNameTX": "Floor 15",
+            "spi:triOperationTX": "Create/Update",
+            "spi:triCostCenterTX": "ABC",
+            "spi:triDescriptionTX": "Demo Floor 11 Record",
+            "spi:triPrimaryUseCL": null,
+            "spi:triBarCodeEntryTX": "123",
+            "spi:triExternalReferenceTX": null
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}
