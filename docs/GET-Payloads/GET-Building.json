@@ -1,65 +1,6 @@
 {
-    "prefixes": {
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "dcterms": "http://purl.org/dc/terms/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
-        "oslc": "http://open-services.net/ns/core#"
-    },
-    "rdfs:member": [
-        {
-            "spi:triTenureCL": null,
-            "spi:triCityTX": null,
-            "spi:triParentLocationTX": "\\Locations\\Property 08",
-            "spi:triZoningCL": null,
-            "spi:triIdTX": null,
-            "spi:action": "http://localhost/oslc/system/action/triAPICBuildingRS/135573370",
-            "spi:triSubOperationTX": null,
-            "spi:triBuildingClassCL": null,
-            "spi:triTRIRIGAIDTX": "135501454",
-            "rdf:about": "http://localhost/oslc/so/triAPICBuildingRS/135573370",
-            "spi:triAddressTX": null,
-            "spi:triActiveStartDA": null,
-            "spi:triStateProvTX": null,
-            "dcterms:identifier": "135573370",
-            "spi:triOperationTX": "Retire",
-            "spi:triUserMessageTX": "Processed",
-            "spi:triNameTX": "Bldg 07",
-            "spi:triJurisdictionCL": null,
-            "spi:triDescriptionTX": null,
-            "spi:triPrimaryUseCL": null,
-            "spi:triZipPostalTX": null,
-            "spi:triExternalReferenceTX": "MaxRet-123"
-        },
-        {
-            "spi:triTenureCL": "Leased",
-            "spi:triCityTX": "Neuss",
-            "spi:triParentLocationTX": "//Locations//Property 08",
-            "spi:triZoningCL": "Commercial",
-            "spi:triIdTX": "B-1002",
-            "spi:action": "http://localhost/oslc/system/action/triAPICBuildingRS/135501450",
-            "spi:triSubOperationTX": null,
-            "spi:triBuildingClassCL": "Distribution",
-            "spi:triTRIRIGAIDTX": null,
-            "rdf:about": "http://localhost/oslc/so/triAPICBuildingRS/135501450",
-            "spi:triAddressTX": "Address line 3",
-            "spi:triActiveStartDA": null,
-            "spi:triStateProvTX": "Nevada",
-            "dcterms:identifier": "135501450",
-            "spi:triOperationTX": "Create/Update",
-            "spi:triUserMessageTX": "Error: Parent Property Does Not Exist",
-            "spi:triNameTX": "Bldg 07",
-            "spi:triJurisdictionCL": "Federal",
-            "spi:triDescriptionTX": "This a sample property record",
-            "spi:triPrimaryUseCL": "Back Office",
-            "spi:triZipPostalTX": "540000",
-            "spi:triExternalReferenceTX": null
-        }
-    ],
-    "rdf:type": [
-        {
-            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
-        }
-    ],
-    "rdf:about": "http://localhost/oslc/spq"
+    "oslc:Error": {
+        "oslc:statusCode": "500",
+        "oslc:message": "Exception com.tririga.platform.metadata.MetadataNotFoundException occurred: No section with name 'triPeople' exists on this Business Object: BoImpl[name=triBuilding,id=10002100,module=ModuleImpl[name=Location,id=6]]. Contact your system administrator."
+    }
 }
