@@ -8,20 +8,166 @@
     },
     "rdfs:member": [
         {
+            "dcterms:identifier": "135541375",
+            "spi:triNameTX": "Amazon",
+            "spi:triIdTX": "1000554",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135541375",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\Amazon",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135541375"
+        },
+        {
+            "dcterms:identifier": "2491048",
+            "spi:triNameTX": "DEFAULT Workgroup (for Default Service Plans)",
+            "spi:triIdTX": "DEFAULT",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/2491048",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\DEFAULT Workgroup (for Default Service Plans)",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/2491048"
+        },
+        {
+            "dcterms:identifier": "135558534",
+            "spi:triNameTX": "HR-1",
+            "spi:triIdTX": "Acc-001",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558534",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\HR-1",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558534"
+        },
+        {
+            "dcterms:identifier": "135558550",
+            "spi:triNameTX": "HR-1a",
+            "spi:triIdTX": "Acc-002",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558550",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\HR-1\\HR-1a",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558550"
+        },
+        {
+            "dcterms:identifier": "135558594",
+            "spi:triNameTX": "HR-1b",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558594",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\HR-1\\HR-1b",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558594"
+        },
+        {
+            "dcterms:identifier": "135558607",
+            "spi:triNameTX": "HR-2",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558607",
+            "spi:triStatusCL": "Draft",
+            "spi:triPathTX": "\\HR-2",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558607"
+        },
+        {
+            "dcterms:identifier": "135558617",
+            "spi:triNameTX": "HR-3",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558617",
+            "spi:triStatusCL": "Draft",
+            "spi:triPathTX": "\\HR-3",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558617"
+        },
+        {
+            "dcterms:identifier": "135558624",
+            "spi:triNameTX": "HR-4",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558624",
+            "spi:triStatusCL": "Draft",
+            "spi:triPathTX": "\\HR-4",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558624"
+        },
+        {
+            "dcterms:identifier": "135558633",
+            "spi:triNameTX": "HR-5",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558633",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\HR-5",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558633"
+        },
+        {
+            "dcterms:identifier": "135558646",
+            "spi:triNameTX": "HR-5a",
+            "spi:triIdTX": "Acc-003",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558646",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\HR-5\\HR-5a",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558646"
+        },
+        {
+            "dcterms:identifier": "135499462",
+            "spi:triNameTX": "Maximo Org",
+            "spi:triIdTX": "1000550",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135499462",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\Maximo Org",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135499462"
+        },
+        {
+            "dcterms:identifier": "135541868",
+            "spi:triNameTX": "MaximoTri",
+            "spi:triIdTX": "1000556",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135541868",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\Maximo Org\\MaximoTri",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135541868"
+        },
+        {
+            "dcterms:identifier": "135541891",
+            "spi:triNameTX": "MaximoTriTest",
+            "spi:triIdTX": "TRIMXORG1",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135541891",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\MaximoTriTest",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135541891"
+        },
+        {
             "dcterms:identifier": "208133",
             "spi:triNameTX": "Organizations",
             "spi:triIdTX": "ORG",
-            "spi:action": "http://localhost/oslc/system/action/triOrganizationRS/208133",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/208133",
+            "spi:triStatusCL": "Active",
             "spi:triPathTX": "\\Organizations",
-            "rdf:about": "http://localhost/oslc/so/triOrganizationRS/208133"
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/208133"
         },
         {
-            "dcterms:identifier": "135558659",
-            "spi:triNameTX": "HR-5b",
-            "spi:triIdTX": "Acc-003",
-            "spi:action": "http://localhost/oslc/system/action/triOrganizationRS/135558659",
-            "spi:triPathTX": "\\Organizations\\HR-5\\HR-5b",
-            "rdf:about": "http://localhost/oslc/so/triOrganizationRS/135558659"
+            "dcterms:identifier": "135541400",
+            "spi:triNameTX": "Videocon",
+            "spi:triIdTX": "1000555",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135541400",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\Videocon",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135541400"
+        },
+        {
+            "dcterms:identifier": "135499332",
+            "spi:triNameTX": "Walmart",
+            "spi:triIdTX": "1000549",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135499332",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Organizations\\Walmart",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135499332"
+        },
+        {
+            "dcterms:identifier": "135558565",
+            "spi:triNameTX": null,
+            "spi:triIdTX": "1000561",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558565",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558565"
+        },
+        {
+            "dcterms:identifier": "135558580",
+            "spi:triNameTX": null,
+            "spi:triIdTX": "1000562",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundOrganizationRS/135558580",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundOrganizationRS/135558580"
         }
     ],
     "rdf:type": [
