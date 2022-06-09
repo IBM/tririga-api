@@ -15,12 +15,12 @@
     },
     "rdfs:member": [
         {
-            "spi:triLongitudeTX": null,
             "spi:triTotalAreaOccupiedCalcNU": 900,
             "spi:triTenureCL": "Owned",
-            "spi:triLatitudeTX": null,
             "spi:triCountryTX": "United States",
+            "spi:triGisLongitudeNU": 0,
             "spi:triBuildingClassCL": "Distribution",
+            "spi:triGisLatitudeNU": 0,
             "spi:triActiveStartDA": "2022-05-01",
             "spi:triStateProvTX": "Nevada",
             "spi:triNameTX": "Quantum Building",
@@ -49,12 +49,12 @@
             "spi:triWorkPhoneTX": "8756453458"
         },
         {
-            "spi:triLongitudeTX": null,
             "spi:triTotalAreaOccupiedCalcNU": 2200,
             "spi:triTenureCL": null,
-            "spi:triLatitudeTX": null,
             "spi:triCountryTX": null,
+            "spi:triGisLongitudeNU": 0,
             "spi:triBuildingClassCL": null,
+            "spi:triGisLatitudeNU": 0,
             "spi:triActiveStartDA": "2022-04-22",
             "spi:triStateProvTX": null,
             "spi:triNameTX": "Bldg-ABC",
