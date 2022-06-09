@@ -1,0 +1,1037 @@
+{
+	"info": {
+		"_postman_id": "3dedbe21-8be6-4f36-ab61-aeec2e360f26",
+		"name": "TRIRIGA-APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10947990"
+	},
+	"item": [
+		{
+			"name": "GET APIs",
+			"item": [
+				{
+					"name": "Asset",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundAssetQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundAssetQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Building",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundBuildingQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Floor",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundFloorQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundFloorQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Organization",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundOrganizationQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundOrganizationQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "People",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundPeopleQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundPeopleQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Property",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundPropertyQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundPropertyQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Service Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundServiceRequestQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Space",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundSpaceQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundSpaceQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Work Task",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundWorkTaskQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"host": [
+								"{{tririga-url}}"
+							],
+							"path": [
+								"oslc",
+								"spq",
+								"triAPICOutboundWorkTaskQC"
+							],
+							"query": [
+								{
+									"key": "oslc.select",
+									"value": "*"
+								},
+								{
+									"key": "oslc.paging",
+									"value": "true"
+								},
+								{
+									"key": "oslc.page",
+									"value": "1"
+								},
+								{
+									"key": "oslc.pageSize",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST APIs",
+			"item": [
+				{
+					"name": "Asset",
+					"item": [
+						{
+							"name": "Asset - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Create/Update\",\n\"spi:triExternalReferenceTX\": \"Asst-124\",\n\"spi:triIdTX\": \"001\",\n\"spi:triNameTX\":\"Dryer Pump Extinguisher\",\n\"spi:triSerialNumTX\": \"10008923\",\n\"spi:triBarCodeEntryTX\": \"as-4567\",\n\"spi:triConditionLI\": \"Good\",\n\"spi:SysReserveFlag\": \"FALSE\",\n\"spi:triMaintenancePriorityCL\": \"High\",\n\"spi:triPrimaryOrgPathTX\": \"\\\\Organizations\\\\Walmart\",\n\"spi:triPrimaryOrgRecordIDTX\": \"135541400\",\n\"spi:triPrimaryLocPathTX\": \"\\\\Locations\\\\Property 08\\\\Bldg 07\\\\Floor 15\\\\Space 01\",\n\"spi:triPrimaryLocRecordIDTX\": \"135504340\",\n\"spi:triSpecNameTX\": \"Maximo-Spec\",\n\"spi:triSpecNameRecordIDTX\": \"135501983\",\n\"spi:triActiveStartDA\": \"2019-08-31\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICAssetCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICAssetCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Asset - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Retire\",\n\"spi:triExternalReferenceTX\": \"135572823\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICAssetCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICAssetCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Location",
+					"item": [
+						{
+							"name": "Property - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\": \"Create Draft\",\n\"spi:triOperationTX\": \"Create/Update\",\n\"spi:triExternalReferenceTX\": \"Max-123\",\n\"spi:triIdTX\": \"1002\",\n\"spi:triNameTX\": \"Property 07\",\n\"spi:triDescriptionTX\": \"This a sample property record\",\n\"spi:triCityTX\": \"Neuss\",\n\"spi:triTenureCL\":\"Leased\",\n\"spi:triPropertyClassCL\":\"Distribution\",\n\"spi:triZoningCL\":\"Commercial\",\n\"spi:triPrimaryUseCL\":\"Back Office\",\n\"spi:triJurisdictionCL\":\"Federal\",\n\"spi:triZipPostalTX\": \"540000\",\n\"spi:triStateProvTX\": \"Nevada\",\n\"spi:triAddressTX\": \"Address line 3\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICPropertyCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICPropertyCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Property - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\": \"Create Draft\",\n\"spi:triOperationTX\": \"Retire\",\n\"spi:triExternalReferenceTX\": \"MaxRet-123\",\n\"spi:triNameTX\": \"Property 08\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICPropertyCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICPropertyCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Building - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\": \"Create Draft\",\n\"spi:triOperationTX\": \"Create/Update\",\n\"spi:triExternalReferenceTX\": \"Max-123\",\n\"spi:triIdTX\": \"B-1002\",\n\"spi:triNameTX\": \"Bldg 07\",\n\"spi:triParentLocationTX\": \"\\\\Locations\\\\Property 08\",\n\"spi:triDescriptionTX\": \"This a sample property record\",\n\"spi:triActiveStartDA\": \"2020-03-21\",\n\"spi:triCityTX\": \"Neuss\",\n\"spi:triTenureCL\":\"Leased\",\n\"spi:triBuildingClassCL\":\"Distribution\",\n\"spi:triZoningCL\":\"Commercial\",\n\"spi:triPrimaryUseCL\":\"Back Office\",\n\"spi:triJurisdictionCL\":\"Federal\",\n\"spi:triZipPostalTX\": \"540000\",\n\"spi:triStateProvTX\": \"Nevada\",\n\"spi:triAddressTX\": \"Address line 3\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICBuildingCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICBuildingCF"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Building - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\": \"Create Draft\",\n\"spi:triOperationTX\": \"Retire\",\n\"spi:triExternalReferenceTX\": \"MaxRet-123\",\n\"spi:triNameTX\": \"Bldg 07\",\n\"spi:triParentLocationTX\": \"\\\\Locations\\\\Property 08\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICBuildingCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICBuildingCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Floor - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Create/Update\",\n\"spi:triExternalReferenceTX\": \"flr-123\",\n\"spi:triIdTX\": \"Fl-091\",\n\"spi:triNameTX\":\"Floor 16\",\n\"spi:triDescriptionTX\":\"Demo Floor 11 Record\",\n\"spi:triBarCodeEntryTX\": \"123\",\n\"spi:triCapacityNU\": \"12\",\n\"spi:triCostCenterTX\": \"ABC\",\n\"spi:triGrossAreaNumNU\":556,\n\"spi:triGrossMAreaNU\":56,\n\"spi:triLevelNU\":12,\n\"spi:triTenureCL\":\"Leased\",\n\"spi:triActiveEndDA\": \"2021-04-23\",\n\"spi:triFloorClassCL\":\"Distribution\",\n\"spi:triPrimaryUseCL\":\"Back Office\",\n\"spi:triParentLocationTX\": \"\\\\Locations\\\\Property 08\\\\Bldg 07\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICFloorCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICFloorCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Floor - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Retire\",\n\"spi:triExternalReferenceTX\": \"flr-123\",\n\"spi:triIdTX\": \"Fl-091\",\n\"spi:triNameTX\":\"Floor 15\",\n\"spi:triGrossAreaNumNU\":556,\n\"spi:triGrossMAreaNU\":56,\n\"spi:triLevelNU\":12,\n\"spi:triParentLocationTX\": \"\\\\Locations\\\\Property 08\\\\Bldg 07\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICFloorCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICFloorCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Space - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Create/Update\",\n\"spi:triExternalReferenceTX\": \"SPC-123\",\n\"spi:triIdTX\": \"SPC-001\",\n\"spi:triNameTX\":\"Space-SP 03\",\n\"spi:triDescriptionTX\":\"Demo Space Record\",\n\"spi:triBarCodeEntryTX\": \"123\",\n\"spi:triMainPhoneTX\": \"123-567-9086\",\n\"spi:triMainFaxTX\": \"ABC\",\n\"spi:triPrimMailStopTX\":556,\n\"spi:triHazMatBL\":\"TRUE\",\n\"spi:SysReserveFlag\": \"TRUE\",\n\"spi:triEmergencyExitBL\": \"TRUE\",\n\"spi:triAreaNU\": \"2000\",\n\"spi:triSpaceClassificationTX\": \"\",\n\"spi:triSpaceClassificationRecordIDTX\": \"10244213\",\n\"spi:triCapacityNU\":12,\n\"spi:triCapacityFactorNU\":\"4\",\n\"spi:triEmergencyCapacityNU\": \"14\",\n\"spi:triOverflowCapcityNU\":\"35\",\n\"spi:triParentLocationTX\": \"\",\n\"spi:triParentLocationRecordIDTX\": \"135501569\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICSpaceCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICSpaceCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Space - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Retire\",\n\"spi:triExternalReferenceTX\": \"135571378\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICSpaceCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICSpaceCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "People",
+					"item": [
+						{
+							"name": "People - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"spi:action\": \"Create Draft\",\n    \"spi:triOperationTX\": \"Create/Update\",\n    \"spi:triSubOperationTX\": \"\",\n    \"spi:triExternalReferenceTX\": \"APIC-05\",\n    \"spi:triPeopleTypeTX\": \"Employee\",\n    \"spi:triIdTX\": \"101\",\n    \"spi:triFirstNameTX\": \"Fst-5\",\n    \"spi:triLastNameTX\": \"Lst-5\",\n    \"spi:triUserNameTX\": \"user-5\",\n    \"spi:triPrimaryLocPathTX\": \"\\\\Locations\\\\Maximo Property\\\\Maximo Building\\\\Maximo Floor\\\\DES-01\",\n    \"spi:triPrimaryOrgPathTX\": \"\\\\Organizations\\\\Maximo Org\",\n    \"spi:triPrimaryOrgRecordIDTX\": \"135541375\",\n    \"spi:triPrimaryLocRecordIDTX\": \"135504310\",\n    \"spi:triAddressTX\": \"1234 Main St\",\n    \"spi:triZipPostalTX\": \"89119\",\n    \"spi:triCityTX\": \"Las Vegas\",\n    \"spi:triStateProvTX\": \"Nevada\",\n    \"spi:triCountryTX\": \"USA\",\n    \"spi:triActiveStartDA\": \"1986-04-20T00:00:00-08:00\",\n    \"spi:triActiveEndDA\": \"1996-04-20T00:00:00-08:00\",\n    \"spi:triEmailTX\": \"sample@abc.com\",\n    \"spi:triWorkPhoneTX\": \"7023458912\",\n    \"spi:triPeopleTemplateTX\": \"Lease Manager\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICPeopleCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICPeopleCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "People - Create/Update Copy",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"spi:action\": \"Create Draft\",\n    \"spi:triOperationTX\": \"Create/Update\",\n    \"spi:triSubOperationTX\": \"\",\n    \"spi:triExternalReferenceTX\": \"APIC-05\",\n    \"spi:triPeopleTypeTX\": \"Employee\",\n    \"spi:triIdTX\": \"101\",\n    \"spi:triFirstNameTX\": \"Wreckers\",\n    \"spi:triLastNameTX\": \"Test\",\n    \"spi:triUserNameTX\": \"wrecktestsp-01\",\n    \"spi:triPrimaryLocPathTX\": \"\\\\Locations\\\\Maximo Property\\\\Maximo Building\\\\Maximo Floor\",\n    \"spi:triPrimaryOrgPathTX\": \"\\\\Organizations\\\\Maximo Org\",\n    \"spi:triPrimaryOrgRecordIDTX\": \"135541375\",\n    \"spi:triPrimaryLocRecordIDTX\": \"135504310\",\n    \"spi:triAddressTX\": \"1234 Main St\",\n    \"spi:triZipPostalTX\": \"89119\",\n    \"spi:triCityTX\": \"Las Vegas\",\n    \"spi:triStateProvTX\": \"Nevada\",\n    \"spi:triCountryTX\": \"USA\",\n    \"spi:triActiveStartDA\": \"1986-04-20T00:00:00-08:00\",\n    \"spi:triActiveEndDA\": \"1996-04-20T00:00:00-08:00\",\n    \"spi:triEmailTX\": \"sample@abc.com\",\n    \"spi:triWorkPhoneTX\": \"7023458912\",\n    \"spi:triPeopleTemplateTX\": \"Lease Manager\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICPeopleCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICPeopleCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "People - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"spi:action\": \"Create Draft\",\n    \"spi:triOperationTX\": \"Retire\",\n    \"spi:triExternalReferenceTX\": \"135570802\",\n    \"spi:triFirstNameTX\": \"Carlos\",\n    \"spi:triLastNameTX\": \"Marin\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICPeopleCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICPeopleCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Organization",
+					"item": [
+						{
+							"name": "Organization - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Create/Update\",\n\"spi:triExternalReferenceTX\": \"ACT-123\",\n\"spi:triIdTX\": \"Acc-003\",\n\"spi:triNameTX\":\"HR-5b\",\n\"spi:triFormTX\":\"Department\",\n\"spi:triParentOrganizationTX\":\"\\\\Organizations\\\\HR-5\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICOrganizationCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICOrganizationCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Organization - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Retire\",\n\"spi:triExternalReferenceTX\": \"ACT-123\",\n\"spi:triIdTX\": \"Acc-003\",\n\"spi:triNameTX\":\"HR-5b\",\n\"spi:triFormTX\":\"Department\",\n\"spi:triParentOrganizationTX\":\"\\\\Organizations\\\\HR-5\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICOrganizationCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICOrganizationCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Request",
+					"item": [
+						{
+							"name": "Service Request - Create",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Create\",\n\"spi:triExternalReferenceTX\": \"SR-5\",\n\"spi:triRequestForLI\": \"Someone Else\",\n\"spi:triRequestedForTX\": \"1000214\",\n\"spi:triRequestedByTX\": \"1000214\",\n\"spi:triRequestClassCL\": \"Lights Out\",\n\"spi:triRequestClassRecordIDTX\": \"2270583\",\n\"spi:triBuildingTX\": \"Maximo Building\",\n\"spi:triFloorTX\": \"Maximo Floor\",\n\"spi:triSpaceTX\": \"SPC-111\",\n\"spi:triSpaceRecordIDTX\": \"135511967\",\n\"spi:triDescriptionTX\" : \"Lights are out\",\n\"spi:triCustomerOrgTX\": \"\\\\Organizations\\\\Walmart\",\n\"spi:triCustomerOrgRecordIDTX\": \"135499332\",\n\"spi:triAssociatedRecordLR\": [\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Dryer Pump\",\n            \"spi:triDescriptionTX\": \"Asset\"\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Maximo Bldg\",\n            \"spi:triDescriptionTX\": \"Location\"\n        }\n]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICServiceRequestCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICServiceRequestCF"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Service Request - Retire",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"spi:action\":\"Create Draft\",\n\"spi:triOperationTX\":\"Retire\",\n\"spi:triExternalReferenceTX\": \"1000110\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICServiceRequestCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICServiceRequestCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Task",
+					"item": [
+						{
+							"name": "Work Task - Create/Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Properties",
+										"value": "{{response-properties}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"spi:action\": \"Create Draft\",\n    \"spi:triOperationTX\":\"Create/Update\",\n    \"spi:triExternalReferenceTX\": \"WT-13\",\n    \"spi:triIdTX\": \"103\",\n    \"spi:triNameTX\": \"Int-13\",\n    \"spi:triDescriptionTX\": \"This is a test.\",\n    \"spi:triTaskTypeCL\": \"\\\\Classifications\\\\Task Type\\\\Corrective\",\n    \"spi:triPriorityClassCL\": \"Emergency\",\n    \"spi:triMatrixRequestClassCL\": \"\\\\Classifications\\\\Request Class\\\\Building Services\\\\Appliances\\\\Refrigerator\",\n    \"spi:triMatrixServiceClassCL\": \"Prime Contract\",\n    \"spi:triWorkingLocationTX\": \"\\\\Locations\\\\Property 08\\\\Bldg 07\\\\Floor 15\\\\Space 01\",\n    \"spi:triGeographyLookupTX\": \"\\\\Geography\\\\North America\\\\United States\\\\Arkansas\\\\Bentonville\",\n    \"spi:triCustomerOrgTX\": \"\\\\Organizations\\\\Walmart\",\n    \"spi:triPlannedStartDT\": \"2020-04-25\",\n    \"spi:triPlannedEndDT\": \"2021-08-31\",\n    \"spi:triPlannedWorkingInputDaysNU\": \"45\",\n    \"spi:triPlannedWorkingInputHrsNU\": \"12\",\n    \"spi:triPlannedTotalCostNU\": \"340\",\n    \"spi:triConstraintLI\": \"Must Start On\",\n    \"spi:triActualStartDT\": \"2019-03-21\",\n    \"spi:triActualWorkingInputDaysNU\": \"34\",\n    \"spi:triActualWorkingInputHrsNU\": \"23\",\n    \"spi:triActualPercentCompleteNU\": \"87\",\n    \"spi:triQtyAssetsNU\": \"2\",\n    \"spi:triQtyLocationsNU\": \"8\",\n    \"spi:triDefLaborAccountTX\": \"Walmart\",\n    \"spi:triDefMaterialAccountTX\": \"445\",\n    \"spi:triDefProviderAccountTX\": \"124\",\n    \"spi:triConstraintDT\": \"2020-12-01\",\n    \"spi:triRequestIdTX\": \"1000000\",\n    \"spi:triFacilitiesProjectTX\": \"FacProject for Work Task\",\n    \"spi:triContractNameTX\": \"Contract for WT\",\n    \"spi:triResponsibleOrgTX\": \"Maximo Org\",\n    \"spi:triResponsiblePersonTX\": \"Carlos Marin\",\n    \"spi:triResolutionDescrTX\": \"Sample text\",\n    \"spi:triResourceLR\": [{\n            \"spi:action\": \"Create Draft\",\n            \"spi:triResourceTypeLI\": \"Asset\",\n            \"spi:triResourceIdentifierTX\": \"Dryer Pump2\",\n            \"spi:triResourceRequirementLI\": \"Optional\",\n            \"spi:triPercentNU\": \"90\"\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triResourceTypeLI\": \"Location\",\n            \"spi:triResourceIdentifierTX\": \"\\\\Locations\\\\Property 08\\\\Bldg 07\",\n            \"spi:triResourceRequirementLI\": \"Optional\",\n            \"spi:triPercentNU\": \"80\"\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triResourceTypeLI\": \"Organization\",\n            \"spi:triResourceIdentifierTX\": \"\\\\Organizations\\\\Maximo Org\",\n            \"spi:triResourceRequirementLI\": \"Optional\",\n            \"spi:triPercentNU\": \"100\"\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triResourceTypeLI\": \"Person\",\n            \"spi:triResourceIdentifierTX\": \"Sumit Puri\",\n            \"spi:triResourceRequirementLI\": \"Optional\",\n            \"spi:triPercentNU\": \"100\"\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triResourceTypeLI\": \"Role\",\n            \"spi:triResourceIdentifierTX\": \"Invoice Manager\",\n            \"spi:triResourceRequirementLI\": \"Optional\",\n            \"spi:triPercentNU\": \"100\"\n        }\n    ],\n    \"spi:triAssociatedRecordLR\": [\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Dryer Pump2\",\n            \"spi:triDescriptionTX\": \"Asset\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Dryer Pump\",\n            \"spi:triDescriptionTX\": \"Asset\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"First One\",\n            \"spi:triDescriptionTX\": \"Procedure\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Second One\",\n            \"spi:triDescriptionTX\": \"Procedure\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"\\\\Locations\\\\Maximo Property\\\\Maximo Bldg\",\n            \"spi:triDescriptionTX\": \"Location\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"\\\\Locations\\\\Maximo Property\",\n            \"spi:triDescriptionTX\": \"Location\"\n\n        },\n        {\n            \"spi:action\": \"Create Draft\",\n            \"spi:triNameTX\": \"Tools\",\n            \"spi:triDescriptionTX\": \"Service Provider Cost\",\n            \"spi:triExpenditureTypeCL\": \"Labor\",\n            \"spi:triRateNU\": \"34\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{tririga-url}}/oslc/so/triAPICWorkTaskCF",
+									"host": [
+										"{{tririga-url}}"
+									],
+									"path": [
+										"oslc",
+										"so",
+										"triAPICWorkTaskCF"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "admin",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "system",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
