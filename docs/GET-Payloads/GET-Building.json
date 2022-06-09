@@ -1,6 +1,92 @@
 {
-    "oslc:Error": {
-        "oslc:statusCode": "500",
-        "oslc:message": "Exception com.tririga.platform.metadata.MetadataNotFoundException occurred: No section with name 'triPeople' exists on this Business Object: BoImpl[name=triBuilding,id=10002100,module=ModuleImpl[name=Location,id=6]]. Contact your system administrator."
-    }
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
+        },
+        "oslc:totalCount": 5,
+        "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
+    },
+    "rdfs:member": [
+        {
+            "spi:triLongitudeTX": null,
+            "spi:triTotalAreaOccupiedCalcNU": 900,
+            "spi:triTenureCL": "Owned",
+            "spi:triLatitudeTX": null,
+            "spi:triCountryTX": "United States",
+            "spi:triBuildingClassCL": "Distribution",
+            "spi:triActiveStartDA": "2022-05-01",
+            "spi:triStateProvTX": "Nevada",
+            "spi:triNameTX": "Quantum Building",
+            "spi:triEmailTX": "aggarwalrahul@maximo.com",
+            "spi:triPrimaryUseCL": "Administration",
+            "spi:triProRateBalanceToLI": "Balance To Measured",
+            "spi:triCurrencyUO": "US Dollars",
+            "spi:triCityTX": "Las Vegas",
+            "spi:triIdTX": "Bdg-07",
+            "spi:triZoningCL": "Conservation",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135573780",
+            "spi:contactOrganization": "Maximo Org",
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Locations\\Research triangle Park\\Quantum Building",
+            "spi:triParentPropertyTX": "Research triangle Park",
+            "spi:contactRole": "Building Condition Manager",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135573780",
+            "spi:triAddressTX": "519 Main St",
+            "dcterms:identifier": "135573780",
+            "spi:triJurisdictionCL": "County",
+            "spi:triAreaUO": "square-feet",
+            "spi:triDescriptionTX": "This building has a Quantum Computer",
+            "spi:triZipPostalTX": "78665",
+            "spi:contactName": "Rahul Aggarwal",
+            "spi:triLengthUO": "feet",
+            "spi:triWorkPhoneTX": "8756453458"
+        },
+        {
+            "spi:triLongitudeTX": null,
+            "spi:triTotalAreaOccupiedCalcNU": 2200,
+            "spi:triTenureCL": null,
+            "spi:triLatitudeTX": null,
+            "spi:triCountryTX": null,
+            "spi:triBuildingClassCL": null,
+            "spi:triActiveStartDA": "2022-04-22",
+            "spi:triStateProvTX": null,
+            "spi:triNameTX": "Bldg-ABC",
+            "spi:triEmailTX": null,
+            "spi:triPrimaryUseCL": null,
+            "spi:triProRateBalanceToLI": "Balance To Measured",
+            "spi:triCurrencyUO": "US Dollars",
+            "spi:triCityTX": null,
+            "spi:triIdTX": "1000003",
+            "spi:triZoningCL": null,
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135558172",
+            "spi:contactOrganization": null,
+            "spi:triStatusCL": "Draft",
+            "spi:triPathTX": "\\Locations\\TestProp\\Bldg-ABC",
+            "spi:triParentPropertyTX": "TestProp",
+            "spi:contactRole": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135558172",
+            "spi:triAddressTX": null,
+            "dcterms:identifier": "135558172",
+            "spi:triJurisdictionCL": null,
+            "spi:triAreaUO": "square-feet",
+            "spi:triDescriptionTX": null,
+            "spi:triZipPostalTX": null,
+            "spi:contactName": null,
+            "spi:triLengthUO": "feet",
+            "spi:triWorkPhoneTX": null
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
 }
