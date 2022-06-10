@@ -1,6 +1,0 @@
-os: linux
-dist: bionic
-language: bash
-script: bash travis-testing/$TRAVIS_COMMIT_MESSAGE.sh
-if: commit_message IN ("test-creation","test-retire")
-
