@@ -1,7 +1,7 @@
 {
     "spi:action": "Create Draft",
     "spi:triOperationTX":"Create/Update",
-    "spi:triExternalReferenceTX": "WT-13",
+    "spi:triExternalReferenceTX": "SP-6",
     "spi:triIdTX": "103",
     "spi:triNameTX": "Int-13",
     "spi:triDescriptionTX": "This is a test.",
@@ -10,8 +10,10 @@
     "spi:triMatrixRequestClassCL": "\\Classifications\\Request Class\\Building Services\\Appliances\\Refrigerator",
     "spi:triMatrixServiceClassCL": "Prime Contract",
     "spi:triWorkingLocationTX": "\\Locations\\Property 08\\Bldg 07\\Floor 15\\Space 01",
+    "spi:triWorkingLocationRecordIDTX": "135508192",
     "spi:triGeographyLookupTX": "\\Geography\\North America\\United States\\Arkansas\\Bentonville",
     "spi:triCustomerOrgTX": "\\Organizations\\Walmart",
+    "spi:triCustomerOrgRecordIDTX": "135541375",
     "spi:triPlannedStartDT": "2020-04-25",
     "spi:triPlannedEndDT": "2021-08-31",
     "spi:triPlannedWorkingInputDaysNU": "45",
@@ -37,7 +39,7 @@
     "spi:triResourceLR": [{
             "spi:action": "Create Draft",
             "spi:triResourceTypeLI": "Asset",
-            "spi:triResourceIdentifierTX": "Dryer Pump2",
+            "spi:triResourceIdentifierTX": "EV-Motor",
             "spi:triResourceRequirementLI": "Optional",
             "spi:triPercentNU": "90"
         },
@@ -73,13 +75,13 @@
     "spi:triAssociatedRecordLR": [
         {
             "spi:action": "Create Draft",
-            "spi:triNameTX": "Dryer Pump2",
+            "spi:triNameTX": "Carbontor x4",
             "spi:triDescriptionTX": "Asset"
 
         },
         {
             "spi:action": "Create Draft",
-            "spi:triNameTX": "Dryer Pump",
+            "spi:triNameTX": "EV-Motor",
             "spi:triDescriptionTX": "Asset"
 
         },
@@ -109,10 +111,10 @@
         },
         {
             "spi:action": "Create Draft",
-            "spi:triNameTX": "Tools",
+            "spi:triNameTX": "Tools and Service",
             "spi:triDescriptionTX": "Service Provider Cost",
             "spi:triExpenditureTypeCL": "Labor",
-            "spi:triRateNU": "34"
+            "spi:triRateNU": "23"
         }
     ]
 }
