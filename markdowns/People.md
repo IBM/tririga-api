@@ -30,7 +30,7 @@
 
 
 
-## Outbound
+## Outbound - Integration Object
 
 - **Test Endpoint**
   ```
@@ -42,3 +42,8 @@
   Activate | triPeople - APIC - HTTP Post | triPeople | triPeople - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Retire | triPeople - APIC - HTTP Post | triPeople | triPeople - triRetire - APIC Send Outbound using Integration Object 
   
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/{Query Capability}?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100
+```
