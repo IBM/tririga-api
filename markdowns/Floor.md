@@ -25,7 +25,7 @@
   ERROR: Parent Building Does Not Exist | The Building under which Floor record is intended to be child of does not exist
 
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -37,5 +37,9 @@
   Floor Activate | triFloor - APIC - HTTP Post | triFloor | triFloor - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Floor Retire | triFloor - APIC - HTTP Post | triFloor | triFloor - triRetire - APIC Send Outbound using Integration Object 
   
-  	
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/triAPICFloorQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
   
