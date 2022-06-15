@@ -50,5 +50,5 @@ Trigger | IO Record | Workflow Module | Workflow Name
 ## Outbound - GET URL
 
 ```
-{tririga-url}/oslc/spq/triAPICServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+{tririga-url}/oslc/spq/triAPICOutboundServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
 ```
