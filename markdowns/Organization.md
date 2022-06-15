@@ -27,7 +27,7 @@
 
 
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -38,3 +38,8 @@
   ---|---|---|---
   Organization Activate | Organization - APIC - HTTP Post | Organization | Organization - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/triAPICOrganizationQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
