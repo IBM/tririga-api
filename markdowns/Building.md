@@ -25,7 +25,7 @@
   ---|---
   N/A | N/A
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -36,3 +36,10 @@
   ---|---|---|---
   Building Activate | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Building Retire | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triRetire - APIC Send Outbound using Integration Object 
+  
+  
+## Outbound GET URL
+
+```
+{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
