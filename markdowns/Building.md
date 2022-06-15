@@ -38,8 +38,36 @@
   Building Retire | triBuilding - APIC - HTTP Post | triBuilding | triBuilding - triRetire - APIC Send Outbound using Integration Object 
   
   
-## Outbound GET URL
+## Outbound - GET URL
 
 ```
 {{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2
 ```
+
+## Outbound - Load Sheet
+
+AppConnect can also generate csv based Load Sheet from the above GET URL. Below is the mapping for Load Sheet header with JSON Payload
+
+Load Sheet Header | JSON Property
+---|---
+Organization Name | spi:triLegalNameTX
+Group Name 1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
+Group Name 2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
+Group Name 3 | spi:triAPICGroupName3LR{spi:triNameTX}
+LOCATION | spi:triNameTX
+LOCATIONID | spi:triIdTX
+DESCRIPTION | spi:triDescriptionTX
+STREETADDRESS | spi:triAddressTX
+CITY	| spi:triCityTX
+STATEPROVINCE	| spi:triStateProvTX
+POSTALCODE	 | spi:triZipPostalTX
+COUNTRY	| spi:triCountryTX
+LATITUDEY	| spi:triGisLatitudeNU
+LONGITUDEX	| spi:triGisLongitudeNU
+Building Manager	| spi:contactName
+Building Manager Role	| spi:contactRole
+Building Manager Organization	| spi:contactOrganization
+Headcount	| spi:triHeadcountNU
+Floor Area | spi:triTotalAreaCalcNU
+
+									
