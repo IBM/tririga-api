@@ -29,7 +29,7 @@
   ERROR: Service Request Does not Exist | No Service Request record exists with the triIdTX value mentioned in triExternalReferenceTX field of the payload
 
 
-## Outbound
+## Outbound - Integration Object
 
 #### Endpoint
   ```
@@ -47,3 +47,8 @@ Trigger | IO Record | Workflow Module | Workflow Name
   Service Request Submit | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Service Request Retire | triServiceRequest - APIC - HTTP Post | triServiceRequest | triServiceRequest - triRetire - APIC Send Outbound using Integration Object 
   
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/triAPICServiceRequestQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
