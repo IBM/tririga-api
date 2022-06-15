@@ -8,7 +8,7 @@
 
 ### Sample JSON Payloads
 
-Module | Business Object | Inbound Payload | Outbound Payload | Query Capability
+Module | Business Object | Inbound Payload | Outbound Payload | Outbound Payload - Bulk Load
 ---|---|---|---|---
 Asset | [Building Equipment](/markdowns/Asset.md) | - [Create/Update](/docs/Payload_IN_Create_Asset.json) <br> - [Retire](/docs/Payload_IN_Retire_Asset.json) | [Activate](/docs/Payload_OUT_Asset.json) <br> [Retire](/docs/Payload_OUT_Asset.json) | [triAPICOutboundAssetQC](/docs/GET-Payloads/GET-Asset.json)
 Classification | [Request Class](/markdowns/RequestClass.md) | - | [Save](/docs/Payload_OUT_Save_RequestClass.json) | 
