@@ -27,7 +27,7 @@
 
 
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -39,3 +39,9 @@
   Building Equipment Activate | triBuilding Equipment - APIC - HTTP Post | triAsset | triBuildingEquipment - triActivate - Send Outbound using Integration Object 
   Building Equipment Retire | triBuilding Equipment - APIC - HTTP Post | triAsset | triBuildingEquipment - triRetire - APIC Send Outbound using Integration Object  
   
+  
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/{Query Capability}?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=100
+```
