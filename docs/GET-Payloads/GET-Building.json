@@ -1,92 +1,150 @@
 {
-    "prefixes": {
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "dcterms": "http://purl.org/dc/terms/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
-        "oslc": "http://open-services.net/ns/core#"
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+    "oslc": "http://open-services.net/ns/core#"
+  },
+  "oslc:responseInfo": {
+    "oslc:nextPage": {
+      "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
     },
-    "oslc:responseInfo": {
-        "oslc:nextPage": {
-            "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
+    "oslc:totalCount": 7,
+    "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
+  },
+  "rdfs:member": [
+    {
+      "spi:triTotalAreaOccupiedCalcNU": 0,
+      "spi:triTenureCL": null,
+      "spi:triHeadcountNU": 0,
+      "spi:triCountryTX": "United States",
+      "spi:triGisLongitudeNU": 140,
+      "spi:triBuildingClassCL": null,
+      "spi:triGisLatitudeNU": -50,
+      "spi:triActiveStartDA": "2022-06-14",
+      "spi:triAPICGroupName3LR": {
+        "spi:triAPICGroupName2LR": {
+          "spi:triNameTX": "Offices",
+          "spi:triAPICGroupName1LR": {
+            "spi:triNameTX": "Locations",
+            "rdf:type": [
+              {
+                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName1RS"
+              }
+            ],
+            "rdf:about": "http://localhost/oslc/so/triAPICGroupName1RS/213004"
+          },
+          "rdf:type": [
+            {
+              "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName2RS"
+            }
+          ],
+          "rdf:about": "http://localhost/oslc/so/triAPICGroupName2RS/135590465"
         },
-        "oslc:totalCount": 5,
-        "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
+        "spi:triNameTX": "Asia Pacific",
+        "rdf:type": [
+          {
+            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName3RS"
+          }
+        ],
+        "rdf:about": "http://localhost/oslc/so/triAPICGroupName3RS/135590472"
+      },
+      "spi:triStateProvTX": "Nevada",
+      "spi:triNameTX": "Envizi-B",
+      "spi:triEmailTX": null,
+      "spi:triPrimaryUseCL": null,
+      "spi:triProRateBalanceToLI": "Balance To Measured",
+      "spi:triLegalNameTX": "Cisco",
+      "spi:triCurrencyUO": "US Dollars",
+      "spi:triCityTX": "Las Vegas",
+      "spi:triIdTX": "1000007",
+      "spi:triZoningCL": null,
+      "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135590490",
+      "spi:contactOrganization": null,
+      "spi:triStatusCL": "Active",
+      "spi:triPathTX": "\\Locations\\Offices\\Asia Pacific\\Envizi-B",
+      "spi:triParentPropertyTX": null,
+      "spi:contactRole": null,
+      "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135590490",
+      "spi:triAddressTX": "670 Main St",
+      "dcterms:identifier": "135590490",
+      "spi:triJurisdictionCL": null,
+      "spi:triAreaUO": "square-feet",
+      "spi:triDescriptionTX": "Bldg-B",
+      "spi:triZipPostalTX": "89764",
+      "spi:contactName": null,
+      "spi:triLengthUO": "feet",
+      "spi:triWorkPhoneTX": null
     },
-    "rdfs:member": [
-        {
-            "spi:triTotalAreaOccupiedCalcNU": 900,
-            "spi:triTenureCL": "Owned",
-            "spi:triCountryTX": "United States",
-            "spi:triGisLongitudeNU": 0,
-            "spi:triBuildingClassCL": "Distribution",
-            "spi:triGisLatitudeNU": 0,
-            "spi:triActiveStartDA": "2022-05-01",
-            "spi:triStateProvTX": "Nevada",
-            "spi:triNameTX": "Quantum Building",
-            "spi:triEmailTX": "aggarwalrahul@maximo.com",
-            "spi:triPrimaryUseCL": "Administration",
-            "spi:triProRateBalanceToLI": "Balance To Measured",
-            "spi:triCurrencyUO": "US Dollars",
-            "spi:triCityTX": "Las Vegas",
-            "spi:triIdTX": "Bdg-07",
-            "spi:triZoningCL": "Conservation",
-            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135573780",
-            "spi:contactOrganization": "Maximo Org",
-            "spi:triStatusCL": "Active",
-            "spi:triPathTX": "\\Locations\\Research triangle Park\\Quantum Building",
-            "spi:triParentPropertyTX": "Research triangle Park",
-            "spi:contactRole": "Building Condition Manager",
-            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135573780",
-            "spi:triAddressTX": "519 Main St",
-            "dcterms:identifier": "135573780",
-            "spi:triJurisdictionCL": "County",
-            "spi:triAreaUO": "square-feet",
-            "spi:triDescriptionTX": "This building has a Quantum Computer",
-            "spi:triZipPostalTX": "78665",
-            "spi:contactName": "Rahul Aggarwal",
-            "spi:triLengthUO": "feet",
-            "spi:triWorkPhoneTX": "8756453458"
+    {
+      "spi:triTotalAreaOccupiedCalcNU": 0,
+      "spi:triTenureCL": null,
+      "spi:triHeadcountNU": 0,
+      "spi:triCountryTX": "United States",
+      "spi:triGisLongitudeNU": 167,
+      "spi:triBuildingClassCL": null,
+      "spi:triGisLatitudeNU": -80,
+      "spi:triActiveStartDA": "2022-06-14",
+      "spi:triAPICGroupName3LR": {
+        "spi:triAPICGroupName2LR": {
+          "spi:triNameTX": "Offices",
+          "spi:triAPICGroupName1LR": {
+            "spi:triNameTX": "Locations",
+            "rdf:type": [
+              {
+                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName1RS"
+              }
+            ],
+            "rdf:about": "http://localhost/oslc/so/triAPICGroupName1RS/213004"
+          },
+          "rdf:type": [
+            {
+              "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName2RS"
+            }
+          ],
+          "rdf:about": "http://localhost/oslc/so/triAPICGroupName2RS/135590465"
         },
-        {
-            "spi:triTotalAreaOccupiedCalcNU": 2200,
-            "spi:triTenureCL": null,
-            "spi:triCountryTX": null,
-            "spi:triGisLongitudeNU": 0,
-            "spi:triBuildingClassCL": null,
-            "spi:triGisLatitudeNU": 0,
-            "spi:triActiveStartDA": "2022-04-22",
-            "spi:triStateProvTX": null,
-            "spi:triNameTX": "Bldg-ABC",
-            "spi:triEmailTX": null,
-            "spi:triPrimaryUseCL": null,
-            "spi:triProRateBalanceToLI": "Balance To Measured",
-            "spi:triCurrencyUO": "US Dollars",
-            "spi:triCityTX": null,
-            "spi:triIdTX": "1000003",
-            "spi:triZoningCL": null,
-            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135558172",
-            "spi:contactOrganization": null,
-            "spi:triStatusCL": "Draft",
-            "spi:triPathTX": "\\Locations\\TestProp\\Bldg-ABC",
-            "spi:triParentPropertyTX": "TestProp",
-            "spi:contactRole": null,
-            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135558172",
-            "spi:triAddressTX": null,
-            "dcterms:identifier": "135558172",
-            "spi:triJurisdictionCL": null,
-            "spi:triAreaUO": "square-feet",
-            "spi:triDescriptionTX": null,
-            "spi:triZipPostalTX": null,
-            "spi:contactName": null,
-            "spi:triLengthUO": "feet",
-            "spi:triWorkPhoneTX": null
-        }
-    ],
-    "rdf:type": [
-        {
-            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
-        }
-    ],
-    "rdf:about": "http://localhost/oslc/spq"
+        "spi:triNameTX": "Asia Pacific",
+        "rdf:type": [
+          {
+            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName3RS"
+          }
+        ],
+        "rdf:about": "http://localhost/oslc/so/triAPICGroupName3RS/135590472"
+      },
+      "spi:triStateProvTX": "Arkansas",
+      "spi:triNameTX": "Envizi-A",
+      "spi:triEmailTX": null,
+      "spi:triPrimaryUseCL": null,
+      "spi:triProRateBalanceToLI": "Balance To Measured",
+      "spi:triLegalNameTX": "Cisco",
+      "spi:triCurrencyUO": "US Dollars",
+      "spi:triCityTX": "Bentonville",
+      "spi:triIdTX": "1000006",
+      "spi:triZoningCL": null,
+      "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135590479",
+      "spi:contactOrganization": null,
+      "spi:triStatusCL": "Active",
+      "spi:triPathTX": "\\Locations\\Offices\\Asia Pacific\\Envizi-A",
+      "spi:triParentPropertyTX": null,
+      "spi:contactRole": null,
+      "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135590479",
+      "spi:triAddressTX": "519 Main St",
+      "dcterms:identifier": "135590479",
+      "spi:triJurisdictionCL": null,
+      "spi:triAreaUO": "square-feet",
+      "spi:triDescriptionTX": "Sample Envizi Building A",
+      "spi:triZipPostalTX": "76546",
+      "spi:contactName": null,
+      "spi:triLengthUO": "feet",
+      "spi:triWorkPhoneTX": null
+    }
+  ],
+  "rdf:type": [
+    {
+      "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+    }
+  ],
+  "rdf:about": "http://localhost/oslc/spq"
 }
