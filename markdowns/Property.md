@@ -41,5 +41,5 @@
 ## Outbound - GET URL
 
 ```
-{tririga-url}/oslc/spq/{Query Capability}?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+{tririga-url}/oslc/spq/triAPICOutboundPropertyQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
 ```
