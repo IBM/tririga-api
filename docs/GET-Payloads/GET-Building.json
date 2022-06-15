@@ -16,7 +16,7 @@
   "rdfs:member": [
     {
       "spi:triTotalAreaOccupiedCalcNU": 0,
-      "spi:triTenureCL": null,
+      "spi:triTenureCL": "Owned",
       "spi:triHeadcountNU": 0,
       "spi:triCountryTX": "United States",
       "spi:triGisLongitudeNU": 140,
