@@ -27,7 +27,7 @@
 
 
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -39,3 +39,8 @@
   Space Activate | triSpace - APIC - HTTP Post | triSpace | triSpace - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Space Retire | triSpace - APIC - HTTP Post | triSpace | triSpace - triRetire - APIC Send Outbound using Integration Object 
   
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/triAPICSpaceQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
