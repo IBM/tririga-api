@@ -27,7 +27,7 @@
   ERROR: Resource Organization Does not Exist | No Organization record exists with the triPathTX value mentioned in triResourceIdentifierTX field of the payload
   ERROR: Resource Role Does not Exist | No Role record exists with the triNameTX value mentioned in triResourceIdentifierTX field of the payload
 
-## Outbound
+## Outbound - Integration Object
 
 - **Endpoint**
   ```
@@ -38,3 +38,9 @@
   ---|---|---|---
   Work Task Activate | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triFinalApprovalHidden - APIC Send Outbound using Integration Object 
   Work Task Complete | triWorkTask - APIC - HTTP Post | triWorkTask | triWorkTask - triCompleteFinalHidden - APIC Send Outbound using Integration Object
+
+## Outbound - GET URL
+
+```
+{tririga-url}/oslc/spq/triAPICWorkTaskQC?oslc.select=*&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+```
