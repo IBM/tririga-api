@@ -54,9 +54,9 @@ AppConnect can also generate csv based Load Sheets from the above GET URL. Below
 Load Sheet Header | JSON Property
 ---|---
 Organization Name | spi:triLegalNameTX
-Group Name 1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
-Group Name 2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
-Group Name 3 | spi:triAPICGroupName3LR{spi:triNameTX}
+GROUPNAME1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
+GROUPNAME2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
+GROUPNAME3 | spi:triAPICGroupName3LR{spi:triNameTX}
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
 DESCRIPTION | spi:triDescriptionTX
@@ -67,9 +67,9 @@ POSTALCODE	 | spi:triZipPostalTX
 COUNTRY	| spi:triCountryTX
 LATITUDEY	| spi:triGisLatitudeNU
 LONGITUDEX	| spi:triGisLongitudeNU
-Building Manager	| spi:contactName
-Building Manager Role	| spi:contactRole
-Building Manager Organization	| spi:contactOrganization
+BUILDINGMANAGER	| spi:contactName
+BUILDINGMANAGERROLE	| spi:contactRole
+BUILDINGMANAGERORGANIZATION	| spi:contactOrganization
 
 #### Load Sheet - 2
 
@@ -77,7 +77,7 @@ Load Sheet Header | JSON Property
 ---|---
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
-Headcount	| spi:triHeadcountNU
-Floor Area | spi:triTotalAreaCalcNU
+HEADCOUNT	| spi:triHeadcountNU
+FLOORAREA | spi:triTotalAreaCalcNU
 
 									
