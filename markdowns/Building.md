@@ -57,7 +57,6 @@ Organization Name | spi:triLegalNameTX
 GROUPNAME1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
 GROUPNAME2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
 GROUPNAME3 | spi:triAPICGroupName3LR{spi:triNameTX}
-PARENTPROPERTY | spi:triParentPropertyTX
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
 DESCRIPTION | spi:triDescriptionTX
