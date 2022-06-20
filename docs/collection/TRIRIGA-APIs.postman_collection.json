@@ -52,7 +52,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2",
+							"raw": "{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=100",
 							"host": [
 								"{{tririga-url}}"
 							],
@@ -64,7 +64,7 @@
 							"query": [
 								{
 									"key": "oslc.select",
-									"value": "*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}"
+									"value": "*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}"
 								},
 								{
 									"key": "oslc.paging",
@@ -76,7 +76,7 @@
 								},
 								{
 									"key": "oslc.pageSize",
-									"value": "2"
+									"value": "100"
 								}
 							]
 						}
@@ -1004,12 +1004,12 @@
 		"basic": [
 			{
 				"key": "password",
-				"value": "admin",
+				"value": "1Password*",
 				"type": "string"
 			},
 			{
 				"key": "username",
-				"value": "system",
+				"value": "spuri",
 				"type": "string"
 			}
 		]
