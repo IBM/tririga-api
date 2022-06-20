@@ -2,9 +2,11 @@
 
 ### Resources
 
-- [TRIRIGA APIs OM Package](/docs/ompackages/)
-- [POSTMAN Collection](/docs/collection/)
-- [TRIRIGA OSLC Cheat Sheet](/markdowns/oslccheatsheet.md)
+Name | Description
+---|---
+[TRIRIGA APIs OM Package](/docs/ompackages/) | TRIRIGA Object Migration package that provides all APIs listed here
+[POSTMAN Collection](/docs/collection/) | POSTMAN Collection that can be imported in POSTMAN 
+[TRIRIGA OSLC Cheat Sheet](/markdowns/oslccheatsheet.md) | Useful OSLC Commands
 
 ### Sample JSON Payloads
 
