@@ -54,9 +54,9 @@ AppConnect can also generate csv based Load Sheets from the above GET URL. Below
 Load Sheet Header | JSON Property
 ---|---
 Organization Name | spi:triLegalNameTX
-GROUPNAME1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
-GROUPNAME2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
-GROUPNAME3 | spi:triAPICGroupName3LR{spi:triNameTX}
+GROUPNAME1 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}
+GROUPNAME2 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX}}
+GROUPNAME3 | spi:triAPICBuildingParent3LR{spi:triNameTX}
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
 DESCRIPTION | spi:triDescriptionTX
