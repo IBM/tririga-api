@@ -46,9 +46,12 @@
 
 ## Outbound - Load Sheet
 
-AppConnect can also generate csv based Load Sheet from the above GET URL. Below is the mapping for Load Sheet header with JSON Payload
+AppConnect can also generate csv based Load Sheets from the above GET URL. Below is the mapping for Load Sheet header with JSON Payload
 
-Load Sheet-1 Header | JSON Property
+
+#### Load Sheet - 1
+
+Load Sheet Header | JSON Property
 ---|---
 Organization Name | spi:triLegalNameTX
 Group Name 1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
@@ -68,7 +71,9 @@ Building Manager	| spi:contactName
 Building Manager Role	| spi:contactRole
 Building Manager Organization	| spi:contactOrganization
 
-Load Sheet-2 Header | JSON Property
+#### Load Sheet - 2
+
+Load Sheet Header | JSON Property
 ---|---
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
