@@ -55,7 +55,7 @@ Load Sheet Header | JSON Property
 ---|---
 Organization Name | spi:triLegalNameTX
 GROUPNAME1 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}
-GROUPNAME2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}}
+GROUPNAME2 | spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX}} <br> OR <br> spi:triParentPropertyTX
 GROUPNAME3 | spi:triAPICGroupName3LR{spi:triNameTX}
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
