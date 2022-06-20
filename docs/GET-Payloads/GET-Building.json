@@ -1,150 +1,150 @@
 {
-  "prefixes": {
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "dcterms": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
-    "oslc": "http://open-services.net/ns/core#"
-  },
-  "oslc:responseInfo": {
-    "oslc:nextPage": {
-      "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
     },
-    "oslc:totalCount": 7,
-    "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICGroupName3LR{spi:triNameTX,spi:triAPICGroupName2LR{spi:triNameTX,spi:triAPICGroupName1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
-  },
-  "rdfs:member": [
-    {
-      "spi:triTotalAreaOccupiedCalcNU": 0,
-      "spi:triTenureCL": "Owned",
-      "spi:triHeadcountNU": 0,
-      "spi:triCountryTX": "United States",
-      "spi:triGisLongitudeNU": 140,
-      "spi:triBuildingClassCL": null,
-      "spi:triGisLatitudeNU": -50,
-      "spi:triActiveStartDA": "2022-06-14",
-      "spi:triAPICGroupName3LR": {
-        "spi:triAPICGroupName2LR": {
-          "spi:triNameTX": "Offices",
-          "spi:triAPICGroupName1LR": {
-            "spi:triNameTX": "Locations",
-            "rdf:type": [
-              {
-                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName1RS"
-              }
-            ],
-            "rdf:about": "http://localhost/oslc/so/triAPICGroupName1RS/213004"
-          },
-          "rdf:type": [
-            {
-              "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName2RS"
-            }
-          ],
-          "rdf:about": "http://localhost/oslc/so/triAPICGroupName2RS/135590465"
+    "oslc:responseInfo": {
+        "oslc:nextPage": {
+            "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
         },
-        "spi:triNameTX": "Asia Pacific",
-        "rdf:type": [
-          {
-            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName3RS"
-          }
-        ],
-        "rdf:about": "http://localhost/oslc/so/triAPICGroupName3RS/135590472"
-      },
-      "spi:triStateProvTX": "Nevada",
-      "spi:triNameTX": "Envizi-B",
-      "spi:triEmailTX": null,
-      "spi:triPrimaryUseCL": null,
-      "spi:triProRateBalanceToLI": "Balance To Measured",
-      "spi:triLegalNameTX": "Cisco",
-      "spi:triCurrencyUO": "US Dollars",
-      "spi:triCityTX": "Las Vegas",
-      "spi:triIdTX": "1000007",
-      "spi:triZoningCL": null,
-      "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135590490",
-      "spi:contactOrganization": null,
-      "spi:triStatusCL": "Active",
-      "spi:triPathTX": "\\Locations\\Offices\\Asia Pacific\\Envizi-B",
-      "spi:triParentPropertyTX": null,
-      "spi:contactRole": null,
-      "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135590490",
-      "spi:triAddressTX": "670 Main St",
-      "dcterms:identifier": "135590490",
-      "spi:triJurisdictionCL": null,
-      "spi:triAreaUO": "square-feet",
-      "spi:triDescriptionTX": "Bldg-B",
-      "spi:triZipPostalTX": "89764",
-      "spi:contactName": null,
-      "spi:triLengthUO": "feet",
-      "spi:triWorkPhoneTX": null
+        "oslc:totalCount": 9,
+        "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
     },
-    {
-      "spi:triTotalAreaOccupiedCalcNU": 0,
-      "spi:triTenureCL": null,
-      "spi:triHeadcountNU": 0,
-      "spi:triCountryTX": "United States",
-      "spi:triGisLongitudeNU": 167,
-      "spi:triBuildingClassCL": null,
-      "spi:triGisLatitudeNU": -80,
-      "spi:triActiveStartDA": "2022-06-14",
-      "spi:triAPICGroupName3LR": {
-        "spi:triAPICGroupName2LR": {
-          "spi:triNameTX": "Offices",
-          "spi:triAPICGroupName1LR": {
-            "spi:triNameTX": "Locations",
-            "rdf:type": [
-              {
-                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName1RS"
-              }
-            ],
-            "rdf:about": "http://localhost/oslc/so/triAPICGroupName1RS/213004"
-          },
-          "rdf:type": [
-            {
-              "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName2RS"
-            }
-          ],
-          "rdf:about": "http://localhost/oslc/so/triAPICGroupName2RS/135590465"
+    "rdfs:member": [
+        {
+            "spi:triTotalAreaOccupiedCalcNU": 0,
+            "spi:triTenureCL": null,
+            "spi:triHeadcountNU": 0,
+            "spi:triCountryTX": null,
+            "spi:triGisLongitudeNU": 0,
+            "spi:triBuildingClassCL": null,
+            "spi:triAPICBuildingParent3LR": {
+                "spi:triNameTX": "Asia Pacific2",
+                "spi:triAPICBuildingParent2LR": {
+                    "spi:triNameTX": "A2-Offices2",
+                    "rdf:type": [
+                        {
+                            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent2RS"
+                        }
+                    ],
+                    "spi:triAPICBuildingParent1LR": {
+                        "spi:triNameTX": "Locations",
+                        "rdf:type": [
+                            {
+                                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent1RS"
+                            }
+                        ],
+                        "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent1RS/213004"
+                    },
+                    "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent2RS/135593183"
+                },
+                "rdf:type": [
+                    {
+                        "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent3RS"
+                    }
+                ],
+                "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent3RS/135593190"
+            },
+            "spi:triGisLatitudeNU": 0,
+            "spi:triActiveStartDA": "2022-06-20",
+            "spi:triStateProvTX": null,
+            "spi:triNameTX": "Envizi-B2",
+            "spi:triEmailTX": null,
+            "spi:triPrimaryUseCL": null,
+            "spi:triProRateBalanceToLI": "Balance To Measured",
+            "spi:triLegalNameTX": null,
+            "spi:triCurrencyUO": "US Dollars",
+            "spi:triCityTX": null,
+            "spi:triIdTX": "1000009",
+            "spi:triZoningCL": null,
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135593293",
+            "spi:contactOrganization": null,
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Locations\\A2-Offices2\\Asia Pacific2\\Envizi-B2",
+            "spi:triParentPropertyTX": null,
+            "spi:contactRole": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135593293",
+            "spi:triAddressTX": null,
+            "dcterms:identifier": "135593293",
+            "spi:triJurisdictionCL": null,
+            "spi:triAreaUO": "square-feet",
+            "spi:triDescriptionTX": null,
+            "spi:triZipPostalTX": null,
+            "spi:contactName": null,
+            "spi:triLengthUO": "feet",
+            "spi:triWorkPhoneTX": null
         },
-        "spi:triNameTX": "Asia Pacific",
-        "rdf:type": [
-          {
-            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICGroupName3RS"
-          }
-        ],
-        "rdf:about": "http://localhost/oslc/so/triAPICGroupName3RS/135590472"
-      },
-      "spi:triStateProvTX": "Arkansas",
-      "spi:triNameTX": "Envizi-A",
-      "spi:triEmailTX": null,
-      "spi:triPrimaryUseCL": null,
-      "spi:triProRateBalanceToLI": "Balance To Measured",
-      "spi:triLegalNameTX": "Cisco",
-      "spi:triCurrencyUO": "US Dollars",
-      "spi:triCityTX": "Bentonville",
-      "spi:triIdTX": "1000006",
-      "spi:triZoningCL": null,
-      "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135590479",
-      "spi:contactOrganization": null,
-      "spi:triStatusCL": "Active",
-      "spi:triPathTX": "\\Locations\\Offices\\Asia Pacific\\Envizi-A",
-      "spi:triParentPropertyTX": null,
-      "spi:contactRole": null,
-      "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135590479",
-      "spi:triAddressTX": "519 Main St",
-      "dcterms:identifier": "135590479",
-      "spi:triJurisdictionCL": null,
-      "spi:triAreaUO": "square-feet",
-      "spi:triDescriptionTX": "Sample Envizi Building A",
-      "spi:triZipPostalTX": "76546",
-      "spi:contactName": null,
-      "spi:triLengthUO": "feet",
-      "spi:triWorkPhoneTX": null
-    }
-  ],
-  "rdf:type": [
-    {
-      "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
-    }
-  ],
-  "rdf:about": "http://localhost/oslc/spq"
+        {
+            "spi:triTotalAreaOccupiedCalcNU": 0,
+            "spi:triTenureCL": null,
+            "spi:triHeadcountNU": 0,
+            "spi:triCountryTX": null,
+            "spi:triGisLongitudeNU": 0,
+            "spi:triBuildingClassCL": null,
+            "spi:triAPICBuildingParent3LR": {
+                "spi:triNameTX": "Asia Pacific2",
+                "spi:triAPICBuildingParent2LR": {
+                    "spi:triNameTX": "A2-Offices2",
+                    "rdf:type": [
+                        {
+                            "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent2RS"
+                        }
+                    ],
+                    "spi:triAPICBuildingParent1LR": {
+                        "spi:triNameTX": "Locations",
+                        "rdf:type": [
+                            {
+                                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent1RS"
+                            }
+                        ],
+                        "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent1RS/213004"
+                    },
+                    "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent2RS/135593183"
+                },
+                "rdf:type": [
+                    {
+                        "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent3RS"
+                    }
+                ],
+                "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent3RS/135593190"
+            },
+            "spi:triGisLatitudeNU": 0,
+            "spi:triActiveStartDA": "2022-06-20",
+            "spi:triStateProvTX": null,
+            "spi:triNameTX": "Envizi-A2",
+            "spi:triEmailTX": null,
+            "spi:triPrimaryUseCL": null,
+            "spi:triProRateBalanceToLI": "Balance To Measured",
+            "spi:triLegalNameTX": null,
+            "spi:triCurrencyUO": "US Dollars",
+            "spi:triCityTX": null,
+            "spi:triIdTX": "1000008",
+            "spi:triZoningCL": null,
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135593281",
+            "spi:contactOrganization": null,
+            "spi:triStatusCL": "Active",
+            "spi:triPathTX": "\\Locations\\A2-Offices2\\Asia Pacific2\\Envizi-A2",
+            "spi:triParentPropertyTX": null,
+            "spi:contactRole": null,
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135593281",
+            "spi:triAddressTX": null,
+            "dcterms:identifier": "135593281",
+            "spi:triJurisdictionCL": null,
+            "spi:triAreaUO": "square-feet",
+            "spi:triDescriptionTX": null,
+            "spi:triZipPostalTX": null,
+            "spi:contactName": null,
+            "spi:triLengthUO": "feet",
+            "spi:triWorkPhoneTX": null
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
 }
