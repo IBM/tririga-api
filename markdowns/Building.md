@@ -57,6 +57,9 @@ Organization Name | spi:triLegalNameTX
 GROUPNAME1 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}
 GROUPNAME2 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX}}
 GROUPNAME3 | spi:triAPICBuildingParent3LR{spi:triNameTX}
+PARENT1 | spi:Parent1
+PARENT2 | spi:Parent2
+PARENT3  | spi:Parent3
 LOCATION | spi:triNameTX
 LOCATIONID | spi:triIdTX
 DESCRIPTION | spi:triDescriptionTX
