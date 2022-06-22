@@ -8,7 +8,7 @@
 
 #### Pre-requisite
   
-  - The My Profile record of Integration user should have Date Time Format as `dd/MM/yyyy HH:mm:ss`
+  - N/A
 
 #### Primary Key Consideration
 
