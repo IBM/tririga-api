@@ -41,7 +41,7 @@
 ## Outbound - GET URL
 
 ```
-{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParentLR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2
+{{tririga-url}}/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2
 ```
 
 ## Outbound - Load Sheet
