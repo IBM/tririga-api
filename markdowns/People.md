@@ -28,6 +28,10 @@
   ERROR: Multiple People exist with same username | Multiple People with same usernames are not allowed in TRIRIGA
   ERROR: People record does not exist | People intended to be retired does not exist with the triRecordIdSY passed in triExternalReferenceTX
 
+- **Other Considerations**
+
+  - Either of `spi:triPrimaryLocPathTX` or `spi:triPrimaryOrgRecordIDTX` is needed to populate the Primary Location on the People record
+  - Either of `spi:triPrimaryOrgPathTX` or `spi:triPrimaryLocRecordIDTX` is needed to populate the Primary Organization on the People record
 
 
 ## Outbound - Integration Object
