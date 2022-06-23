@@ -30,8 +30,8 @@
 
 - **Other Considerations**
 
-  - Either of `spi:triPrimaryLocPathTX` or `spi:triPrimaryOrgRecordIDTX` is needed to populate the Primary Location on the People record
-  - Either of `spi:triPrimaryOrgPathTX` or `spi:triPrimaryLocRecordIDTX` is needed to populate the Primary Organization on the People record
+  - Either of `spi:triPrimaryLocPathTX` or `spi:triPrimaryLocRecordIDTX` is needed to populate the Primary Location on the People record
+  - Either of `spi:triPrimaryOrgPathTX` or `spi:triPrimaryOrgRecordIDTX` is needed to populate the Primary Organization on the People record
 
 
 ## Outbound - Integration Object
