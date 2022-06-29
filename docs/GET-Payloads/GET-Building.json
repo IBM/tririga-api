@@ -10,7 +10,7 @@
         "oslc:nextPage": {
             "rdf:resource": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2&pageno=2"
         },
-        "oslc:totalCount": 9,
+        "oslc:totalCount": 10,
         "rdf:about": "http://localhost/oslc/spq/triAPICOutboundBuildingQC?oslc.select=*,spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}&oslc.paging=true&oslc.page=1&oslc.pageSize=2"
     },
     "rdfs:member": [
@@ -22,58 +22,52 @@
             "spi:triGisLongitudeNU": 0,
             "spi:triBuildingClassCL": null,
             "spi:triAPICBuildingParent3LR": {
-                "spi:triNameTX": "Asia Pacific2",
+                "spi:triNameTX": "TestProp",
                 "spi:triAPICBuildingParent2LR": {
-                    "spi:triNameTX": "A2-Offices2",
+                    "spi:triNameTX": "Locations",
                     "rdf:type": [
                         {
                             "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent2RS"
                         }
                     ],
-                    "spi:triAPICBuildingParent1LR": {
-                        "spi:triNameTX": "Locations",
-                        "rdf:type": [
-                            {
-                                "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent1RS"
-                            }
-                        ],
-                        "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent1RS/213004"
-                    },
-                    "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent2RS/135593183"
+                    "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent2RS/213004"
                 },
                 "rdf:type": [
                     {
                         "rdf:resource": "http://jazz.net/ns/ism/smarter_physical_infrastructure#triAPICBuildingParent3RS"
                     }
                 ],
-                "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent3RS/135593190"
+                "rdf:about": "http://localhost/oslc/so/triAPICBuildingParent3RS/135558165"
             },
             "spi:triGisLatitudeNU": 0,
-            "spi:triActiveStartDA": "2022-06-20",
+            "spi:triActiveStartDA": "2022-06-23",
             "spi:triStateProvTX": null,
-            "spi:triNameTX": "Envizi-B2",
+            "spi:triNameTX": null,
             "spi:triEmailTX": null,
             "spi:triPrimaryUseCL": null,
             "spi:triProRateBalanceToLI": "Balance To Measured",
             "spi:triLegalNameTX": null,
             "spi:triCurrencyUO": "US Dollars",
             "spi:triCityTX": null,
-            "spi:triIdTX": "1000009",
+            "spi:triIdTX": "1000010",
             "spi:triZoningCL": null,
-            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135593293",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135595165",
             "spi:contactOrganization": null,
             "spi:triStatusCL": "Active",
-            "spi:triPathTX": "\\Locations\\A2-Offices2\\Asia Pacific2\\Envizi-B2",
-            "spi:triParentPropertyTX": null,
+            "spi:triPathTX": "\\Locations\\TestProp\\Sumit\\Puri",
+            "spi:triParentPropertyTX": "TestProp",
             "spi:contactRole": null,
-            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135593293",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135595165",
             "spi:triAddressTX": null,
-            "dcterms:identifier": "135593293",
+            "spi:triBuildingNameTX": "Sumit\\Puri",
+            "dcterms:identifier": "135595165",
+            "spi:triActiveEndDA": null,
             "spi:triJurisdictionCL": null,
             "spi:triAreaUO": "square-feet",
             "spi:triDescriptionTX": null,
             "spi:triZipPostalTX": null,
             "spi:contactName": null,
+            "spi:triModifiedSY": "2022-06-23T13:11:07.160+00:00",
             "spi:triLengthUO": "feet",
             "spi:triWorkPhoneTX": null
         },
@@ -114,29 +108,32 @@
             "spi:triGisLatitudeNU": 0,
             "spi:triActiveStartDA": "2022-06-20",
             "spi:triStateProvTX": null,
-            "spi:triNameTX": "Envizi-A2",
+            "spi:triNameTX": "Asia Pacific2",
             "spi:triEmailTX": null,
             "spi:triPrimaryUseCL": null,
             "spi:triProRateBalanceToLI": "Balance To Measured",
             "spi:triLegalNameTX": null,
             "spi:triCurrencyUO": "US Dollars",
             "spi:triCityTX": null,
-            "spi:triIdTX": "1000008",
+            "spi:triIdTX": "1000009",
             "spi:triZoningCL": null,
-            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135593281",
+            "spi:action": "http://localhost/oslc/system/action/triAPICOutboundBuildingRS/135593293",
             "spi:contactOrganization": null,
             "spi:triStatusCL": "Active",
-            "spi:triPathTX": "\\Locations\\A2-Offices2\\Asia Pacific2\\Envizi-A2",
+            "spi:triPathTX": "\\Locations\\A2-Offices2\\Asia Pacific2\\Envizi-B2",
             "spi:triParentPropertyTX": null,
             "spi:contactRole": null,
-            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135593281",
+            "rdf:about": "http://localhost/oslc/so/triAPICOutboundBuildingRS/135593293",
             "spi:triAddressTX": null,
-            "dcterms:identifier": "135593281",
+            "spi:triBuildingNameTX": "Envizi-B2",
+            "dcterms:identifier": "135593293",
+            "spi:triActiveEndDA": null,
             "spi:triJurisdictionCL": null,
             "spi:triAreaUO": "square-feet",
             "spi:triDescriptionTX": null,
             "spi:triZipPostalTX": null,
             "spi:contactName": null,
+            "spi:triModifiedSY": "2022-06-20T17:31:59.370+00:00",
             "spi:triLengthUO": "feet",
             "spi:triWorkPhoneTX": null
         }
