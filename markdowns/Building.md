@@ -67,9 +67,7 @@ POSTALCODE	 | spi:triZipPostalTX
 COUNTRY	| spi:triCountryTX
 LATITUDEY	| spi:triGisLatitudeNU
 LONGITUDEX	| spi:triGisLongitudeNU
-BUILDINGMANAGER	| spi:contactName
-BUILDINGMANAGERROLE	| spi:contactRole
-BUILDINGMANAGERORGANIZATION	| spi:contactOrganization
+LOCATIONCLOSEDATE | spi:triActiveEndDA
 
 #### Load Sheet - 2
 
