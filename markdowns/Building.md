@@ -73,14 +73,14 @@ LOCATIONCLOSEDATE | spi:triActiveEndDA
 
 Load Sheet Header | JSON Property from OSLC GET
 ---|---
-CUSTOMER |
+CUSTOMER | -
 LOCATION | `spi:triNameTX`
 LOCATIONID | `spi:triIdTX`
 METERNAME | `HEADCOUNT` or `FLOORAREA`
 READING/QUANTITY | `spi:triHeadcountNU` or `spi:triTotalAreaCalcNU`
 MEASUREUNITID | `null` or `spi:triAreaUO`
 READINGDATE | `spi:triModifiedSY`
-RECORDSTARTDATE	| 
-RECORDENDDATE | 
+RECORDSTARTDATE	| -
+RECORDENDDATE | -
 ACCOUNT	| `spi:triIdTX_HEADCOUNT` or `spi:triIdTX_FLOORAREA`
 DATATYPE | `HEADCOUNT` or `FLOORAREA`
