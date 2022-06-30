@@ -53,7 +53,7 @@ AppConnect can also generate csv based Load Sheets from the above GET URL. Below
 
 Load Sheet Header | JSON Property from OSLC GET
 ---|---
-Organization Name | spi:triLegalNameTX
+CUSTOMER | -
 GROUPNAME1 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX,spi:triAPICBuildingParent1LR{spi:triNameTX}}}
 GROUPNAME2 | spi:triAPICBuildingParent3LR{spi:triNameTX,spi:triAPICBuildingParent2LR{spi:triNameTX}}
 GROUPNAME3 | spi:triAPICBuildingParent3LR{spi:triNameTX}
@@ -73,9 +73,14 @@ LOCATIONCLOSEDATE | spi:triActiveEndDA
 
 Load Sheet Header | JSON Property from OSLC GET
 ---|---
-LOCATION | spi:triNameTX
-LOCATIONID | spi:triIdTX
-HEADCOUNT	| spi:triHeadcountNU
-FLOORAREA | spi:triTotalAreaCalcNU
-
-									
+CUSTOMER |
+LOCATION | `spi:triNameTX`
+LOCATIONID | `spi:triIdTX`
+METERNAME | `HEADCOUNT` or `FLOORAREA`
+READING/QUANTITY | `spi:triHeadcountNU` or `spi:triTotalAreaCalcNU`
+MEASUREUNITID | `null` or `spi:triAreaUO`
+READINGDATE | `spi:triModifiedSY`
+RECORDSTARTDATE	| 
+RECORDENDDATE | 
+ACCOUNT	| `spi:triIdTX_HEADCOUNT` or `spi:triIdTX_FLOORAREA`
+DATATYPE | `HEADCOUNT` or `FLOORAREA`
