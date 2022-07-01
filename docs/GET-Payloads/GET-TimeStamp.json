@@ -1,0 +1,25 @@
+{
+    "prefixes": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "dcterms": "http://purl.org/dc/terms/",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spi": "http://jazz.net/ns/ism/smarter_physical_infrastructure#",
+        "oslc": "http://open-services.net/ns/core#"
+    },
+    "rdfs:member": [
+        {
+            "dcterms:identifier": "135600923",
+            "spi:triFetchPeopleDateTimeDT": "2022-07-04T16:45:00+00:00",
+            "spi:action": "http://localhost/oslc/system/action/triAPICTimeStampRS/135600923",
+            "spi:triFetchBuildingDateTimeDT": "2022-07-01T19:00:00+00:00",
+            "spi:triFetchWorkTaskDateTimeDT": "2022-07-01T19:12:00+00:00",
+            "rdf:about": "http://localhost/oslc/so/triAPICTimeStampRS/135600923"
+        }
+    ],
+    "rdf:type": [
+        {
+            "rdf:resource": "http://www.w3.org/2000/01/rdf-schema#Container"
+        }
+    ],
+    "rdf:about": "http://localhost/oslc/spq"
+}
