@@ -4,7 +4,7 @@
 
 Name | Description
 ---|---
-[TRIRIGA APIs OM Package](/docs/ompackages/) | TRIRIGA Object Migration package that provides all APIs listed here
+[TRIRIGA APIs OM Package](/docs/OM%20Package%20Releases/) | TRIRIGA Object Migration package that provides all APIs listed here
 [POSTMAN Collection](/docs/collection/) | POSTMAN Collection that can be imported in POSTMAN 
 [TRIRIGA OSLC Cheat Sheet](/markdowns/oslccheatsheet.md) | Useful OSLC Commands
 
