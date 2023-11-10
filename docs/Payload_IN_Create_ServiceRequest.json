@@ -14,6 +14,7 @@
 "spi:triDescriptionTX" : "Lights are out",
 "spi:triCustomerOrgTX": "\\Organizations\\Walmart",
 "spi:triCustomerOrgRecordIDTX": "135499332",
+"spi:triServiceRequestFormTX": "Electrical & Lighting",
 "spi:triAssociatedRecordLR": [
         {
             "spi:action": "Create Draft",
